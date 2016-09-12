@@ -2166,7 +2166,15 @@
 			}
 
 			#main > section.two {
-				background-color:  #f3f3f3;
+				background-color:   #fafafa ;
+			}
+
+			.item > p {
+				font-size: 17px;
+				color :   #767676  ;
+				font-weight: bold;
+				border-bottom: 1px solid   #a2a2a2  ;
+				padding: 2px;
 			}
 
 			#main > section.three {
