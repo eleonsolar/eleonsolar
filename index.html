@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/modal.css" />
 		<link rel="stylesheet" href="libs/lightbox/dist/css/lightbox.min.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -37,7 +38,7 @@
 
 								1. Hash link (scrolls to a different section within the page)
 
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+						   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
 
 								2. Standard link (sends the user to another page/site)
 
@@ -104,8 +105,8 @@
 										<a class="image fit example-image-link" href="images/pic01.png" data-lightbox="example-1"><img class="example-image" src="images/pic01.png" alt="image-1" /></a>
 										<header>
 											<h3>FOOQUO</h3>
+											<p>Sistema de comercialización de productos alimenticios  <span style="font-size:15px;color: #ee866f;text-decoration:underline"><a  rel="leanModal" name="fooquo" href="#fooquo">saber más</a></span></p>
 										</header>
-										<p>Sistema de comercialización de productos alimenticios  <span style="font-size:15px;color: #ee866f;text-decoration:underline"><a href="">saber más</a></span></p>
 									</article>
 								</div>
 								<div class="4u 12u$(mobile)">
@@ -113,8 +114,8 @@
 										<a class="image fit example-image-link" href="images/pic02.png" data-lightbox="example-1"><img class="example-image" src="images/pic02.png" alt="image-1" /></a>
 										<header>
 											<h3>CITAS-PDVAL</h3>
+											<p>Sistema de generación de citas para abastos PDVAL de la compañia CANTV  <span style="font-size:15px;color: #ee866f;text-decoration:underline"><a href="javascript:void(0)" id="pdval">saber más</a></span></p>
 										</header>
-										<p>Sistema de generación de citas para abastos PDVAL de la compañia CANTV  <span style="font-size:15px;color: #ee866f;text-decoration:underline"><a href="">saber más</a></span></p>
 									</article>
 								</div>
 							</div>
@@ -181,7 +182,10 @@
 					</ul>
 
 			</div>
-
+		<!-- Modal -->
+			<div id="fooquo" style="display:none;" class="modal">
+				<p>ibulum non mauris et sem vulputate pellentesque ac a turpis. Ut vel </p>
+			</div>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -190,6 +194,14 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="libs/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+			<script src="libs/leanmodal/jquery.leanModal.min.js"></script>
 
+			<script type="text/javascript">
+
+				$(function() {
+
+					$("a[rel*=leanModal]").leanModal();
+				});
+			</script>
 	</body>
 </html>
