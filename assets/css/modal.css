@@ -19,6 +19,17 @@
       display: none;
   }
 
-  .modal > p {
-    font-size: 20px;
+  .modal > table > thead > tr > th{
+      font-size: 20px;
+      font-weight : bold;
+      text-decoration: underline;
+  }
+
+  .modal > table > tbody > tr > td{
+      font-size: 17px;
+  }
+
+  .modal > table > tbody > tr > th{
+      font-size: 19px;
+      font-weight : bold;
   }
