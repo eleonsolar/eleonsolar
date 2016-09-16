@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/modal.css" />
 		<link rel="stylesheet" href="libs/lightbox/dist/css/lightbox.min.css">
+		<link rel="stylesheet" href="libs/sweetalert/dist/sweetalert.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -148,24 +149,20 @@
 
 							<p>¿Quieres ponerte en contacto conmigo? Llena el formulario aqui debajo y enviame un mensaje, voy tratar de responder el mismo en las proximas 24hrs.</p>
 
-							<form method="post" action="#">
+							<form method="post" id="contact">
 								<div class="row">
 									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Nombre" /></div>
 									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
 									<div class="12u$">
 										<textarea name="message" placeholder="Mensaje"></textarea>
 									</div>
-									<div class="12u$">
-										<input type="submit" value="Enviar mensaje" />
-									</div>
 								</div>
 							</form>
-
-						</div>
+							<div class="12u$ showcase sweet">
+									<button style="font-size:15pt;margin-top:5pt">Enviar mensaje</button>
+							</div>
 					</section>
-
 			</div>
-
 		<!-- Footer -->
 			<div id="footer">
 
@@ -250,13 +247,44 @@
 			<script src="assets/js/main.js"></script>
 			<script src="libs/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
 			<script src="libs/leanmodal/jquery.leanModal.min.js"></script>
+			<script src="libs/sweetalert/dist/sweetalert.min.js"></script>
 
 			<script type="text/javascript">
 
-				$(function() {
+				$(function() { 	$("a[rel*=leanModal]").leanModal();	});
 
-					$("a[rel*=leanModal]").leanModal();
+				$(document).ready(function(){
+
+					document.querySelector('.showcase.sweet button').onclick = function(){
+
+						swal({
+						  title: "¿Estás seguro?",
+						  text: "",
+						  type: "warning",
+							confirmButtonColor: "#DD6B55",
+						  showCancelButton: true,
+						  closeOnConfirm: false,
+						  showLoaderOnConfirm: true,
+						},
+						function(){
+						  setTimeout(function(){
+
+								$.ajax({
+									method: "POST",
+									url: "backend/contact.php",
+									data: $( "form" ).serialize(),
+								})
+									.done(function(result) {
+
+										if(result==1){ swal("Mensaje enviado"); }else{ swal("Sucedió algo inesperado :_(");}
+
+										$('form').each (function(){ this.reset(); });
+								});
+						  }, 2000);
+						});
+					};
 				});
+
 			</script>
 	</body>
 </html>
