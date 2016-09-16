@@ -10,10 +10,11 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/modal.css" />
-		<link rel="stylesheet" href="libs/lightbox/dist/css/lightbox.min.css">
-		<link rel="stylesheet" href="libs/sweetalert/dist/sweetalert.css">
+		<link rel="stylesheet" href="application/frontend/css/main.css" />
+		<link rel="stylesheet" href="application/frontend/css/modal.css" />
+		<link rel="stylesheet" href="application/frontend/css/contact.css" />
+		<link rel="stylesheet" href="application/vendor/lightbox/dist/css/lightbox.min.css">
+		<link rel="stylesheet" href="application/vendor/sweetalert/dist/sweetalert.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -151,10 +152,10 @@
 
 							<form method="post" id="contact">
 								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Nombre" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="6u 12u$(mobile) name"><input type="text" name="name" placeholder="Nombre" /></div>
+									<div class="6u$ 12u$(mobile) email"><input type="text" name="email" placeholder="Email" /></div>
 									<div class="12u$">
-										<textarea name="message" placeholder="Mensaje"></textarea>
+										<textarea class="message" name="message" placeholder="Mensaje"></textarea>
 									</div>
 								</div>
 							</form>
@@ -239,15 +240,15 @@
 					</table>
 			</div>
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="libs/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
-			<script src="libs/leanmodal/jquery.leanModal.min.js"></script>
-			<script src="libs/sweetalert/dist/sweetalert.min.js"></script>
+			<script src="application/frontend/js/jquery.min.js"></script>
+			<script src="application/frontend/js/jquery.scrolly.min.js"></script>
+			<script src="application/frontend/js/jquery.scrollzer.min.js"></script>
+			<script src="application/frontend/js/skel.min.js"></script>
+			<script src="application/frontend/js/util.js"></script>
+			<script src="application/frontend/js/main.js"></script>
+			<script src="application/vendor/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+			<script src="application/vendor/leanmodal/jquery.leanModal.min.js"></script>
+			<script src="application/vendor/sweetalert/dist/sweetalert.min.js"></script>
 
 			<script type="text/javascript">
 
@@ -271,12 +272,12 @@
 
 								$.ajax({
 									method: "POST",
-									url: "backend/contact.php",
+									url: "application/backend/main.php",
 									data: $( "form" ).serialize(),
 								})
 									.done(function(result) {
 
-										if(result==1){ swal("Mensaje enviado"); }else{ swal("Sucedió algo inesperado :_(");}
+										if(result==1){ swal("Mensaje enviado"); }else{ swal(result);}
 
 										$('form').each (function(){ this.reset(); });
 								});
