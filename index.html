@@ -132,11 +132,14 @@
 										<h2>Sobre mí</h2>
 									</header>
 
-									<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
+								  <a href="#" class="image featured"><img src="images/aboutme.jpg" alt="" style="height:auto"/></a>
 
-									<p>Ingeniero de sistemas egresado de la <a href="http://www.unefa.edu.ve/portal/">UNEFA</a>.
-										 Actualmente me dedico al desarrollo Web Backend en los lenguajes: PHP, Python y Java.</p>
-									<p><a href="documents/cv.pdf" target="_blank">Curriculum Vitae</a></p>
+									<p>
+										 Ingeniero de sistemas egresado de la <a href="http://www.unefa.edu.ve/portal/">UNEFA</a>.
+										 Actualmente me dedico al desarrollo Web Backend en los lenguajes: PHP, Python y Java.<br /><br />
+										<a href="documents/cv.pdf" target="_blank">*** Curriculum Vitae ***</a>
+									</p>
+
 							</div>
 					</section>
 
@@ -277,9 +280,13 @@
 								})
 									.done(function(result) {
 
-										if(result==1){ swal("Mensaje enviado"); }else{ swal(result);}
+										if(result==1){
 
-										$('form').each (function(){ this.reset(); });
+											swal("Mensaje enviado");
+											$('form').each (function(){ this.reset(); });
+										}else{
+											swal(result);
+										}
 								});
 						  }, 2000);
 						});
