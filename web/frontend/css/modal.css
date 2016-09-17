@@ -1,0 +1,40 @@
+
+  .modal {
+      background: #fff none repeat scroll 0 0;
+      border-radius: 5px;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.698);
+      display: none;
+      padding: 30px;
+      width: 600px;
+  }
+
+  #lean_overlay {
+      position: fixed;
+      z-index:100;
+      top: 0px;
+      left: 0px;
+      height:100%;
+      width:100%;
+      background: #000;
+      display: none;
+  }
+
+  .modal > table{
+      text-align:left;
+  }
+
+  .modal > table > thead > tr > th{
+      font-size: 20px;
+      font-weight : bold;
+      text-decoration: underline;
+  }
+
+  .modal > table > tbody > tr > td{
+      font-size: 17px;
+      padding: 5px;
+  }
+
+  .modal > table > tbody > tr > th{
+      font-size: 19px;
+      font-weight : bold;
+  }
