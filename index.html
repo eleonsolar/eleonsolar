@@ -10,11 +10,11 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="application/frontend/css/main.css" />
-		<link rel="stylesheet" href="application/frontend/css/modal.css" />
-		<link rel="stylesheet" href="application/frontend/css/contact.css" />
-		<link rel="stylesheet" href="application/vendor/lightbox/dist/css/lightbox.min.css">
-		<link rel="stylesheet" href="application/vendor/sweetalert/dist/sweetalert.css">
+		<link rel="stylesheet" href="web/frontend/css/main.css" />
+		<link rel="stylesheet" href="web/frontend/css/modal.css" />
+		<link rel="stylesheet" href="web/frontend/css/contact.css" />
+		<link rel="stylesheet" href="web/vendor/lightbox/dist/css/lightbox.min.css">
+		<link rel="stylesheet" href="web/vendor/sweetalert/dist/sweetalert.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -105,7 +105,7 @@
 							<div class="row">
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a class="image fit example-image-link" href="images/pic01.png" data-lightbox="example-1"><img class="example-image" src="images/pic01.png" alt="image-1" /></a>
+										<a class="image fit example-image-link" href="web/images/pic01.png" data-lightbox="example-1"><img class="example-image" src="web/images/pic01.png" alt="image-1" /></a>
 										<header>
 											<h3>FOOQUO</h3>
 											<p>Sistema de comercialización de productos de consumo  <span style="font-size:15px;color: #ee866f;text-decoration:underline"><a  rel="leanModal" name="fooquo" href="#fooquo">saber más</a></span></p>
@@ -114,7 +114,7 @@
 								</div>
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a class="image fit example-image-link" href="images/pic02.png" data-lightbox="example-1"><img class="example-image" src="images/pic02.png" alt="image-1" /></a>
+										<a class="image fit example-image-link" href="web/images/pic02.png" data-lightbox="example-1"><img class="example-image" src="web/images/pic02.png" alt="image-1" /></a>
 										<header>
 											<h3>SIGECIP</h3>
 											<p>Sistema de generación de citas para abastos PDVAL de la compañia CANTV  <span style="font-size:15px;color: #ee866f;text-decoration:underline"><a rel="leanModal" name="sigecip" href="#sigecip">saber más</a></span></p>
@@ -132,7 +132,7 @@
 										<h2>Sobre mí</h2>
 									</header>
 
-								  <a href="#" class="image featured"><img src="images/aboutme.jpg" alt="" style="height:auto"/></a>
+								  <a href="#" class="image featured"><img src="web/images/aboutme.jpg" alt="" style="height:auto"/></a>
 
 									<p>
 										 Ingeniero de sistemas egresado de la <a href="http://www.unefa.edu.ve/portal/">UNEFA</a>.
@@ -243,15 +243,15 @@
 					</table>
 			</div>
 		<!-- Scripts -->
-			<script src="application/frontend/js/jquery.min.js"></script>
-			<script src="application/frontend/js/jquery.scrolly.min.js"></script>
-			<script src="application/frontend/js/jquery.scrollzer.min.js"></script>
-			<script src="application/frontend/js/skel.min.js"></script>
-			<script src="application/frontend/js/util.js"></script>
-			<script src="application/frontend/js/main.js"></script>
-			<script src="application/vendor/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
-			<script src="application/vendor/leanmodal/jquery.leanModal.min.js"></script>
-			<script src="application/vendor/sweetalert/dist/sweetalert.min.js"></script>
+			<script src="web/frontend/js/jquery.min.js"></script>
+			<script src="web/frontend/js/jquery.scrolly.min.js"></script>
+			<script src="web/frontend/js/jquery.scrollzer.min.js"></script>
+			<script src="web/frontend/js/skel.min.js"></script>
+			<script src="web/frontend/js/util.js"></script>
+			<script src="web/frontend/js/main.js"></script>
+			<script src="web/vendor/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+			<script src="web/vendor/leanmodal/jquery.leanModal.min.js"></script>
+			<script src="web/vendor/sweetalert/dist/sweetalert.min.js"></script>
 
 			<script type="text/javascript">
 
@@ -275,7 +275,7 @@
 
 								$.ajax({
 									method: "POST",
-									url: "application/backend/main.php",
+									url: "web/backend/main.php",
 									data: $( "form" ).serialize(),
 								})
 									.done(function(result) {
