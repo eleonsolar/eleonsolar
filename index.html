@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="icon" href="web/images/favicon.png">
 		<link rel="stylesheet" href="web/frontend/css/main.css" />
 		<link rel="stylesheet" href="web/frontend/css/modal.css" />
 		<link rel="stylesheet" href="web/frontend/css/contact.css" />
@@ -80,7 +81,7 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt"><strong>Web + Backend + Open Source</strong></h2>
+								<h2 class="alt"><strong>Web + Backend + Open source</strong></h2>
 								<p>Amplia experiencia en desarrollo Web Backend.<br />
 								Liderazgo, compromiso y responsabilidad.</p>
 							</header>
@@ -275,7 +276,7 @@
 
 								$.ajax({
 									method: "POST",
-									url: "web/backend/main.php",
+									url: "web/backend/index.php",
 									data: $( "form" ).serialize(),
 								})
 									.done(function(result) {
