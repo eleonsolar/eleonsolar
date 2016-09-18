@@ -22,12 +22,12 @@
       $mail->isSMTP();
       $mail->SMTPAuth = true;
       $mail->SMTPSecure = 'ssl';
-      $mail->Host = 'smtp.gmail.com';
+      $mail->Host = 'smtp.domain.com';
       $mail->Port = 465;
 
       // Enable SMTP authentication
-      $mail->Username = 'edwardleonsolar@gmail.com';           // SMTP username
-      $mail->Password = '19201202*';                           // SMTP password
+      $mail->Username = 'name@domain.com';           // SMTP username
+      $mail->Password = 'password';                           // SMTP password
 
       $mail->CharSet="UTF-8";
       $mail->setFrom($data->email, $data->name);
