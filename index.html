@@ -81,13 +81,15 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt"><strong>Web + Backend + Open source</strong></h2>
+								<h2 class="alt"><strong>Desarrollo Web + Backend + Open source</strong></h2>
 								<p>Amplia experiencia en desarrollo Web Backend.<br />
 								Liderazgo, compromiso y responsabilidad.</p>
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Portafolio</a>
+								<a href="#portfolio" class="scrolly"  >
+									<i class="fa fa-angle-double-down fa-2x" aria-hidden="true" style="text-decoration: none"></i>
+								</a>
 							</footer>
 
 						</div>
@@ -133,11 +135,11 @@
 										<h2>Sobre mí</h2>
 									</header>
 
-								  <a href="#" class="image featured"><img src="web/images/aboutme.jpg" alt="" style="height:auto"/></a>
+								  <a href="#" class="image featured"><img src="web/images/aboutme.jpg" alt="" style="height:auto;filter: grayscale(100%);-webkit-filter: grayscale(100%);"/></a>
 
 									<p>
-										 Ingeniero de sistemas egresado de la <a href="http://www.unefa.edu.ve/portal/">UNEFA</a>.
-										 Actualmente me dedico al desarrollo Web Backend en los lenguajes: PHP, Python y Java.<br /><br />
+										 Ingeniero de sistemas egresado de la <a href="http://www.unefa.edu.ve/portal/">Universidad Nacional Experimental de la Fuerza Armada</a>,
+										 actualmente me dedico al desarrollo Web Backend bajo los lenguajes: PHP, Python y Java.<br /><br />
 										<a href="documents/cv.pdf" target="_blank">*** Curriculum Vitae ***</a>
 									</p>
 
@@ -256,7 +258,15 @@
 
 			<script type="text/javascript">
 
-				$(function() { 	$("a[rel*=leanModal]").leanModal();	});
+				$(function() {
+
+					$("a[rel*=leanModal]").leanModal();
+
+					$('form').each (function(){
+
+						this.reset();
+					});
+				});
 
 				$(document).ready(function(){
 
