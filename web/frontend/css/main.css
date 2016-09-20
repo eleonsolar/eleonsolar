@@ -42,7 +42,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
-	
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -2161,7 +2161,7 @@
 			}
 
 			#main > section.two {
-				background-color:   #fafafa ;
+				background-color:   #ecf1f1 ;
 			}
 
 			.item > p {
@@ -2172,7 +2172,7 @@
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #fafafa;
 			}
 
 			#main > section.four {
