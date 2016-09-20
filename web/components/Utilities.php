@@ -6,13 +6,14 @@
 
     public function validateMail($email)
     {
-      if (!ereg("^([a-zA-Z0-9._]+)@([a-zA-Z0-9.-]+).([a-zA-Z]{2,4})$",$email)){
+      if(preg_match("/^(([A-Za-z0-9]+_+)|([A-Za-z0-9]+\-+)|([A-Za-z0-9]+\.+)|([A-Za-z0-9]+\++))*[A-Za-z0-9]+@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6}$/", $email)){
 
-          return false;
-      } else {
+            return true;
+        } else {
+          
+            return false;
+        }
 
-          return true;
-      }
     }
 
     public function sendMail($data)
