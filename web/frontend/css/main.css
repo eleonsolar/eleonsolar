@@ -51,6 +51,22 @@
 		box-sizing: border-box;
 	}
 
+	.fullscreen {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			min-height: 100vh;
+		}
+
 /* Containers */
 
 	.container {
@@ -1976,7 +1992,7 @@
 		width: 375px;
 		height: 100%;
 		color: #fff;
-		background: #222629 url("images/overlay.png");
+		background: #121416 url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		text-align: right;
 	}
