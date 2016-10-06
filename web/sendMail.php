@@ -1,6 +1,6 @@
 <?php
 
-    require '../components/Utilities.php';
+    require 'components/Utilities.php';
 
     $data = (object)array();
 
