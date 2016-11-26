@@ -1,34 +1,36 @@
 <?php
 
-  require '../vendor/PHPMailer/PHPMailerAutoload.php';
+  $docroot = getenv("DOCUMENT_ROOT");
+
+  require $docroot.'/eleonsolar/web/libs/PHPMailer/PHPMailerAutoload.php';
 
   class Utilities{
 
-    public function validateMail($email)
+    public function validate_mail($email)
     {
       if(preg_match("/^(([A-Za-z0-9]+_+)|([A-Za-z0-9]+\-+)|([A-Za-z0-9]+\.+)|([A-Za-z0-9]+\++))*[A-Za-z0-9]+@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6}$/", $email)){
 
             return true;
         } else {
-          
+
             return false;
         }
 
     }
 
-    public function sendMail($data)
+    public function send_mail($data)
     {
       $mail = new PHPMailer;
 
       $mail->isSMTP();
       $mail->SMTPAuth = true;
       $mail->SMTPSecure = 'ssl';
-      $mail->Host = 'smtp.domain.com';
+      $mail->Host = 'smtp.gmail.com';
       $mail->Port = 465;
 
       // Enable SMTP authentication
-      $mail->Username = 'name@domain.com';           // SMTP username
-      $mail->Password = 'password';                           // SMTP password
+      $mail->Username = 'edwardleonsolar@gmail.com';           // SMTP username
+      $mail->Password = '19201202*';                           // SMTP password
 
       $mail->CharSet="UTF-8";
       $mail->setFrom($data->email, $data->name);

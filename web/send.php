@@ -16,13 +16,13 @@
 
         if(!empty($message)){
 
-          if($utilities->validateMail($email)){
+          if($utilities->validate_mail($email)){
 
             $data->name = $name;
             $data->email = $email;
             $data->message = $message;
 
-            echo $utilities->sendMail($data);
+            echo $utilities->send_mail($data);
           }else{
             echo "Debe ingresar una dirección de correo válida";
           }
