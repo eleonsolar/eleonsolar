@@ -36,7 +36,7 @@
       $mail->setFrom($data->email, $data->name);
       $mail->addAddress('eleonsolar@gmail.com', 'Edward Esteban León Solar');     // Add a recipient
 
-      $mail->Subject = $ata->name.' te quiere contactar';
+      $mail->Subject = $data->name.' te quiere contactar';
       $mail->MsgHTML($data->message.' #Mail:'.$data->email);
 
       if(!$mail->send())  $result = 'Mailer Error: ' . $mail->ErrorInfo; else $result = 1;
