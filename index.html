@@ -12,12 +12,14 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="icon" href="web/images/favicon.png">
 		<link rel="stylesheet" href="web/assets/css/main.css" />
-		<link rel="stylesheet" href="web/assets/css/modal.css" />
 		<link rel="stylesheet" href="web/assets/css/contact.css" />
 		<link rel="stylesheet" href="web/assets/css/skillbar.css" />
 		<link rel="stylesheet" href="web/assets/css/accordion.css" />
+		<link rel="stylesheet" href="web/assets/css/portafolio.css" />
 		<link rel="stylesheet" href="web/libs/sweetalert/dist/sweetalert.css">
 
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="web/libs/bootstrap/css/bootstrap.css" />
 
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -87,60 +89,98 @@
 				<!-- Portfolio -->
 					<section id="portfolio" class="two">
 						<div class="container">
-
 							<header>
 								<h2>Portafolio</h2>
 							</header>
-
-							<p style="color: #242424 " >Principales proyectos</p>
-
 							<div class="row">
-								<div class="4u 12u$(mobile)">
+								<div class="4u 12u$(mobile) portfolio-item">
 									<article class="item">
-										<a class="image fit" href="#"><img src="web/images/pic01.png" alt="FOOQUO" /></a>
-										<header >
-												<h3>FOOQUO</h3>
-										</header>
+										<a class="image fit portfolio-link" href="#fooquo" data-toggle="modal">
+											<div class="caption">
+													<div class="caption-content">
+															<i class="fa fa-search-plus fa-3x"></i>
+													</div>
+											</div>
+											<img src="web/images/pic01.png" class="img-responsive" alt="FOOQUO" />
+											<header >
+													<h3>FOOQUO</h3>
+											</header>
+									  </a>
 									</article>
 								</div>
-								<div class="4u 12u$(mobile)">
+								<div class="4u 12u$(mobile) portfolio-item">
 									<article class="item">
-										<a class="image fit" href="#"><img src="web/images/pic02.png" alt="SIGECIP" /></a>
-										<header>
-												<h3>SIGECIP</h3>
-										</header>
+										<a class="image fit portfolio-link" href="#sigecip" data-toggle="modal">
+											<div class="caption">
+													<div class="caption-content">
+															<i class="fa fa-search-plus fa-3x"></i>
+													</div>
+											</div>
+											<img src="web/images/pic02.png" alt="SIGECIP" />
+											<header>
+													<h3>SIGECIP</h3>
+											</header>
+									  </a>
 									</article>
 								</div>
-								<div class="4u 12u$(mobile)">
+								<div class="4u 12u$(mobile) portfolio-item">
 									<article class="item">
-										<a class="image fit" href="#"><img src="web/images/pic06.png" alt="MIEQUIPO" /></a>
-										<header>
-												<h3>MIEQUIPO</h3>
-										</header>
+										<a class="image fit portfolio-link" href="#miequipo" data-toggle="modal">
+											<div class="caption">
+													<div class="caption-content">
+															<i class="fa fa-search-plus fa-3x"></i>
+													</div>
+											</div>
+											<img src="web/images/pic06.png" alt="MIEQUIPO" />
+											<header>
+													<h3>MIEQUIPO</h3>
+											</header>
+									  </a>
 									</article>
 								</div>
-								<div class="4u 12u$(mobile)">
+								<div class="4u 12u$(mobile) portfolio-item">
 									<article class="item">
-										<a class="image fit"  href="#"><img src="web/images/pic05.png" alt="SIREDOC" /></a>
-										<header>
-												<h3>SIREDOC</h3>
-										</header>
+										<a class="image fit portfolio-link" href="#siredoc" data-toggle="modal">
+											<div class="caption">
+													<div class="caption-content">
+															<i class="fa fa-search-plus fa-3x"></i>
+													</div>
+											</div>
+											<img src="web/images/pic05.png" alt="SIREDOC" />
+											<header>
+													<h3>SIREDOC</h3>
+											</header>
+								   	</a>
 									</article>
 								</div>
-								<div class="4u 12u$(mobile)">
+								<div class="4u 12u$(mobile) portfolio-item">
 									<article class="item">
-										<a class="image fit" href="#"><img  src="web/images/pic04.png" alt="DIRDIGI" /></a>
-										<header>
-												<h3>DIRDIGI</h3>
-										</header>
+										<a class="image fit portfolio-link" href="#dirdigi" data-toggle="modal">
+											<div class="caption">
+													<div class="caption-content">
+															<i class="fa fa-search-plus fa-3x"></i>
+													</div>
+											</div>
+											<img  src="web/images/pic04.png" alt="DIRDIGI" />
+											<header>
+													<h3>DIRDIGI</h3>
+											</header>
+									  </a>
 									</article>
 								</div>
-								<div class="4u 12u$(mobile)">
+								<div class="4u 12u$(mobile) portfolio-item">
 									<article class="item">
-										<a class="image fit" href="#"><img  src="web/images/pic03.png" alt="MVO" /></a>
-										<header>
-												<h3>MVO</h3>
-										</header>
+										<a class="image fit portfolio-link" href="#mvo" data-toggle="modal">
+											<div class="caption">
+													<div class="caption-content">
+															<i class="fa fa-search-plus fa-3x"></i>
+													</div>
+											</div>
+											<img  src="web/images/pic03.png" alt="MVO" />
+											<header>
+													<h3>MVO</h3>
+											</header>
+									  </a>
 									</article>
 								</div>
 							</div>
@@ -332,7 +372,225 @@
 						<li>&copy; 2016 Edward Esteban León Solar</li>
 					</ul>
 
-			</div>			
+			</div>
+
+		<!-- Portfolio Modals -->
+		  <!-- FOOQUO -->
+			<div class="portfolio-modal modal fade" id="fooquo" tabindex="-1" role="dialog" aria-hidden="true">
+					<div class="modal-content">
+							<div class="close-modal" data-dismiss="modal">
+									<div class="lr">
+											<div class="rl">
+											</div>
+									</div>
+							</div>
+							<div class="container">
+									<div class="row">
+											<div class="col-lg-8 col-lg-offset-2">
+													<div class="modal-body">
+															<h2>FOOQUO</h2>
+															<hr class="star-primary">
+															<img src="web/images/pic01.png" class="img-responsive img-centered" alt="FOOQUO">
+															<p> FOOQUO es un sistema de comercialización de productos de consumo. Está hecho en Wordpress + Framework PHP Codeigniter + Bootstrap + Mysql.</p>
+															<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo del buzón de informes de competitividad. Desarrollo de notificación de resumen de donaciones ONG's. Mantenimiento correctivo.</p>
+															<ul class="list-inline item-details item-details-size">
+																	<li>Cliente:
+																			<a href="http://www.develoop.net/" target="_blank">Develoop Software</a>
+																	</li>
+																	<li>Fecha:
+																			<a href="#" onClick="javascript:void(0)">Abril 2016 - Diciembre 2016</a>
+																	</li>
+																	<li>Servicios:
+																			<a href="#" onClick="javascript:void(0)">Desarrollo Web</a>
+																	</li>
+															</ul>
+															<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+													</div>
+											</div>
+									</div>
+							</div>
+					</div>
+			</div>
+			<!-- SIGECIP -->
+		<div class="portfolio-modal modal fade" id="sigecip" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-content">
+						<div class="close-modal" data-dismiss="modal">
+								<div class="lr">
+										<div class="rl">
+										</div>
+								</div>
+						</div>
+						<div class="container">
+								<div class="row">
+										<div class="col-lg-8 col-lg-offset-2">
+												<div class="modal-body">
+														<h2>SIGECIP</h2>
+														<hr class="star-primary">
+														<img src="web/images/pic02.png" class="img-responsive img-centered" alt="SIGECIP">
+														<p> SIGECIP, es el sistema de citas para compra de alimentos en abastos PDVAL, ubicados en la Compañia Anónima Nacional Teléfonos Venezuela (CANTV). Está hecho en Framework PHP YII + Bootstrap + Postgresql.</p>
+														<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo del módulo de solicitud de citas para empleados activos de la compañia CANTV. Desarrollo del reporte diario de solicitudes realizadas.</p>
+														<ul class="list-inline item-details item-details-size">
+																<li>Cliente:
+																		<a href="http://www.cantv.net/" target="_blank">CANTV</a>
+																</li>
+																<li>Fecha:
+																		<a href="#" onClick="javascript:void(0)">Junio 2015 - Agosto 2015</a>
+																</li>
+																<li>Servicios:
+																		<a href="#" onClick="javascript:void(0)">Desarrollo Web</a>
+																</li>
+														</ul>
+														<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+		<!-- MIEQUIPO -->
+			<div class="portfolio-modal modal fade" id="miequipo" tabindex="-1" role="dialog" aria-hidden="true">
+					<div class="modal-content">
+							<div class="close-modal" data-dismiss="modal">
+									<div class="lr">
+											<div class="rl">
+											</div>
+									</div>
+							</div>
+							<div class="container">
+									<div class="row">
+											<div class="col-lg-8 col-lg-offset-2">
+													<div class="modal-body">
+															<h2>MIEQUIPO</h2>
+															<hr class="star-primary">
+															<img src="web/images/pic06.png" class="img-responsive img-centered" alt="MIEQUIPO">
+															<p> MIEQUIPO, es el sistema de jornada de ventas de equipos(Tv, PC, Teléfonos, entre otros)  para empleados de la Compañia Anónima Nacional Teléfonos Venezuela (CANTV). Está hecho en Framework PHP YII + Bootstrap + Postgresql.</p>
+															<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo del módulo de registro de compra. Desarrollo del reporte de solicitudes.</p>
+															<ul class="list-inline item-details item-details-size">
+																	<li>Cliente:
+																			<a href="http://www.cantv.net/" target="_blank">CANTV</a>
+																	</li>
+																	<li>Fecha:
+																			<a href="#" onClick="javascript:void(0)">Marzo 2015 - Abril 2015</a>
+																	</li>
+																	<li>Servicios:
+																			<a href="#" onClick="javascript:void(0)">Desarrollo Web</a>
+																	</li>
+															</ul>
+															<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+													</div>
+											</div>
+									</div>
+							</div>
+					</div>
+			</div>
+			<!-- SIREDOC -->
+				<div class="portfolio-modal modal fade" id="siredoc" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-content">
+								<div class="close-modal" data-dismiss="modal">
+										<div class="lr">
+												<div class="rl">
+												</div>
+										</div>
+								</div>
+								<div class="container">
+										<div class="row">
+												<div class="col-lg-8 col-lg-offset-2">
+														<div class="modal-body">
+																<h2>SIREDOC</h2>
+																<hr class="star-primary">
+																<img src="web/images/pic05.png" class="img-responsive img-centered" alt="SIREDOC">
+																<p> SIREDOC, permite el registro de documentos, y la consulta de su estatu. Está hecho en Framework PHP YII + Postgresql.</p>
+																<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo del módulo de registro de documentos.</p>
+																<ul class="list-inline item-details item-details-size">
+																		<li>Cliente:
+																				<a href="http://www.cantv.net/" target="_blank">CANTV</a>
+																		</li>
+																		<li>Fecha:
+																				<a href="#" onClick="javascript:void(0)">Enero 2015</a>
+																		</li>
+																		<li>Servicios:
+																				<a href="#" onClick="javascript:void(0)">Desarrollo Web</a>
+																		</li>
+																</ul>
+																<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+														</div>
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+				<!-- DIRDIGI -->
+					<div class="portfolio-modal modal fade" id="dirdigi" tabindex="-1" role="dialog" aria-hidden="true">
+							<div class="modal-content">
+									<div class="close-modal" data-dismiss="modal">
+											<div class="lr">
+													<div class="rl">
+													</div>
+											</div>
+									</div>
+									<div class="container">
+											<div class="row">
+													<div class="col-lg-8 col-lg-offset-2">
+															<div class="modal-body">
+																	<h2>DIRDIGI</h2>
+																	<hr class="star-primary">
+																	<img src="web/images/pic04.png" class="img-responsive img-centered" alt="DIRDIGI">
+																	<p> DIRDIGI, permite la consulta de los datos personales y de contacto de los empleados de la Compañia Anónima Nacional Teléfonos Venezuela (CANTV), así como la estructura organizativa a la cual ellos pertenecen. Está hecho en Framework PHP YII + Bootstrap + Postgresql.</p>
+																	<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo de la Interfaz SAP-DIRDIGI, esta permite la migración de todos los empleados proveniente de SAP ERP a DIRDIGI.</p>
+																	<ul class="list-inline item-details item-details-size">
+																			<li>Cliente:
+																					<a href="http://www.cantv.net/" target="_blank">CANTV</a>
+																			</li>
+																			<li>Fecha:
+																					<a href="#" onClick="javascript:void(0)">Octubre 2014 - Noviembre 2014</a>
+																			</li>
+																			<li>Servicios:
+																					<a href="#" onClick="javascript:void(0)">Desarrollo Web</a>
+																			</li>
+																	</ul>
+																	<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+															</div>
+													</div>
+											</div>
+									</div>
+							</div>
+					</div>
+					<!-- MVO -->
+						<div class="portfolio-modal modal fade" id="mvo" tabindex="-1" role="dialog" aria-hidden="true">
+								<div class="modal-content">
+										<div class="close-modal" data-dismiss="modal">
+												<div class="lr">
+														<div class="rl">
+														</div>
+												</div>
+										</div>
+										<div class="container">
+												<div class="row">
+														<div class="col-lg-8 col-lg-offset-2">
+																<div class="modal-body">
+																		<h2>MVO</h2>
+																		<hr class="star-primary">
+																		<img src="web/images/pic03.png" class="img-responsive img-centered" alt="MVO">
+																		<p> MVO, es el sistema de registro de empleados de la Compañia Anónima Nacional Teléfonos Venezuela (CANTV) que tengan necesidad de vivienda. Está hecho en Framework PHP YII + Postgresql.</p>
+																		<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo del módulo de registro de empleados aspirantes a vivienda.</p>
+																		<ul class="list-inline item-details item-details-size">
+																				<li>Cliente:
+																						<a href="http://www.cantv.net/" target="_blank">CANTV</a>
+																				</li>
+																				<li>Fecha:
+																						<a href="#" onClick="javascript:void(0)">Mayo 2014 - Julio 2014</a>
+																				</li>
+																				<li>Servicios:
+																						<a href="#" onClick="javascript:void(0)">Desarrollo Web</a>
+																				</li>
+																		</ul>
+																		<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+																</div>
+														</div>
+												</div>
+										</div>
+								</div>
+						</div>
 		<!-- Scripts -->
 			<script src="web/assets/js/jquery.min.js"></script>
 			<script src="web/assets/js/jquery.scrolly.min.js"></script>
@@ -341,6 +599,8 @@
 			<script src="web/assets/js/util.js"></script>
 			<script src="web/assets/js/main.js"></script>
 			<script src="web/libs/sweetalert/dist/sweetalert.min.js"></script>
+			<!-- Bootstrap Core JavaScript -->
+			<script src="web/libs/bootstrap/js/bootstrap.min.js"></script>
 
 			<script type="text/javascript">
 
