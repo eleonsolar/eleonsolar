@@ -2170,12 +2170,13 @@
 				background-size: cover;
 				background-position: center center;
 			}
-
+			/**
 			#main > section.one {
 
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
 			}
+			**/
 
 			#main > section.two {
 				background-color:   #ecf1f1 ;
@@ -2378,6 +2379,7 @@
 
 				#header .top {
 					position: relative;
+					margin-top: -100px;
 				}
 
 				#header .bottom {

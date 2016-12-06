@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="web/assets/css/skillbar.css" />
 		<link rel="stylesheet" href="web/assets/css/accordion.css" />
 		<link rel="stylesheet" href="web/assets/css/portafolio.css" />
+		<link rel="stylesheet" href="web/assets/css/slide.css" />
 		<link rel="stylesheet" href="web/libs/sweetalert/dist/sweetalert.css">
 
 		<!-- Bootstrap -->
@@ -68,24 +69,49 @@
 
 		<!-- Main -->
 			<div id="main">
-
-				<!-- Intro -->
-					<section id="top" class="one dark cover fullscreen" style="filter: grayscale(50%);-webkit-filter: grayscale(50%);">
-						<div class="container">
-
-							<header >
-								<h2 class="alt" style="font-size: 3em;" >Edward E. León Solar</h2>
-								<p >Software Developer + Web + Backend + Open Source</p>
-							</header>
-							<footer>
-								<a href="#portfolio" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0)">
-									<i class="fa fa-angle-double-down fa-3x" aria-hidden="true" style="text-decoration: none;"></i>
-								</a>
-							</footer>
-
-						</div>
-					</section>
-
+				<div id="container">
+					<!-- Intro -->
+					<section id="top" class="home">
+								<!-- Superslides -->
+								<div id="home-slide">
+										<ul class="slides-container text-center">
+												<li>
+														<div class="slide-text">
+																<h2>Edward E. León Solar</h2>
+																<span>Desarrollador Web Backend</span>
+																<br/><br/>
+																<a href="#portfolio" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#fff">
+																	<i class="fa fa-angle-double-down fa-3x" aria-hidden="true" style="text-decoration: none;"></i>
+																</a>
+														</div>
+														<div class="slide-filter"></div>
+														<div style="background-image: url('web/images/slide01.jpg');" class="bg-parallax parallaxize"></div>
+												</li>
+												<li>
+														<div class="slide-text">
+																<h2>Edward E. León Solar</h2>
+																<span>Colaborador en proyectos Open Source</span>
+																<br/><br/>
+																<a href="#portfolio" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#fff">
+																	<i class="fa fa-angle-double-down fa-3x" aria-hidden="true" style="text-decoration: none;"></i>
+																</a>
+														</div>
+														<div class="slide-filter"></div>
+														<div style="background-image: url('web/images/slide02.jpg');" class="bg-parallax parallaxize"></div>
+												</li>
+										</ul>
+										<nav class="slides-navigation slidez">
+												<a href="javascript:;" class="next">
+														<i class="fa fa-angle-right"></i>
+												</a>
+												<a href="javascript:;" class="prev">
+														<i class="fa fa-angle-left"></i>
+												</a>
+										</nav>
+								</div>
+								<!-- End of Superslide -->
+						</section>
+					</div>
 				<!-- Portfolio -->
 					<section id="portfolio" class="two">
 						<div class="container">
@@ -592,15 +618,24 @@
 								</div>
 						</div>
 		<!-- Scripts -->
+
+	    <!-- JQuery -->
 			<script src="web/assets/js/jquery.min.js"></script>
+			<!-- Sweetalert -->
+			<script src="web/libs/sweetalert/dist/sweetalert.min.js"></script>
+			<!-- Bootstrap Core JavaScript -->
+			<script src="web/libs/bootstrap/js/bootstrap.min.js"></script>
+			<!-- Sudo Slider Source -->
+			<script src="web/libs/slide/jquery.superslides.min.js"></script>
+			<script src="web/libs/slide/jquery.sudoslider.min.js"></script>
+
 			<script src="web/assets/js/jquery.scrolly.min.js"></script>
 			<script src="web/assets/js/jquery.scrollzer.min.js"></script>
 			<script src="web/assets/js/skel.min.js"></script>
 			<script src="web/assets/js/util.js"></script>
 			<script src="web/assets/js/main.js"></script>
-			<script src="web/libs/sweetalert/dist/sweetalert.min.js"></script>
-			<!-- Bootstrap Core JavaScript -->
-			<script src="web/libs/bootstrap/js/bootstrap.min.js"></script>
+			<script src="web/assets/js/slide.js"></script>
+
 
 			<script type="text/javascript">
 
