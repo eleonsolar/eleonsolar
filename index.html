@@ -35,6 +35,13 @@
 
 				background-color:  #3d3c3c;
 			}
+			.btn-down:hover{
+
+				color:  #D56565;
+			}
+			.link-main:hover{
+                                color:  #3d3c3c;
+                        }
 		</style>
 	</head>
 	<body>
@@ -108,7 +115,7 @@
 																<span>Desarrollador Web Backend</span>
 																<br/><br/>
 																<a href="#about" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#fff">
-																	<i class="fa fa-angle-double-down fa-3x" aria-hidden="true" style="text-decoration: none;"></i>
+																	<i class="fa fa-angle-double-down fa-3x btn-down" aria-hidden="true" style="text-decoration: none;"></i>
 																</a>
 														</div>
 														<div class="slide-filter"></div>
@@ -120,7 +127,7 @@
 																<span>Colaborador en proyectos Open Source</span>
 																<br/><br/>
 																<a href="#about" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#fff">
-																	<i class="fa fa-angle-double-down fa-3x" aria-hidden="true" style="text-decoration: none;"></i>
+																	<i class="fa fa-angle-double-down fa-3x btn-down" aria-hidden="true" style="text-decoration: none;"></i>
 																</a>
 														</div>
 														<div class="slide-filter"></div>
@@ -150,7 +157,7 @@
 								  <!-- <a href="javascript:void(0)" class="image featured"><img src="web/images/aboutme.png" alt="" style="height:auto;filter: grayscale(100%);-webkit-filter: grayscale(100%);"/></a> -->
 
 									<p style="text-align:justify">
-										 Soy egresado de la <a href="http://www.unefa.edu.ve/portal/" style="color:#ee866f">Universidad Nacional Experimental de la Fuerza Armada (U.N.E.FA)</a> en la carrera de ingeniería de sistemas.
+										 Soy egresado de la <a  target="_blank" href="http://www.unefa.edu.ve/portal/" style="border-bottom-color: rgba(255, 255, 255, 0);color:#C65555"><span class="link-main">Universidad Nacional Experimental de la Fuerza Armada (U.N.E.FA)</span></a> en la carrera de ingeniería de sistemas.
 										Actualmente me dedico al desarrollo backend de aplicaciones web. Mis metas estan orientadas al éxito; soy constante, autodidacta y colaborador.
 									</p>
 									<h4 style="text-align:left;font-weight:bold">Habilidades técnicas:</h4>
@@ -203,7 +210,7 @@
 											</ul>
 										</li>
 										<li>
-											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link" id="framework">Frameworks:<i class="fa fa-chevron-down"></i></h4>
+											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link" >Frameworks:<i class="fa fa-chevron-down"></i></h4>
 											<ul class="submenu">
 												<li>
 												<div class="skillbar clearfix " data-percent="100%">
@@ -236,7 +243,7 @@
 											</ul>
 									</li>
 									<li>
-										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link">Bases de datos:<i class="fa fa-chevron-down"></i></h4>
+										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link" id="database">Bases de datos:<i class="fa fa-chevron-down"></i></h4>
 										<ul class="submenu">
 											<li>
 												<div class="skillbar clearfix " data-percent="100%">
@@ -276,6 +283,7 @@
 								</ul>
 								<br />
 								<!-- Techs -->
+                                                                
 								<article class="12u 12u$(xsmall) work-item" style>
 
 									<img src="web/images/techs/python.png" alt="" />
@@ -287,6 +295,7 @@
 									<img src="web/images/techs/angular.png" alt="" />
 									<img src="web/images/techs/wordpress.png" alt="" />
 								</article>
+                                                                
 							</div>
 					</section>
 					<!-- Services -->
@@ -296,34 +305,35 @@
 										<h2>Servicios</h2>
 									</header>
 									<div class="row">
-										<div class="4u 12u$(mobile) service-item">
+										<div class="6u 12u$(mobile) service-item">
 											<article class="item-service">
-												<i class="fa fa-3x fa-users" aria-hidden="true"></i>
-												<h4 style="font-weight:bold">Gestión de proyecto</h4>
-												<p style="margin-top:10px">Liderazgo de equipos de desarrollo.</p>
+												<i class="fa fa-3x fa-users" aria-hidden="true" style="color:#D56565"></i>
+												<h3 style="color:#D56565">Gestión de proyecto</h3>
+												<h4 style="margin-top:10px;">Liderazgo de equipos de desarrollo.</h4>
 											</article>
 										</div>
-										<div class="4u 12u$(mobile) service-item">
+										<div class="6u 12u$(mobile) service-item">
 											<article class="item-service">
-												<i class="fa fa-3x fa-code" aria-hidden="true"></i>
-												<h4 style="font-weight:bold">Desarrollo Web</h4>
-												<p style="margin-top:10px">Desarrollo a la medida de aplicaciones web.</p>
+												<i class="fa fa-3x fa-code" aria-hidden="true" style="color:#D56565"></i>
+												<h3 style="color:#D56565" >Desarrollo Web</h3>
+												<h4 style="margin-top:10px">Desarrollo a la medida de aplicaciones web.</h4>
 											</article>
 										</div>
-										<div class="4u 12u$(mobile) service-item">
-											<article class="item-service">
-												<i class="fa fa-3x fa-terminal" aria-hidden="true"></i>
-												<h4 style="font-weight:bold">Desarrollo de Shellscripts</h4>
-												<p style="margin-top:10px">Desarrollo de scripts para shell bash de sistemas Unix y derivados.</p>
-											</article>
-										</div>
+										
 									</div>
 									<div class="row">
-										<div class="4u 12u$(mobile) service-item">
+                                                                                <div class="6u 12u$(mobile) service-item">
 											<article class="item-service">
-												<i class="fa fa-3x fa-database" aria-hidden="true"></i>
-												<h4 style="font-weight:bold">Desarrollo de Storeprocedure</h4>
-												<p style="margin-top:10px">Desarrollo de store procedure para sistemas de gestión: Oracle, Postgres y Mysql.</p>
+												<i class="fa fa-3x fa-terminal" aria-hidden="true" style="color:#D56565"></i>
+												<h3 style="color:#D56565">Shellscripts</h3>
+												<h4 style="margin-top:10px">Desarrollo de scripts para shell bash de sistemas Unix y derivados.</h4>
+											</article>
+										</div>
+										<div class="6u 12u$(mobile) service-item">
+											<article class="item-service">
+												<i class="fa fa-3x fa-database" aria-hidden="true" style="color:#D56565"></i>
+												<h3 style="color:#D56565">Stored procedure</h3>
+												<h4 style="margin-top:10px">Desarrollo de Stored procedure para sistemas de gestión: Oracle, Postgres y Mysql.</h4>
 											</article>
 										</div>
 									</div>
@@ -484,7 +494,7 @@
 															<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo del buzón de informes de competitividad. Desarrollo de notificación de resumen de donaciones ONG's. Mantenimiento correctivo.</p>
 															<ul class="list-inline item-details item-details-size">
 																	<li>Cliente:
-																			<a href="http://www.develoop.net/" target="_blank">Develoop Software</a>
+																			<a class="link-main" href="http://www.develoop.net/" target="_blank">Develoop Software</a>
 																	</li>
 																	<li>Fecha:
 																			<a href="#" onClick="javascript:void(0)">Abril 2016 - Diciembre 2016</a>
@@ -520,7 +530,7 @@
 														<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo del módulo de solicitud de citas para empleados activos de la compañia CANTV. Desarrollo del reporte diario de solicitudes realizadas.</p>
 														<ul class="list-inline item-details item-details-size">
 																<li>Cliente:
-																		<a href="http://www.cantv.net/" target="_blank">CANTV</a>
+																		<a class="link-main" href="http://www.cantv.net/" target="_blank">CANTV</a>
 																</li>
 																<li>Fecha:
 																		<a href="#" onClick="javascript:void(0)">Junio 2015 - Agosto 2015</a>
@@ -556,7 +566,7 @@
 															<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo del módulo de registro de compra. Desarrollo del reporte de solicitudes.</p>
 															<ul class="list-inline item-details item-details-size">
 																	<li>Cliente:
-																			<a href="http://www.cantv.net/" target="_blank">CANTV</a>
+																			<a class="link-main" href="http://www.cantv.net/" target="_blank">CANTV</a>
 																	</li>
 																	<li>Fecha:
 																			<a href="#" onClick="javascript:void(0)">Marzo 2015 - Abril 2015</a>
@@ -592,7 +602,7 @@
 																<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo del módulo de registro de documentos.</p>
 																<ul class="list-inline item-details item-details-size">
 																		<li>Cliente:
-																				<a href="http://www.cantv.net/" target="_blank">CANTV</a>
+																				<a class="link-main" href="http://www.cantv.net/" target="_blank">CANTV</a>
 																		</li>
 																		<li>Fecha:
 																				<a href="#" onClick="javascript:void(0)">Enero 2015</a>
@@ -628,7 +638,7 @@
 																	<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo de la Interfaz SAP-DIRDIGI, esta permite la migración de todos los empleados proveniente de SAP ERP a DIRDIGI.</p>
 																	<ul class="list-inline item-details item-details-size">
 																			<li>Cliente:
-																					<a href="http://www.cantv.net/" target="_blank">CANTV</a>
+																					<a class="link-main" href="http://www.cantv.net/" target="_blank">CANTV</a>
 																			</li>
 																			<li>Fecha:
 																					<a href="#" onClick="javascript:void(0)">Octubre 2014 - Noviembre 2014</a>
@@ -664,7 +674,7 @@
 																		<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo del módulo de registro de empleados aspirantes a vivienda.</p>
 																		<ul class="list-inline item-details item-details-size">
 																				<li>Cliente:
-																						<a href="http://www.cantv.net/" target="_blank">CANTV</a>
+																						<a class="link-main" href="http://www.cantv.net/" target="_blank">CANTV</a>
 																				</li>
 																				<li>Fecha:
 																						<a href="#" onClick="javascript:void(0)">Mayo 2014 - Julio 2014</a>
@@ -772,7 +782,7 @@
 					/*
 					$(document).ready(function(){
 
-						$('#framework').trigger('click');
+						$('#database').trigger('click');
 					});
 					*/
 

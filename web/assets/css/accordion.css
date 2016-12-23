@@ -40,9 +40,9 @@
   font-size: 16px;
 }
 
-.accordion li.open .link { color: #ee866f; }
+.accordion li.open .link { color: #C65555; }
 
-.accordion li.open i { color: #ee866f; }
+.accordion li.open i { color: #C65555; }
 
 .accordion li.open i.fa-chevron-down {
   -webkit-transform: rotate(180deg);
