@@ -96,6 +96,18 @@
 		width: 1400px;
 	}
 
+	.ser-grids{
+		margin-top:50px;
+	}
+
+	@media(max-width:1024px){
+
+		.ser-grids {
+	  	margin-top: 40px;
+		 }
+	}
+
+
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 		.container.\31 25\25 {
@@ -2195,6 +2207,10 @@
 
 			#main > section.four {
 				background-color: #e8edec;
+			}
+
+			#main > section.five {
+				background-color: #fafafa;
 			}
 
 /* Wide */

@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="web/assets/css/skillbar.css" />
 		<link rel="stylesheet" href="web/assets/css/accordion.css" />
 		<link rel="stylesheet" href="web/assets/css/portafolio.css" />
+		<link rel="stylesheet" href="web/assets/css/service.css" />
 		<link rel="stylesheet" href="web/assets/css/slide.css" />
 		<link rel="stylesheet" href="web/libs/sweetalert/dist/sweetalert.css">
 
@@ -67,9 +68,11 @@
 							-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Introducción</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portafolio</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Sobre mí</span></a></li>
+								<li><a href="#service" id="service-link" class="skel-layers-ignoreHref"><span class="icon fa-wrench">Servicios</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portafolio</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contacto</span></a></li>
+								<li><a href="documents/cv.pdf" id="cv-link" class="skel-layers-ignoreHref"><span class="icon fa-file-text-o">Curriculum Vitae</span></a></li>
 								<li><a href="http://eleonsolar.com/blog" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-rss">Blog</span></a></li>
 							</ul>
 						</nav>
@@ -105,7 +108,7 @@
 																<h2>Edward E. León Solar</h2>
 																<span>Desarrollador Web Backend</span>
 																<br/><br/>
-																<a href="#portfolio" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#fff">
+																<a href="#about" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#fff">
 																	<i class="fa fa-angle-double-down fa-3x" aria-hidden="true" style="text-decoration: none;"></i>
 																</a>
 														</div>
@@ -137,109 +140,9 @@
 								<!-- End of Superslide -->
 						</section>
 					</div>
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-							<header>
-								<h2>Portafolio</h2>
-							</header>
-							<div class="row">
-								<div class="4u 12u$(mobile) portfolio-item">
-									<article class="item">
-										<a class="image fit portfolio-link" href="#fooquo" data-toggle="modal">
-											<div class="caption">
-													<div class="caption-content">
-															<i class="fa fa-search-plus fa-3x"></i>
-													</div>
-											</div>
-											<img src="web/images/portfolio/pic01.png" class="img-responsive" alt="FOOQUO" />
-											<header >
-													<h3>FOOQUO</h3>
-											</header>
-									  </a>
-									</article>
-								</div>
-								<div class="4u 12u$(mobile) portfolio-item">
-									<article class="item">
-										<a class="image fit portfolio-link" href="#sigecip" data-toggle="modal">
-											<div class="caption">
-													<div class="caption-content">
-															<i class="fa fa-search-plus fa-3x"></i>
-													</div>
-											</div>
-											<img src="web/images/portfolio/pic02.png" alt="SIGECIP" />
-											<header>
-													<h3>SIGECIP</h3>
-											</header>
-									  </a>
-									</article>
-								</div>
-								<div class="4u 12u$(mobile) portfolio-item">
-									<article class="item">
-										<a class="image fit portfolio-link" href="#miequipo" data-toggle="modal">
-											<div class="caption">
-													<div class="caption-content">
-															<i class="fa fa-search-plus fa-3x"></i>
-													</div>
-											</div>
-											<img src="web/images/portfolio/pic06.png" alt="MIEQUIPO" />
-											<header>
-													<h3>MIEQUIPO</h3>
-											</header>
-									  </a>
-									</article>
-								</div>
-								<div class="4u 12u$(mobile) portfolio-item">
-									<article class="item">
-										<a class="image fit portfolio-link" href="#siredoc" data-toggle="modal">
-											<div class="caption">
-													<div class="caption-content">
-															<i class="fa fa-search-plus fa-3x"></i>
-													</div>
-											</div>
-											<img src="web/images/portfolio/pic05.png" alt="SIREDOC" />
-											<header>
-													<h3>SIREDOC</h3>
-											</header>
-								   	</a>
-									</article>
-								</div>
-								<div class="4u 12u$(mobile) portfolio-item">
-									<article class="item">
-										<a class="image fit portfolio-link" href="#dirdigi" data-toggle="modal">
-											<div class="caption">
-													<div class="caption-content">
-															<i class="fa fa-search-plus fa-3x"></i>
-													</div>
-											</div>
-											<img  src="web/images/portfolio/pic04.png" alt="DIRDIGI" />
-											<header>
-													<h3>DIRDIGI</h3>
-											</header>
-									  </a>
-									</article>
-								</div>
-								<div class="4u 12u$(mobile) portfolio-item">
-									<article class="item">
-										<a class="image fit portfolio-link" href="#mvo" data-toggle="modal">
-											<div class="caption">
-													<div class="caption-content">
-															<i class="fa fa-search-plus fa-3x"></i>
-													</div>
-											</div>
-											<img  src="web/images/portfolio/pic03.png" alt="MVO" />
-											<header>
-													<h3>MVO</h3>
-											</header>
-									  </a>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
 
 				<!-- About Me -->
-					<section id="about" class="three">
+					<section id="about" class="two">
 							<div class="container">
 									<header>
 										<h2>Sobre mí</h2>
@@ -254,12 +157,12 @@
 									<h4 style="text-align:left;font-weight:bold">Habilidades técnicas:</h4>
 									<ul id="accordion" class="accordion">
 										<li>
-											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link">Lenguajes:<i class="fa fa-chevron-down"></i></h4>
+											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link">Lenguajes de programación:<i class="fa fa-chevron-down"></i></h4>
 											<ul class="submenu">
 												<li>
 												<div class="skillbar clearfix " data-percent="100%">
-													<div class="skillbar-title" style="background: #9400D3;"><span>PHP</span></div>
-													<div class="skillbar-bar" style="background: #EE82EE;"></div>
+													<div class="skillbar-title" style="background: #2c3e50;" ><span>PHP</span></div>
+													<div class="skillbar-bar" style="background: #405264;" ></div>
 													<div class="skill-bar-percent">100%</div>
 												</div> <!-- End Skill Bar -->
 												</li>
@@ -279,8 +182,8 @@
 												</li>
 												<li>
 												<div class="skillbar clearfix " data-percent="80%">
-													<div class="skillbar-title" style="background: #2c3e50;"><span>Java</span></div>
-													<div class="skillbar-bar" style="background: #2c3e50;"></div>
+													<div class="skillbar-title" style="background: #9400D3;"><span>Java</span></div>
+													<div class="skillbar-bar" style="background: #EE82EE;"></div>
 													<div class="skill-bar-percent">80%</div>
 												</div> <!-- End Skill Bar -->
 												</li>
@@ -365,14 +268,14 @@
 										<li>
 											<div class="skillbar clearfix " data-percent="80%">
 												<div class="skillbar-title" style="background: #2c3e50;"><span>Wordpress</span></div>
-												<div class="skillbar-bar" style="background: #2c3e50;"></div>
+												<div class="skillbar-bar" style="background: #405264;"></div>
 												<div class="skill-bar-percent">80%</div>
 											</div> <!-- End Skill Bar -->
 										</li>
 									</ul>
 									</li>
 								</ul>
-								<p style="text-align:justify;">Para descargar mi curriculum vitae presione <a href="documents/cv.pdf" target="_blank" style="color:#ee866f">aquí</a></p>
+								<br />
 								<!-- Techs -->
 								<article class="12u 12u$(xsmall) work-item" style>
 
@@ -387,9 +290,148 @@
 								</article>
 							</div>
 					</section>
-
+					<!-- Services -->
+					<section id="service" class="three">
+							<div class="container">
+									<header>
+										<h2>Servicios</h2>
+									</header>
+									<div class="row">
+										<div class="4u 12u$(mobile) service-item">
+											<article class="item-service">
+												<i class="fa fa-3x fa-users" aria-hidden="true"></i>
+												<h4 style="font-weight:bold">Gestión de proyecto</h4>
+												<p style="margin-top:10px">Liderazgo de equipos de desarrollo</p>
+											</article>
+										</div>
+										<div class="4u 12u$(mobile) service-item">
+											<article class="item-service">
+												<i class="fa fa-3x fa-code" aria-hidden="true"></i>
+												<h4 style="font-weight:bold">Desarrollo Web</h4>
+												<p style="margin-top:10px">Desarrollo a la medida de aplicaciones web.</p>
+											</article>
+										</div>
+										<div class="4u 12u$(mobile) service-item">
+											<article class="item-service">
+												<i class="fa fa-3x fa-terminal" aria-hidden="true"></i>
+												<h4 style="font-weight:bold">Desarrollo de Shellscripts</h4>
+												<p style="margin-top:10px">Desarrollo de scripts para shell bash de sistemas Unix y derivados.</p>
+											</article>
+										</div>
+									</div>
+									<div class="row">
+										<div class="4u 12u$(mobile) service-item">
+											<article class="item-service">
+												<i class="fa fa-3x fa-database" aria-hidden="true"></i>
+												<h4 style="font-weight:bold">Desarrollo de Storeprocedure</h4>
+												<p style="margin-top:10px">Desarrollo de store procedure para sistemas de gestión: Oracle, Postgres y Mysql.</p>
+											</article>
+										</div>
+									</div>
+							</div>
+					</section>
+					<!-- Portfolio -->
+						<section id="portfolio" class="four">
+							<div class="container">
+								<header>
+									<h2>Portafolio</h2>
+								</header>
+								<div class="row">
+									<div class="4u 12u$(mobile) portfolio-item">
+										<article class="item">
+											<a class="image fit portfolio-link" href="#fooquo" data-toggle="modal">
+												<div class="caption">
+														<div class="caption-content">
+																<i class="fa fa-search-plus fa-3x"></i>
+														</div>
+												</div>
+												<img src="web/images/portfolio/pic01.png" class="img-responsive" alt="FOOQUO" />
+												<header >
+														<h3>FOOQUO</h3>
+												</header>
+										  </a>
+										</article>
+									</div>
+									<div class="4u 12u$(mobile) portfolio-item">
+										<article class="item">
+											<a class="image fit portfolio-link" href="#sigecip" data-toggle="modal">
+												<div class="caption">
+														<div class="caption-content">
+																<i class="fa fa-search-plus fa-3x"></i>
+														</div>
+												</div>
+												<img src="web/images/portfolio/pic02.png" alt="SIGECIP" />
+												<header>
+														<h3>SIGECIP</h3>
+												</header>
+										  </a>
+										</article>
+									</div>
+									<div class="4u 12u$(mobile) portfolio-item">
+										<article class="item">
+											<a class="image fit portfolio-link" href="#miequipo" data-toggle="modal">
+												<div class="caption">
+														<div class="caption-content">
+																<i class="fa fa-search-plus fa-3x"></i>
+														</div>
+												</div>
+												<img src="web/images/portfolio/pic06.png" alt="MIEQUIPO" />
+												<header>
+														<h3>MIEQUIPO</h3>
+												</header>
+										  </a>
+										</article>
+									</div>
+									<div class="4u 12u$(mobile) portfolio-item">
+										<article class="item">
+											<a class="image fit portfolio-link" href="#siredoc" data-toggle="modal">
+												<div class="caption">
+														<div class="caption-content">
+																<i class="fa fa-search-plus fa-3x"></i>
+														</div>
+												</div>
+												<img src="web/images/portfolio/pic05.png" alt="SIREDOC" />
+												<header>
+														<h3>SIREDOC</h3>
+												</header>
+									   	</a>
+										</article>
+									</div>
+									<div class="4u 12u$(mobile) portfolio-item">
+										<article class="item">
+											<a class="image fit portfolio-link" href="#dirdigi" data-toggle="modal">
+												<div class="caption">
+														<div class="caption-content">
+																<i class="fa fa-search-plus fa-3x"></i>
+														</div>
+												</div>
+												<img  src="web/images/portfolio/pic04.png" alt="DIRDIGI" />
+												<header>
+														<h3>DIRDIGI</h3>
+												</header>
+										  </a>
+										</article>
+									</div>
+									<div class="4u 12u$(mobile) portfolio-item">
+										<article class="item">
+											<a class="image fit portfolio-link" href="#mvo" data-toggle="modal">
+												<div class="caption">
+														<div class="caption-content">
+																<i class="fa fa-search-plus fa-3x"></i>
+														</div>
+												</div>
+												<img  src="web/images/portfolio/pic03.png" alt="MVO" />
+												<header>
+														<h3>MVO</h3>
+												</header>
+										  </a>
+										</article>
+									</div>
+								</div>
+							</div>
+						</section>
 				<!-- Contact -->
-					<section id="contact" class="four">
+					<section id="contact" class="five">
 						<div class="container">
 
 							<header>
