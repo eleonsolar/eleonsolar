@@ -40,8 +40,13 @@
 				color:  #D56565;
 			}
 			.link-main:hover{
-                                color:  #3d3c3c;
-                        }
+
+        color:  #3d3c3c;
+      }
+			.max-size-image{
+				max-height: 175px;
+				min-height: 160px;
+			}
 		</style>
 	</head>
 	<body>
@@ -75,12 +80,12 @@
 							-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">INICIO</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">SOBRE MI</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">SOBRE MÍ</span></a></li>
 								<li><a href="#service" id="service-link" class="skel-layers-ignoreHref"><span class="icon fa-wrench">SERVICIOS</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">PORTAFOLIO</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">CONTACTO</span></a></li>
-								<li><a href="docs/curriculum.pdf" id="curriculum-link" class="skel-layers-ignoreHref"><span class="icon fa-file-pdf-o">CURRICULUM</span></a></li>
-								<li><a href="http://eleonsolar.com/blog" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-rss">BLOG</span></a></li>
+								<li><a href="docs/resume.pdf" id="curriculum-link" class="skel-layers-ignoreHref"><span class="icon fa-file-pdf-o">CURRÍCULUM</span></a></li>
+								<!--<li><a href="http://eleonsolar.com/blog" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-rss">BLOG</span></a></li>-->
 							</ul>
 						</nav>
 
@@ -113,7 +118,7 @@
 												<li>
 														<div class="slide-text">
 																<h2>Edward E. León Solar</h2>
-																<span>Desarrollador de aplicaciones Web</span>
+																<span>Desarrollador de Software</span>
 																<br/><br/>
 																<a href="#about" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#fff">
 																	<i class="fa fa-angle-double-down fa-3x btn-down" aria-hidden="true" style="text-decoration: none;"></i>
@@ -164,33 +169,35 @@
 									<h4 style="text-align:left;font-weight:bold">Habilidades técnicas:</h4>
 									<ul id="accordion" class="accordion">
 										<li>
-											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link">Lenguajes de programación:<i class="fa fa-chevron-down"></i></h4>
+											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link" id="languages">Lenguajes de programación:<i class="fa fa-chevron-down"></i></h4>
 											<ul class="submenu">
 												<li>
 												<div class="skillbar clearfix " data-percent="100%">
-													<div class="skillbar-title" style="background: #2c3e50;" ><span>PHP</span></div>
-													<div class="skillbar-bar" style="background: #405264;" ></div>
-													<div class="skill-bar-percent">100%</div>
-												</div> <!-- End Skill Bar -->
-												</li>
-												<li>
-												<div class="skillbar clearfix " data-percent="100%">
-													<div class="skillbar-title" style="background: #8B0000;"><span>Javascript</span></div>
+													<div class="skillbar-title" style="background: #8B0000;"><span>PHP</span></div>
 													<div class="skillbar-bar" style="background: #A52A2A;"></div>
 													<div class="skill-bar-percent">100%</div>
 												</div> <!-- End Skill Bar -->
 												</li>
 												<li>
 												<div class="skillbar clearfix " data-percent="100%">
-													<div class="skillbar-title" style="background: #124e8c;"><span>SQL</span></div>
-													<div class="skillbar-bar" style="background: #4288d0;"></div>
+													<div class="skillbar-title" style="background: #d8e110;"><span>JS</span></div>
+													<div class="skillbar-bar" style="background: #ebf082;"></div>
 													<div class="skill-bar-percent">100%</div>
 												</div> <!-- End Skill Bar -->
 												</li>
 												<li>
+												<!--
+												<div class="skillbar clearfix " data-percent="100%">
+													<div class="skillbar-title" style="background: #124e8c;"><span>SQL</span></div>
+													<div class="skillbar-bar" style="background: #4288d0;"></div>
+													<div class="skill-bar-percent">100%</div>
+												</div> End Skill Bar
+											  -->
+												</li>
+												<li>
 												<div class="skillbar clearfix " data-percent="80%">
-													<div class="skillbar-title" style="background: #9400D3;"><span>Java</span></div>
-													<div class="skillbar-bar" style="background: #EE82EE;"></div>
+													<div class="skillbar-title" style="background: #2980b9;"><span>Java</span></div>
+													<div class="skillbar-bar" style="background: #3498db;"></div>
 													<div class="skill-bar-percent">80%</div>
 												</div> <!-- End Skill Bar -->
 												</li>
@@ -211,7 +218,7 @@
 											</ul>
 										</li>
 										<li>
-											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link" >Frameworks:<i class="fa fa-chevron-down"></i></h4>
+											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link">Frameworks:<i class="fa fa-chevron-down"></i></h4>
 											<ul class="submenu">
 												<li>
 												<div class="skillbar clearfix " data-percent="100%">
@@ -244,7 +251,7 @@
 											</ul>
 									</li>
 									<li>
-										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link" id="database">Bases de datos:<i class="fa fa-chevron-down"></i></h4>
+										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" class="link">Bases de datos:<i class="fa fa-chevron-down"></i></h4>
 										<ul class="submenu">
 											<li>
 												<div class="skillbar clearfix " data-percent="100%">
@@ -349,13 +356,28 @@
 								<div class="row">
 									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
+											<a class="image fit portfolio-link" href="#calamontjoi" data-toggle="modal">
+												<div class="caption">
+														<div class="caption-content">
+																<i class="fa fa-search-plus fa-3x"></i>
+														</div>
+												</div>
+												<img src="web/images/portfolio/pic07.png" class="img-responsive max-size-image" alt="CALAMONTJOI" />
+												<header >
+														<h3>CALAMONTJOI</h3>
+												</header>
+										  </a>
+										</article>
+									</div>
+									<div class="4u 12u$(mobile) portfolio-item">
+										<article class="item">
 											<a class="image fit portfolio-link" href="#fooquo" data-toggle="modal">
 												<div class="caption">
 														<div class="caption-content">
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic01.png" class="img-responsive" alt="FOOQUO" />
+												<img src="web/images/portfolio/pic01.png" class="img-responsive max-size-image" alt="FOOQUO" />
 												<header >
 														<h3>FOOQUO</h3>
 												</header>
@@ -370,7 +392,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic02.png" alt="SIGECIP" />
+												<img src="web/images/portfolio/pic02.png" class="img-responsive max-size-image" alt="SIGECIP" />
 												<header>
 														<h3>SIGECIP</h3>
 												</header>
@@ -385,7 +407,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic06.png" alt="MIEQUIPO" />
+												<img src="web/images/portfolio/pic06.png" class="img-responsive max-size-image" alt="MIEQUIPO" />
 												<header>
 														<h3>MIEQUIPO</h3>
 												</header>
@@ -400,7 +422,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic05.png" alt="SIREDOC" />
+												<img src="web/images/portfolio/pic05.png" class="img-responsive max-size-image" alt="SIREDOC" />
 												<header>
 														<h3>SIREDOC</h3>
 												</header>
@@ -415,7 +437,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img  src="web/images/portfolio/pic04.png" alt="DIRDIGI" />
+												<img  src="web/images/portfolio/pic04.png" class="img-responsive max-size-image" alt="DIRDIGI" />
 												<header>
 														<h3>DIRDIGI</h3>
 												</header>
@@ -430,7 +452,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img  src="web/images/portfolio/pic03.png" alt="MVO" />
+												<img  src="web/images/portfolio/pic03.png" class="img-responsive max-size-image" alt="MVO" />
 												<header>
 														<h3>MVO</h3>
 												</header>
@@ -475,6 +497,42 @@
 			</div>
 
 		<!-- Portfolio Modals -->
+			<!-- CALAMONTJOI -->
+			<div class="portfolio-modal modal fade" id="calamontjoi" tabindex="-1" role="dialog" aria-hidden="true">
+					<div class="modal-content">
+							<div class="close-modal" data-dismiss="modal">
+									<div class="lr">
+											<div class="rl">
+											</div>
+									</div>
+							</div>
+							<div class="container">
+									<div class="row">
+											<div class="col-lg-8 col-lg-offset-2">
+													<div class="modal-body">
+															<h2>CALAMONTJOI</h2>
+															<hr class="star-primary">
+															<img src="web/images/portfolio/pic07.png" class="img-responsive img-centered" alt="CALAMONTJOI">
+															<p> FOOQUO es un sistema de comercialización de productos de consumo. Está hecho en Wordpress + Framework PHP Codeigniter + Bootstrap + Mysql.</p>
+															<p> <span style="font-weight:bold">Lo que hice:</span> Redireccionamientos 301.</p>
+															<ul class="list-inline item-details item-details-size">
+																	<li>Cliente:
+																			<a class="link-main" href="http://www.develoop.net/" target="_blank">Develoop Software</a>
+																	</li>
+																	<li>Fecha:
+																			<a href="#" onClick="javascript:void(0)">Marzo 2017</a>
+																	</li>
+																	<li>Servicios:
+																			<a href="#" onClick="javascript:void(0)">Desarrollo Web</a>
+																	</li>
+															</ul>
+															<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+													</div>
+											</div>
+									</div>
+							</div>
+					</div>
+			</div>
 		  <!-- FOOQUO -->
 			<div class="portfolio-modal modal fade" id="fooquo" tabindex="-1" role="dialog" aria-hidden="true">
 					<div class="modal-content">
@@ -498,7 +556,7 @@
 																			<a class="link-main" href="http://www.develoop.net/" target="_blank">Develoop Software</a>
 																	</li>
 																	<li>Fecha:
-																			<a href="#" onClick="javascript:void(0)">Abril 2016 - Febrero 2017</a>
+																			<a href="#" onClick="javascript:void(0)">Abril 2016 - Actualidad</a>
 																	</li>
 																	<li>Servicios:
 																			<a href="#" onClick="javascript:void(0)">Desarrollo Web</a>
@@ -780,12 +838,12 @@
 								width:jQuery(this).attr('data-percent')
 							},3000);
 					});
-					/*
+
 					$(document).ready(function(){
 
-						$('#database').trigger('click');
+						$('#languages').trigger('click');
 					});
-					*/
+
 
 				});
 
