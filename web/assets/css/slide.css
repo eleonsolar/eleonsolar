@@ -52,7 +52,7 @@
     height: 100%;
     left: 0;
     top: 0;
-    background:rgba(38, 41, 46, 0.7);
+    background:rgba(38, 41, 46, 0.6);
 }
 .call-ta .slide-filter {
     display: block;
@@ -61,7 +61,7 @@
     height: 100%;
     left: 0;
     top: 0;
-    background:rgba(38, 41, 46, 0.7);
+    background:rgba(38, 41, 46, 0.6);
 }
 .home .bg-parallax {
     background-repeat: no-repeat;
