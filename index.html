@@ -386,6 +386,21 @@
 									</div>
 									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
+											<a class="image fit portfolio-link" href="#crud_demo" data-toggle="modal">
+												<div class="caption">
+														<div class="caption-content">
+																<i class="fa fa-search-plus fa-3x"></i>
+														</div>
+												</div>
+												<img src="web/images/portfolio/pic08.png" class="img-responsive max-size-image" alt="CRUD DEMO" />
+												<header>
+														<h3>CRUD DEMO</h3>
+												</header>
+										  </a>
+										</article>
+									</div>
+									<div class="4u 12u$(mobile) portfolio-item">
+										<article class="item">
 											<a class="image fit portfolio-link" href="#sigecip" data-toggle="modal">
 												<div class="caption">
 														<div class="caption-content">
@@ -497,7 +512,7 @@
 			</div>
 
 		<!-- Portfolio Modals -->
-		        <!-- FOOQUO -->
+		  <!-- FOOQUO -->
 			<div class="portfolio-modal modal fade" id="fooquo" tabindex="-1" role="dialog" aria-hidden="true">
 					<div class="modal-content">
 							<div class="close-modal" data-dismiss="modal">
@@ -569,6 +584,42 @@
 							</div>
 					</div>
 			</div>
+			<!-- CRUD DEMO -->
+		<div class="portfolio-modal modal fade" id="crud_demo" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-content">
+						<div class="close-modal" data-dismiss="modal">
+								<div class="lr">
+										<div class="rl">
+										</div>
+								</div>
+						</div>
+						<div class="container">
+								<div class="row">
+										<div class="col-lg-8 col-lg-offset-2">
+												<div class="modal-body">
+														<h2>CRUD DEMO</h2>
+														<hr class="star-primary">
+														<img src="web/images/portfolio/pic08.png" class="img-responsive img-centered" alt="CRUD DEMO">
+														<p> CRUD DEMO, es una demostración de CRUD hecha en Codeigniter, Bootstrap modals y Datatables.</p>
+														<p> <span style="font-weight:bold">Lo que hice:</span> Desarrollo del módulo de creación, consulta, actualización y eliminación de registros.</p>
+														<ul class="list-inline item-details item-details-size">
+																<li>Ver demo:
+																		<a class="link-main" href="http://www.eleonsolar.com/demos/crud/" target="_blank">CRUD Demo</a>
+																</li>
+																<li>Fecha:
+																		<a href="#" onClick="javascript:void(0)">Agosto 2016</a>
+																</li>
+																<li>Servicios:
+																		<a href="#" onClick="javascript:void(0)">Open Source</a>
+																</li>
+														</ul>
+														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
 			<!-- SIGECIP -->
 		<div class="portfolio-modal modal fade" id="sigecip" tabindex="-1" role="dialog" aria-hidden="true">
 				<div class="modal-content">
@@ -839,12 +890,11 @@
 							},3000);
 					});
 
-					$(document).ready(function(){
-
-						$('#frameworks').trigger('click');
-					});
-
-
+					 /**
+					  *  $(document).ready(function(){
+					  *	    $('#frameworks').trigger('click');
+					  *  });
+           **/
 				});
 
 			</script>
