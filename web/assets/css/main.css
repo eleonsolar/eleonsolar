@@ -100,6 +100,38 @@
 		margin-top:50px;
 	}
 
+	.main.dark .button-row.style2.down {
+		background-image: url("images/dark-arrow.svg");
+	}
+
+	.main.dark .button-row.style2 {
+		border-color: #ffffff;
+	}
+
+	.button-row{
+		border-radius: 3.5em;
+	}
+
+	.button-row.style2,
+	button-row.style2 {
+		background-color: transparent;
+		border: solid 2px #e5e6e7;
+		color: inherit;
+	}
+
+	.button-row.down,
+	button-row.down {
+		width: 4em;
+		height: 4em;
+		line-height: 4.5em;
+		padding: 0;
+		background-image: url("images/dark-arrow.svg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		text-indent: -10em;
+		overflow: hidden;
+	}
+
 	@media(max-width:1024px){
 
 		.ser-grids {
