@@ -1,27 +1,29 @@
-﻿<!DOCTYPE HTML>
+<?php include 'config/constants.php'; ?>
+<?php include 'init.php'; ?>
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<!-- PACE Loader -->
-		<script src="web/libs/pace/js/pace.min.js"></script>
-		<link href="web/libs/pace/css/pace.css" rel="stylesheet">
+		<script src="main/libs/pace/js/pace.min.js"></script>
+		<link href="main/libs/pace/css/pace.css" rel="stylesheet">
 		<!-- END PACE Loader -->
 
-		<title>Edward Esteban León Solar</title>
+		<title><?php echo $utilities->lang('title.site'); ?></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="icon" href="web/images/favicon.png">
-		<link rel="stylesheet" href="web/assets/css/main.css" />
-		<link rel="stylesheet" href="web/assets/css/contact.css" />
-		<link rel="stylesheet" href="web/assets/css/skillbar.css" />
-		<link rel="stylesheet" href="web/assets/css/accordion.css" />
-		<link rel="stylesheet" href="web/assets/css/portafolio.css" />
-		<link rel="stylesheet" href="web/assets/css/service.css" />
-		<link rel="stylesheet" href="web/assets/css/slide.css" />
-		<link rel="stylesheet" href="web/libs/sweetalert/dist/sweetalert.css">
+		<link rel="icon" href="main/images/favicon.png">
+		<link rel="stylesheet" href="main/assets/css/main.css" />
+		<link rel="stylesheet" href="main/assets/css/contact.css" />
+		<link rel="stylesheet" href="main/assets/css/skillbar.css" />
+		<link rel="stylesheet" href="main/assets/css/accordion.css" />
+		<link rel="stylesheet" href="main/assets/css/portafolio.css" />
+		<link rel="stylesheet" href="main/assets/css/service.css" />
+		<link rel="stylesheet" href="main/assets/css/slide.css" />
+		<link rel="stylesheet" href="main/libs/sweetalert/dist/sweetalert.css">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<!-- Bootstrap -->
-		<link rel="stylesheet" href="web/libs/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="main/libs/bootstrap/css/bootstrap.css" />
 
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -74,7 +76,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar60"><img src="web/images/avatar.jpeg" alt="" /></span>
+							<span class="image avatar60"><img src="main/images/avatar.jpeg" alt="" /></span>
 							<!--<h1 id="title">Edward León</h1>-->
 							<!--<p>Ingeniero de sistemas</p>-->
 						</div>
@@ -95,15 +97,15 @@
 
 							-->
 							<div id="exit-link">
-								<a href="https://eleonsolar.github.io/"  class="skel-layers-ignoreHref" title="Exit"><span class="icon fa-sign-out exit"></span></a>
+								<a href="<?php echo WEB_URL; ?>"  class="skel-layers-ignoreHref" title="Exit"><span class="icon fa-sign-out exit"></span></a>
 							</div>
 							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">HOME</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">ABOUT ME</span></a></li>
-								<li><a href="#service" id="service-link" class="skel-layers-ignoreHref"><span class="icon fa-wrench">SERVICES</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">PORTFOLIO</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">CONTACT</span></a></li>
-								<li><a href="docs/resume.pdf" id="curriculum-link" class="skel-layers-ignoreHref"><span class="icon fa-file-pdf-o">RESUME</span></a></li>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home"><?php echo $utilities->lang('title.home.header'); ?></span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user"><?php echo $utilities->lang('title.aboutme.header'); ?></span></a></li>
+								<li><a href="#service" id="service-link" class="skel-layers-ignoreHref"><span class="icon fa-wrench"><?php echo $utilities->lang('title.services.header'); ?></span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th"><?php echo $utilities->lang('title.portfolio.header'); ?></span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope"><?php echo $utilities->lang('title.contact.header'); ?></span></a></li>
+								<li><a href="docs/resume.pdf" id="curriculum-link" class="skel-layers-ignoreHref"><span class="icon fa-file-pdf-o"><?php echo $utilities->lang('title.resume.header'); ?></span></a></li>
 								<!--<li><a href="http://eleonsolar.com/blog" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-rss">BLOG</span></a></li>-->
 							</ul>
 						</nav>
@@ -136,8 +138,8 @@
 										<ul class="slides-container text-center">
 												<li>
 														<div class="slide-text">
-																<h2 style="font-family: 'Raleway', sans-serif;">Edward E. León Solar</h2>
-																<span>Software development + Web + Backend</span>
+																<h2 style="font-family: 'Raleway', sans-serif;"><?php echo $utilities->lang('title.slide.1'); ?></h2>
+																<span><?php echo $utilities->lang('subtitle.slide.1'); ?></span>
 																<br/><br/>
 																<a href="#about" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#ececec">
 																	<i class="fa fa-angle-double-down fa-3x btn-down arrow" aria-hidden="true" style="text-decoration: none;"></i>
@@ -145,12 +147,12 @@
 																<!--<a href="#about" class="button button-row style2 down scrolly" style="border-radius: 3.5em;">Más</a>-->
 														</div>
 														<div class="slide-filter" style="background:rgba(38, 41, 46, 0.7);"></div>
-														<div style="background-image: url('web/images/slide/slide01.jpg');" class="bg-parallax parallaxize"></div>
+														<div style="background-image: url('main/images/slide/slide01.jpg');" class="bg-parallax parallaxize"></div>
 												</li>
 												<li>
 														<div class="slide-text">
-																<h2 style="font-family: 'Raleway', sans-serif;">Edward E. León Solar</h2>
-																<span>Collaborator in Open Source projects</span>
+																<h2 style="font-family: 'Raleway', sans-serif;"><?php echo $utilities->lang('title.slide.2'); ?></h2>
+																<span><?php echo $utilities->lang('subtitle.slide.2'); ?></span>
 																<br/><br/>
 																<a href="#about" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#ececec">
 																	<i class="fa fa-angle-double-down fa-3x btn-down arrow" aria-hidden="true" style="text-decoration: none;"></i>
@@ -158,7 +160,7 @@
 																<!--<a href="#about" class="button button-row style2 down scrolly" style="border-radius: 3.5em;">Más</a>-->
 														</div>
 														<div class="slide-filter"></div>
-														<div style="background-image: url('web/images/slide/slide02.jpg');" class="bg-parallax parallaxize"></div>
+														<div style="background-image: url('main/images/slide/slide02.jpg');" class="bg-parallax parallaxize"></div>
 												</li>
 										</ul>
 										<nav class="slides-navigation slidez">
@@ -178,18 +180,17 @@
 					<section id="about" class="two">
 							<div class="container">
 									<header>
-										<h2>ABOUT ME</h2>
+										<h2><?php echo $utilities->lang('title.aboutme.section'); ?></h2>
 									</header>
 
 								  <!-- <a href="javascript:void(0)" class="image featured"><img src="web/images/aboutme.png" alt="" style="height:auto;filter: grayscale(100%);-webkit-filter: grayscale(100%);"/></a> -->
 
 									<p style="text-align:justify">
-										 I am a graduate of the  <a  target="_blank" href="http://www.unefa.edu.ve/portal/" style="border-bottom-color: rgba(255, 255, 255, 0);color:#C65555"><span class="link-main">National Polytechnic Experimental University of the National Armed Force (U.N.E.FA)</span></a> in the Systems Engineering degree.
-										 Currently I am dedicated to the Backend development of Web Applications. My goals are aimed at success; I am constant, self-taught and collaborative.
+										 <?php echo $utilities->lang('content.aboutme.section'); ?>
 									</p>
 											<div class="row">
 													<div class="col-sm-12 col-md-6">
-															<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" >Frameworks:</h4>
+															<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.framework.skillbar'); ?></h4>
 															<div class="skillbar clearfix " data-percent="100%">
 																<div class="skillbar-title" style="background:  #d8e110;"><span>Codeigniter</span></div>
 																<div class="skillbar-bar" style="background:  #ebf082;"></div>
@@ -212,7 +213,7 @@
 															</div> <!-- End Skill Bar -->
 													</div>
 													<div class="col-sm-12 col-md-6">
-															<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" >Databases:</h4>
+															<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.database.skillbar'); ?></h4>
 															<div class="skillbar clearfix " data-percent="100%">
 																<div class="skillbar-title" style="background: #46465e;"><span>PostgreSQL</span></div>
 																<div class="skillbar-bar" style="background: #5a68a5;"></div>
@@ -232,7 +233,7 @@
 								</div>
 								<div class="row">
 									<div class="col-sm-12 col-md-6">
-										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" >Programming languages:</h4>
+										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.programinglang.skillbar'); ?></h4>
 										<div class="skillbar clearfix " data-percent="100%">
 											<div class="skillbar-title" style="background: #8B0000;"><span>PHP</span></div>
 											<div class="skillbar-bar" style="background: #A52A2A;"></div>
@@ -260,7 +261,7 @@
 										</div> <!-- End Skill Bar -->
 									</div>
 									<div class="col-sm-12 col-md-6">
-											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" >CMS:</h4>
+											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.cms.skillbar'); ?></h4>
 											<div class="skillbar clearfix " data-percent="80%">
 												<div class="skillbar-title" style="background: #2c3e50;"><span>Wordpress</span></div>
 												<div class="skillbar-bar" style="background: #405264;"></div>
@@ -286,21 +287,21 @@
 					<section id="service" class="three">
 							<div class="container">
 									<header>
-										<h2>SERVICES</h2>
+										<h2><?php echo $utilities->lang('title.services.section'); ?></h2>
 									</header>
 									<div class="row">
 										<div class="6u 12u$(mobile) service-item">
 											<article class="item-service">
 												<i class="fa fa-3x fa-users" aria-hidden="true"></i>
-												<h3>Project management</h3>
-												<h4 style="margin-top:10px;">Leadership of development teams.</h4>
+												<h3><?php echo $utilities->lang('title.item1.services.section'); ?></h3>
+												<h4 style="margin-top:10px;"><?php echo $utilities->lang('subtitle.item1.services.section'); ?></h4>
 											</article>
 										</div>
 										<div class="6u 12u$(mobile) service-item">
 											<article class="item-service">
 												<i class="fa fa-3x fa-code" aria-hidden="true" ></i>
-												<h3 >Web development</h3>
-												<h4 style="margin-top:10px">Development of web applications.</h4>
+												<h3 ><?php echo $utilities->lang('title.item2.services.section'); ?></h3>
+												<h4 style="margin-top:10px"><?php echo $utilities->lang('subtitle.item2.services.section'); ?></h4>
 											</article>
 										</div>
 
@@ -309,15 +310,15 @@
                   	<div class="6u 12u$(mobile) service-item">
 											<article class="item-service">
 												<i class="fa fa-3x fa-terminal" aria-hidden="true" ></i>
-												<h3 >Shellscripts</h3>
-												<h4 style="margin-top:10px">Development of scripts for bash shell of Unix systems and derivatives.</h4>
+												<h3 ><?php echo $utilities->lang('title.item3.services.section'); ?></h3>
+												<h4 style="margin-top:10px"><?php echo $utilities->lang('subtitle.item3.services.section'); ?></h4>
 											</article>
 										</div>
 										<div class="6u 12u$(mobile) service-item">
 											<article class="item-service">
 												<i class="fa fa-3x fa-database" aria-hidden="true"></i>
-												<h3 >Stored procedure</h3>
-												<h4 style="margin-top:10px">Development of Stored procedure for management systems: Oracle, Postgres and Mysql.</h4>
+												<h3 ><?php echo $utilities->lang('title.item4.services.section'); ?></h3>
+												<h4 style="margin-top:10px"><?php echo $utilities->lang('subtitle.item4.services.section'); ?></h4>
 											</article>
 										</div>
 									</div>
@@ -327,7 +328,7 @@
 						<section id="portfolio" class="four">
 							<div class="container">
 								<header>
-									<h2>PORTFOLIO</h2>
+									<h2><?php echo $utilities->lang('title.portfolio.section'); ?></h2>
 								</header>
 								<div class="row">
 									<div class="4u 12u$(mobile) portfolio-item">
@@ -338,7 +339,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic16.png" class="img-responsive max-size-image" alt="AIGNEP" />
+												<img src="main/images/portfolio/pic16.png" class="img-responsive max-size-image" alt="AIGNEP" />
 												<header >
 														<h3>AIGNEP</h3>
 												</header>
@@ -353,7 +354,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic15.png" class="img-responsive max-size-image" alt="DORMIR BALNEARIOS" />
+												<img src="main/images/portfolio/pic15.png" class="img-responsive max-size-image" alt="DORMIR BALNEARIOS" />
 												<header >
 														<h3>DORMIR BALNEARIOS</h3>
 												</header>
@@ -368,7 +369,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic14.png" class="img-responsive max-size-image" alt="HOSPITALK" />
+												<img src="main/images/portfolio/pic14.png" class="img-responsive max-size-image" alt="HOSPITALK" />
 												<header >
 														<h3>HOSPITALK</h3>
 												</header>
@@ -383,7 +384,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic13.png" class="img-responsive max-size-image" alt="MIQUEL SUAY" />
+												<img src="main/images/portfolio/pic13.png" class="img-responsive max-size-image" alt="MIQUEL SUAY" />
 												<header >
 														<h3>MIQUEL SUAY</h3>
 												</header>
@@ -398,7 +399,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic12.png" class="img-responsive max-size-image" alt="VISEGURITY" />
+												<img src="main/images/portfolio/pic12.png" class="img-responsive max-size-image" alt="VISEGURITY" />
 												<header >
 														<h3>VISEGURITY</h3>
 												</header>
@@ -413,7 +414,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic10.png" class="img-responsive max-size-image" alt="NSOURCE" />
+												<img src="main/images/portfolio/pic10.png" class="img-responsive max-size-image" alt="NSOURCE" />
 												<header >
 														<h3>NSOURCE</h3>
 												</header>
@@ -428,7 +429,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic01.png" class="img-responsive max-size-image" alt="FOOQUO" />
+												<img src="main/images/portfolio/pic01.png" class="img-responsive max-size-image" alt="FOOQUO" />
 												<header >
 														<h3>FOOQUO</h3>
 												</header>
@@ -443,7 +444,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic09.png" class="img-responsive max-size-image" alt="WEB PERSONAL" />
+												<img src="main/images/portfolio/pic09.png" class="img-responsive max-size-image" alt="WEB PERSONAL" />
 												<header>
 														<h3>WEB PERSONAL</h3>
 												</header>
@@ -458,7 +459,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic18.png" class="img-responsive max-size-image" alt="DEVELOOP" />
+												<img src="main/images/portfolio/pic18.png" class="img-responsive max-size-image" alt="DEVELOOP" />
 												<header>
 														<h3>DEVELOOP</h3>
 												</header>
@@ -473,7 +474,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic02.png" class="img-responsive max-size-image" alt="SIGECIP" />
+												<img src="main/images/portfolio/pic02.png" class="img-responsive max-size-image" alt="SIGECIP" />
 												<header>
 														<h3>SIGECIP</h3>
 												</header>
@@ -488,7 +489,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic17.png" class="img-responsive max-size-image" alt="CONTRATOS" />
+												<img src="main/images/portfolio/pic17.png" class="img-responsive max-size-image" alt="CONTRATOS" />
 												<header>
 														<h3>CONTRATOS</h3>
 												</header>
@@ -503,7 +504,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic06.png" class="img-responsive max-size-image" alt="MIEQUIPO" />
+												<img src="main/images/portfolio/pic06.png" class="img-responsive max-size-image" alt="MIEQUIPO" />
 												<header>
 														<h3>MIEQUIPO</h3>
 												</header>
@@ -518,7 +519,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic05.png" class="img-responsive max-size-image" alt="SIREDOC" />
+												<img src="main/images/portfolio/pic05.png" class="img-responsive max-size-image" alt="SIREDOC" />
 												<header>
 														<h3>SIREDOC</h3>
 												</header>
@@ -533,7 +534,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img src="web/images/portfolio/pic08.png" class="img-responsive max-size-image" alt="CRUD DEMO" />
+												<img src="main/images/portfolio/pic08.png" class="img-responsive max-size-image" alt="CRUD DEMO" />
 												<header>
 														<h3>CRUD DEMO</h3>
 												</header>
@@ -548,7 +549,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img  src="web/images/portfolio/pic04.png" class="img-responsive max-size-image" alt="DIRDIGI" />
+												<img  src="main/images/portfolio/pic04.png" class="img-responsive max-size-image" alt="DIRDIGI" />
 												<header>
 														<h3>DIRDIGI</h3>
 												</header>
@@ -563,7 +564,7 @@
 																<i class="fa fa-search-plus fa-3x"></i>
 														</div>
 												</div>
-												<img  src="web/images/portfolio/pic03.png" class="img-responsive max-size-image" alt="MVO" />
+												<img  src="main/images/portfolio/pic03.png" class="img-responsive max-size-image" alt="MVO" />
 												<header>
 														<h3>MVO</h3>
 												</header>
@@ -578,22 +579,22 @@
 						<div class="container">
 
 							<header>
-								<h2>CONTACT</h2>
+								<h2><?php echo $utilities->lang('title.contact.section'); ?></h2>
 							</header>
 
-							<p>Do you want to contact me? Fill out the form below and send me a message, I will try to answer it in the next 24 hours.</p>
+							<p><?php echo $utilities->lang('content.contact.section'); ?></p>
 
 							<form method="post" id="form-contact">
 								<div class="row">
-									<div class="6u 12u$(mobile) name"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile) email"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="6u 12u$(mobile) name"><input type="text" name="name" placeholder="<?php echo $utilities->lang('form.name.contact'); ?>" /></div>
+									<div class="6u$ 12u$(mobile) email"><input type="text" name="email" placeholder="<?php echo $utilities->lang('form.email.contact'); ?>" /></div>
 									<div class="12u$">
-										<textarea class="message" name="message" placeholder="Message"></textarea>
+										<textarea class="message" name="message" placeholder="<?php echo $utilities->lang('form.message.contact'); ?>"></textarea>
 									</div>
 								</div>
 							</form>
 							<div class="12u$ showcase sweet">
-									<button style="font-size:15pt;margin-top:5pt">Send Message</button>
+									<button style="font-size:15pt;margin-top:5pt"><?php echo $utilities->lang('form.submit.contact'); ?></button>
 							</div>
 					</section>
 			</div>
@@ -623,21 +624,21 @@
 												<div class="modal-body">
 														<h2>AIGNEP</h2>
 														<hr class="star-primary">
-														<img src="web/images/portfolio/pic16.png" class="img-responsive img-centered" alt="AIGNEP">
-														<p> AIGNEP Portal that promotes the sale of products from the valves and compressed air industry. It's made in Laravel + Bootstrap + Mysql.</p>
-														<p> <span style="font-weight:bold">What I did:</span> Collaboration in the 3D visualization of plant simulator.</p>
+														<img src="main/images/portfolio/pic16.png" class="img-responsive img-centered" alt="AIGNEP">
+														<p> <?php echo $utilities->lang('project.aignep.description'); ?></p>
+														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.aignep.whatidid'); ?></p>
 														<ul class="list-inline item-details item-details-size">
-															<li>Client:
+															<li><?php echo $utilities->lang('client'); ?>
 																	<a class="link-main" href="http://www.develoop.net/" target="_blank">Develoop Software</a>
 															</li>
-															<li>Date:
-																	<a href="#" onClick="javascript:void(0)">January 2018</a>
+															<li><?php echo $utilities->lang('date'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.january').' '; ?> 2018</a>
 															</li>
-															<li>Services:
-																	<a href="#" onClick="javascript:void(0)">Web development</a>
+															<li><?php echo $utilities->lang('services'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 															</li>
 														</ul>
-														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
 												</div>
 										</div>
 								</div>
@@ -659,21 +660,21 @@
 												<div class="modal-body">
 														<h2>DORMIR BALNEARIOS</h2>
 														<hr class="star-primary">
-														<img src="web/images/portfolio/pic15.png" class="img-responsive img-centered" alt="DORMIR BALNEARIOS">
-														<p> DORMIR BALNEARIOS Portal for the sale of accommodation and leisure services in spas. It's done in PHP + Bootstrap + Mysql.</p>
-														<p> <span style="font-weight:bold">What I did:</span> Collaboration in the development of a landing page for the sale of gift cards.</p>
+														<img src="main/images/portfolio/pic15.png" class="img-responsive img-centered" alt="DORMIR BALNEARIOS">
+														<p> <?php echo $utilities->lang('project.dormirbalnearios.description'); ?></p>
+														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.dormirbalnearios.whatidid'); ?></p>
 														<ul class="list-inline item-details item-details-size">
-															<li>Client:
+															<li><?php echo $utilities->lang('client'); ?>
 																	<a class="link-main" href="http://www.develoop.net/" target="_blank">Develoop Software</a>
 															</li>
-															<li>Date:
-																	<a href="#" onClick="javascript:void(0)">December 2017</a>
+															<li><?php echo $utilities->lang('date'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.december').' '; ?> 2017</a>
 															</li>
-															<li>Services:
-																	<a href="#" onClick="javascript:void(0)">Web development</a>
+															<li><?php echo $utilities->lang('services'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 															</li>
 														</ul>
-														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
 												</div>
 										</div>
 								</div>
@@ -695,21 +696,21 @@
 												<div class="modal-body">
 														<h2>HOSPITALK</h2>
 														<hr class="star-primary">
-														<img src="web/images/portfolio/pic14.png" class="img-responsive img-centered" alt="HOSPITALK">
-														<p> HOSPITALK allows its users to find the best option in terms of health services thanks to the experiences of other users. It is done in Codeigniter + Mysql.</p>
-														<p> <span style="font-weight:bold">What I did:</span> API development for promotions and videos services. Corrective maintenance.</p>
+														<img src="main/images/portfolio/pic14.png" class="img-responsive img-centered" alt="HOSPITALK">
+														<p> <?php echo $utilities->lang('project.hospitalk.description'); ?></p>
+														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid'); ?></span> <?php echo $utilities->lang('project.hospitalk.whatidid'); ?></p>
 														<ul class="list-inline item-details item-details-size">
-															<li>Client:
+															<li><?php echo $utilities->lang('client'); ?>
 																	<a class="link-main" href="http://www.develoop.net/" target="_blank">Develoop Software</a>
 															</li>
-															<li>Date:
-																	<a href="#" onClick="javascript:void(0)">November 2017 - December 2017</a>
+															<li><?php echo $utilities->lang('date'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.november').' '; ?> 2017 - <?php echo ' '.$utilities->lang('month.december').' '; ?> 2017</a>
 															</li>
-															<li>Services:
-																	<a href="#" onClick="javascript:void(0)">Web development</a>
+															<li><?php echo $utilities->lang('services'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 															</li>
 														</ul>
-														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i><?php echo $utilities->lang('btn.close'); ?></button>
 												</div>
 										</div>
 								</div>
@@ -731,21 +732,21 @@
 												<div class="modal-body">
 														<h2>MIQUEL SUAY</h2>
 														<hr class="star-primary">
-														<img src="web/images/portfolio/pic13.png" class="img-responsive img-centered" alt="MIQUEL SUAY">
-														<p> MIQUEL SUAY is the sales portal for clothing products for ceremonies, both for Women, Men and Children. It is made in Prestashop + Mysql.</p>
-														<p> <span style="font-weight:bold">What I did:</span> Development and configuration of TPV Redsys. Corrective maintenance.</p>
+														<img src="main/images/portfolio/pic13.png" class="img-responsive img-centered" alt="MIQUEL SUAY">
+														<p><?php echo $utilities->lang('project.miquelsuay.description'); ?></p>
+														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.miquelsuay.whatidid'); ?></p>
 														<ul class="list-inline item-details item-details-size">
-															<li>Client:
+															<li><?php echo $utilities->lang('client'); ?>
 																	<a class="link-main" href="http://www.develoop.net/" target="_blank">Develoop Software</a>
 															</li>
-															<li>Date:
-																	<a href="#" onClick="javascript:void(0)">October 2017 - November 2017</a>
+															<li><?php echo $utilities->lang('date'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.october').' '; ?>2017 - <?php echo ' '.$utilities->lang('month.november').' '; ?> 2017</a>
 															</li>
-															<li>Services:
-																	<a href="#" onClick="javascript:void(0)">Web development</a>
+															<li><?php echo $utilities->lang('services'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 															</li>
 														</ul>
-														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
 												</div>
 										</div>
 								</div>
@@ -767,21 +768,21 @@
 													<div class="modal-body">
 															<h2>VISEGURITY</h2>
 															<hr class="star-primary">
-															<img src="web/images/portfolio/pic12.png" class="img-responsive img-centered" alt="VISEGURITY">
-															<p> VISEGURITY is an application for the administration of alerts, rounds and messages in the provision of security service in private facilities. It is done in Codeigniter + Mysql.</p>
-															<p> <span style="font-weight:bold">What I did:</span> Development of alert notifications. Corrective maintenance.</p>
+															<img src="main/images/portfolio/pic12.png" class="img-responsive img-centered" alt="VISEGURITY">
+															<p> <?php echo $utilities->lang('project.visegurity.description'); ?></p>
+															<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.visegurity.whatidid'); ?></p>
 															<ul class="list-inline item-details item-details-size">
-																<li>Client:
+																<li><?php echo $utilities->lang('client'); ?>
 																		<a class="link-main" href="http://www.develoop.net/" target="_blank">Develoop Software</a>
 																</li>
-																<li>Date:
-																		<a href="#" onClick="javascript:void(0)">Agust 2017 - September 2017</a>
+																<li><?php echo $utilities->lang('date'); ?>
+																		<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.august').' '; ?> 2017 - <?php echo ' '.$utilities->lang('month.september').' '; ?> 2017</a>
 																</li>
-																<li>Services:
-																		<a href="#" onClick="javascript:void(0)">Web development</a>
+																<li><?php echo $utilities->lang('services'); ?>
+																		<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 																</li>
 															</ul>
-															<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+															<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i><?php echo $utilities->lang('btn.close'); ?></button>
 													</div>
 											</div>
 									</div>
@@ -803,21 +804,21 @@
 													<div class="modal-body">
 															<h2>NSOURCE</h2>
 															<hr class="star-primary">
-															<img src="web/images/portfolio/pic10.png" class="img-responsive img-centered" alt="NSOURCE">
-															<p> NSOURCE is a test application for new applicants to <a href="https://www.nearsource.net/" target="_blank" style="border-bottom-color: rgba(255, 255, 255, 0);color:#C65555"><span class="link-main">NearSource</span></a>. It's done in Framework PHP Codeigniter + Bootstrap + Mysql.</p>
-															<p> <span style="font-weight:bold">What I did:</span> Development of the employee administration module. Development of the Users administration module. Adaptation of AdminLTE Template.</p>
+															<img src="main/images/portfolio/pic10.png" class="img-responsive img-centered" alt="NSOURCE">
+															<p> <?php echo $utilities->lang('project.nsource.description'); ?></p>
+															<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid'); ?></span> <?php echo $utilities->lang('project.nsource.whatidid'); ?></p>
 															<ul class="list-inline item-details item-details-size">
-																<li>View demo:
-																		<a class="link-main" href="http://eleonsolar.com/demos/nsource-test/login" target="_blank">NSource Test</a>
+																<li><?php echo $utilities->lang('viewdemo'); ?>
+																		<a class="link-main" href="<?php echo WEB_URL; ?>demos/nsource-test/login" target="_blank">NSource Test</a>
 																</li>
-																<li>Date:
-																		<a href="#" onClick="javascript:void(0)">June 2017</a>
+																<li><?php echo $utilities->lang('date'); ?>
+																		<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.june').' '; ?>2017</a>
 																</li>
-																<li>Services:
-																		<a href="#" onClick="javascript:void(0)">Web development</a>
+																<li><?php echo $utilities->lang('services'); ?>
+																		<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 																</li>
 															</ul>
-															<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+															<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i><?php echo $utilities->lang('btn.close'); ?></button>
 													</div>
 											</div>
 									</div>
@@ -839,21 +840,21 @@
 													<div class="modal-body">
 															<h2>FOOQUO</h2>
 															<hr class="star-primary">
-															<img src="web/images/portfolio/pic01.png" class="img-responsive img-centered" alt="FOOQUO">
-															<p> FOOQUO is a system of marketing of consumer products. It is made in Wordpress + Framework PHP Codeigniter + Bootstrap + Mysql.</p>
-															<p> <span style="font-weight:bold">What I did:</span> Development of the competitiveness reports mailbox. Development of notification of summary ONG's donations. Corrective maintenance.</p>
+															<img src="main/images/portfolio/pic01.png" class="img-responsive img-centered" alt="FOOQUO">
+															<p> <?php echo $utilities->lang('project.fooquo.description'); ?></p>
+															<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.fooquo.whatidid'); ?></p>
 															<ul class="list-inline item-details item-details-size">
-																	<li>Client:
+																	<li><?php echo $utilities->lang('client'); ?>
 																			<a class="link-main" href="http://www.develoop.net/" target="_blank">Develoop Software</a>
 																	</li>
-																	<li>Date:
-																			<a href="#" onClick="javascript:void(0)">May 2016 - July 2017</a>
+																	<li><?php echo $utilities->lang('date'); ?>
+																			<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.may').' '; ?> 2016 - <?php echo ' '.$utilities->lang('month.july').' '; ?>2017</a>
 																	</li>
-																	<li>Services:
-																			<a href="#" onClick="javascript:void(0)">Web development</a>
+																	<li><?php echo $utilities->lang('services'); ?>
+																			<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 																	</li>
 															</ul>
-															<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+															<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
 													</div>
 											</div>
 									</div>
@@ -875,21 +876,21 @@
 												<div class="modal-body">
 														<h2>CRUD DEMO</h2>
 														<hr class="star-primary">
-														<img src="web/images/portfolio/pic08.png" class="img-responsive img-centered" alt="CRUD DEMO">
-														<p> CRUD DEMO, It is a demonstration of CRUD made in Codeigniter, Bootstrap modals and Datatables.</p>
-														<p> <span style="font-weight:bold">What I did:</span> Development of the module for creating, consulting, updating and deleting records.</p>
+														<img src="main/images/portfolio/pic08.png" class="img-responsive img-centered" alt="CRUD DEMO">
+														<p> <?php echo $utilities->lang('project.cruddemo.description'); ?></p>
+														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.cruddemo.whatidid'); ?></p>
 														<ul class="list-inline item-details item-details-size">
-																<li>View demo:
-																		<a class="link-main" href="http://www.eleonsolar.com/demos/crud/" target="_blank">CRUD Demo</a>
+																<li><?php echo $utilities->lang('viewdemo'); ?>
+																		<a class="link-main" href="<?php echo WEB_URL; ?>demos/crud/" target="_blank">CRUD Demo</a>
 																</li>
-																<li>Date:
-																		<a href="#" onClick="javascript:void(0)">December 2014</a>
+																<li><?php echo $utilities->lang('date'); ?>
+																		<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.december').' '; ?> 2014</a>
 																</li>
-																<li>Services:
-																		<a href="#" onClick="javascript:void(0)">Web development</a>
+																<li><?php echo $utilities->lang('services'); ?>
+																		<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 																</li>
 														</ul>
-														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
 												</div>
 										</div>
 								</div>
@@ -911,15 +912,15 @@
 												<div class="modal-body">
 														<h2>WEB PERSONAL</h2>
 														<hr class="star-primary">
-														<img src="web/images/portfolio/pic09.png" class="img-responsive img-centered" alt="WEB PERSONAL">
-														<p> My Personal Website made in Html5Up and Framework Bootstrap 3.</p>
-														<p> <span style="font-weight:bold">What I did:</span> Adequacy of the template, and development of the rest of the elements.</p>
+														<img src="main/images/portfolio/pic09.png" class="img-responsive img-centered" alt="WEB PERSONAL">
+														<p><?php echo $utilities->lang('project.webpersonal.description'); ?></p>
+														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid'); ?></span> <?php echo $utilities->lang('project.webpersonal.whatidid'); ?></p>
 														<ul class="list-inline item-details item-details-size">
-																<li>Date:
-																		<a href="#" onClick="javascript:void(0)">June 2016 - October 2016</a>
+																<li><?php echo $utilities->lang('date'); ?>
+																		<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.june').' '; ?> 2016 - <?php echo ' '.$utilities->lang('month.october').' '; ?> 2016</a>
 																</li>
 														</ul>
-														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
 												</div>
 										</div>
 								</div>
@@ -941,18 +942,18 @@
 												<div class="modal-body">
 														<h2>DEVELOOP</h2>
 														<hr class="star-primary">
-														<img src="web/images/portfolio/pic18.png" class="img-responsive img-centered" alt="DEVELOOP">
-														<p> DEVELOOP is a test application for new applicants to <a href="https://develoop.net/" target="_blank" style="border-bottom-color: rgba(255, 255, 255, 0);color:#C65555"><span class="link-main">Develoop</span></a>. It is done in PHP Framework Codeigniter + Bootstrap + PostgreSQL.</p>
-														<p> <span style="font-weight:bold">What I did:</span> Development of the Business Administration module. Layout of the site.</p>
+														<img src="main/images/portfolio/pic18.png" class="img-responsive img-centered" alt="DEVELOOP">
+														<p> <?php echo $utilities->lang('project.develoop.description'); ?></p>
+														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.develoop.whatidid'); ?></p>
 														<ul class="list-inline item-details item-details-size">
-															<li>Date:
-																	<a href="#" onClick="javascript:void(0)">March 2016</a>
+															<li><?php echo $utilities->lang('date'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.march').' '; ?> 2016</a>
 															</li>
-															<li>Services:
-																	<a href="#" onClick="javascript:void(0)">Web development</a>
+															<li><?php echo $utilities->lang('services'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 															</li>
 														</ul>
-														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i><?php echo $utilities->lang('btn.close'); ?></button>
 												</div>
 										</div>
 								</div>
@@ -974,21 +975,21 @@
 												<div class="modal-body">
 														<h2>SIGECIP</h2>
 														<hr class="star-primary">
-														<img src="web/images/portfolio/pic02.png" class="img-responsive img-centered" alt="SIGECIP">
-														<p> SIGECIP, is the quotation system for food purchases in PDVAL supplies, located in the Venezuelan National Telephone Company (CANTV). It is made in PHP Framework YII + Bootstrap + Postgresql.</p>
-														<p> <span style="font-weight:bold">What I did:</span> Development of the appointment request module for active employees of the CANTV company. Development of the daily report of requests made.</p>
+														<img src="main/images/portfolio/pic02.png" class="img-responsive img-centered" alt="SIGECIP">
+														<p> <?php echo $utilities->lang('project.sigecip.description'); ?></p>
+														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.sigecip.whatidid'); ?></p>
 														<ul class="list-inline item-details item-details-size">
-																<li>Client:
+																<li><?php echo $utilities->lang('client'); ?>
 																		<a class="link-main" href="http://www.cantv.net/" target="_blank">CANTV</a>
 																</li>
-																<li>Date:
-																		<a href="#" onClick="javascript:void(0)">June 2015 - Agost 2015</a>
+																<li><?php echo $utilities->lang('date'); ?>
+																		<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.june').' '; ?> 2015 - <?php echo ' '.$utilities->lang('month.august').' '; ?> 2015</a>
 																</li>
-																<li>Services:
-																		<a href="#" onClick="javascript:void(0)">Web development</a>
+																<li><?php echo $utilities->lang('services'); ?>
+																		<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 																</li>
 														</ul>
-														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
 												</div>
 										</div>
 								</div>
@@ -1010,21 +1011,21 @@
 												<div class="modal-body">
 														<h2>CONTRATOS</h2>
 														<hr class="star-primary">
-														<img src="web/images/portfolio/pic17.png" class="img-responsive img-centered" alt="AIGNEP">
-														<p> CONTRATOS Bash script that packages, encrypts and compresses the contracts of the canaima educational teams goes to school. It's made in shell bash.</p>
-														<p> <span style="font-weight:bold">What I did:</span>Development of script for sending contracts to suppliers.</p>
+														<img src="main/images/portfolio/pic17.png" class="img-responsive img-centered" alt="AIGNEP">
+														<p> <?php echo $utilities->lang('project.contratos.description'); ?></p>
+														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.contratos.whatidid'); ?></p>
 														<ul class="list-inline item-details item-details-size">
-															<li>Client:
+															<li><?php echo $utilities->lang('client'); ?>
 																	<a class="link-main" href="http://www.cantv.net/" target="_blank">CANTV</a>
 															</li>
-															<li>Date:
-																	<a href="#" onClick="javascript:void(0)">June 2015</a>
+															<li><?php echo $utilities->lang('date'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.june'); ?> 2015</a>
 															</li>
-															<li>Services:
-																	<a href="#" onClick="javascript:void(0)">Shellscripts</a>
+															<li><?php echo $utilities->lang('services'); ?>
+																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.shellscripts'); ?></a>
 															</li>
 														</ul>
-														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i><?php echo $utilities->lang('btn.close'); ?></button>
 												</div>
 										</div>
 								</div>
@@ -1046,21 +1047,21 @@
 													<div class="modal-body">
 															<h2>MIEQUIPO</h2>
 															<hr class="star-primary">
-															<img src="web/images/portfolio/pic06.png" class="img-responsive img-centered" alt="MIEQUIPO">
-															<p> MIEQUIPO, It is the equipment sales day system (Tv, PC, Telephone, among others) for employees of the Venezuelan National Telephone Company (CANTV). It is made in PHP Framework YII + Bootstrap + Postgresql.</p>
-															<p> <span style="font-weight:bold">What I did:</span> Development of the purchase registration module. Development of the report of applications.</p>
+															<img src="main/images/portfolio/pic06.png" class="img-responsive img-centered" alt="MIEQUIPO">
+															<p> <?php echo $utilities->lang('project.miequipo.description'); ?></p>
+															<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.miequipo.whatidid'); ?></p>
 															<ul class="list-inline item-details item-details-size">
-																	<li>Client:
+																	<li><?php echo $utilities->lang('client'); ?>
 																			<a class="link-main" href="http://www.cantv.net/" target="_blank">CANTV</a>
 																	</li>
-																	<li>Date:
-																			<a href="#" onClick="javascript:void(0)">March 2015 - April 2015</a>
+																	<li><?php echo $utilities->lang('date'); ?>
+																			<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.march').' '; ?> 2015 - <?php echo ' '.$utilities->lang('month.april').' '; ?>2015</a>
 																	</li>
-																	<li>Services:
-																			<a href="#" onClick="javascript:void(0)">Web development</a>
+																	<li><?php echo $utilities->lang('services'); ?>
+																			<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 																	</li>
 															</ul>
-															<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+															<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
 													</div>
 											</div>
 									</div>
@@ -1082,21 +1083,21 @@
 														<div class="modal-body">
 																<h2>SIREDOC</h2>
 																<hr class="star-primary">
-																<img src="web/images/portfolio/pic05.png" class="img-responsive img-centered" alt="SIREDOC">
-																<p> SIREDOC, allows the registration of documents, and the consultation of your statute. It is made in PHP Framework YII + Postgresql.</p>
-																<p> <span style="font-weight:bold">What I did:</span> Development of the document registration module.</p>
+																<img src="main/images/portfolio/pic05.png" class="img-responsive img-centered" alt="SIREDOC">
+																<p> <?php echo $utilities->lang('project.siredoc.description'); ?></p>
+																<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.siredoc.whatidid'); ?></p>
 																<ul class="list-inline item-details item-details-size">
-																		<li>Client:
+																		<li><?php echo $utilities->lang('client'); ?>
 																				<a class="link-main" href="http://www.cantv.net/" target="_blank">CANTV</a>
 																		</li>
-																		<li>Date:
-																				<a href="#" onClick="javascript:void(0)">January 2015</a>
+																		<li><?php echo $utilities->lang('date'); ?>
+																				<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.january').' '; ?> 2015</a>
 																		</li>
-																		<li>Services:
-																				<a href="#" onClick="javascript:void(0)">Web development</a>
+																		<li><?php echo $utilities->lang('services'); ?>
+																				<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 																		</li>
 																</ul>
-																<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+																<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
 														</div>
 												</div>
 										</div>
@@ -1118,21 +1119,21 @@
 															<div class="modal-body">
 																	<h2>DIRDIGI</h2>
 																	<hr class="star-primary">
-																	<img src="web/images/portfolio/pic04.png" class="img-responsive img-centered" alt="DIRDIGI">
-																	<p> DIRDIGI, allows the consultation of personal and contact data of the employees of the Venezuelan National Telephone Company (CANTV), as well as the organizational structure to which they belong. It is made in PHP Framework YII + Bootstrap + Postgresql.</p>
-																	<p> <span style="font-weight:bold">What I did:</span> Development of the SAP-DIRDIGI Interface, this allows the migration of all employees from SAP ERP to DIRDIGI.</p>
+																	<img src="main/images/portfolio/pic04.png" class="img-responsive img-centered" alt="DIRDIGI">
+																	<p> <?php echo $utilities->lang('project.dirdigi.description'); ?></p>
+																	<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.dirdigi.whatidid'); ?></p>
 																	<ul class="list-inline item-details item-details-size">
-																			<li>Client:
+																			<li><?php echo $utilities->lang('client'); ?>
 																					<a class="link-main" href="http://www.cantv.net/" target="_blank">CANTV</a>
 																			</li>
-																			<li>Date:
-																					<a href="#" onClick="javascript:void(0)">October 2014 - November 2014</a>
+																			<li><?php echo $utilities->lang('date'); ?>
+																					<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.october').' '; ?> 2014 - <?php echo ' '.$utilities->lang('month.november').' '; ?> 2014</a>
 																			</li>
-																			<li>Services:
-																					<a href="#" onClick="javascript:void(0)">Web development</a>
+																			<li><?php echo $utilities->lang('services'); ?>
+																					<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 																			</li>
 																	</ul>
-																	<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+																	<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i><?php echo $utilities->lang('btn.close'); ?></button>
 															</div>
 													</div>
 											</div>
@@ -1154,21 +1155,21 @@
 																<div class="modal-body">
 																		<h2>MVO</h2>
 																		<hr class="star-primary">
-																		<img src="web/images/portfolio/pic03.png" class="img-responsive img-centered" alt="MVO">
-																		<p> MVO, is the employee registration system of the Venezuelan National Telephone Company (CANTV) that needs housing. It is made in PHP Framework YII + Postgresql.</p>
-																		<p> <span style="font-weight:bold">What I did:</span> Development of the registration module for aspiring housing employees.</p>
+																		<img src="main/images/portfolio/pic03.png" class="img-responsive img-centered" alt="MVO">
+																		<p> <?php echo $utilities->lang('project.mvo.description'); ?></p>
+																		<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.mvo.whatidid'); ?></p>
 																		<ul class="list-inline item-details item-details-size">
-																				<li>Client:
+																				<li><?php echo $utilities->lang('client'); ?>
 																						<a class="link-main" href="http://www.cantv.net/" target="_blank">CANTV</a>
 																				</li>
-																				<li>Date:
-																						<a href="#" onClick="javascript:void(0)">May 2014 - July 2014</a>
+																				<li><?php echo $utilities->lang('date'); ?>
+																						<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.may').''; ?> 2014 -<?php echo ' '.$utilities->lang('month.july').' '; ?> 2014</a>
 																				</li>
-																				<li>Services:
-																						<a href="#" onClick="javascript:void(0)">Web development</a>
+																				<li><?php echo $utilities->lang('services'); ?>
+																						<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
 																				</li>
 																		</ul>
-																		<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+																		<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
 																</div>
 														</div>
 												</div>
@@ -1178,21 +1179,21 @@
 		<!-- Scripts -->
 
 	    <!-- JQuery -->
-			<script src="web/assets/js/jquery.min.js"></script>
+			<script src="main/assets/js/jquery.min.js"></script>
 			<!-- Sweetalert -->
-			<script src="web/libs/sweetalert/dist/sweetalert.min.js"></script>
+			<script src="main/libs/sweetalert/dist/sweetalert.min.js"></script>
 			<!-- Bootstrap Core JavaScript -->
-			<script src="web/libs/bootstrap/js/bootstrap.min.js"></script>
+			<script src="main/libs/bootstrap/js/bootstrap.min.js"></script>
 			<!-- Sudo Slider Source -->
-			<script src="web/libs/slide/jquery.superslides.min.js"></script>
-			<script src="web/libs/slide/jquery.sudoslider.min.js"></script>
+			<script src="main/libs/slide/jquery.superslides.min.js"></script>
+			<script src="main/libs/slide/jquery.sudoslider.min.js"></script>
 
-			<script src="web/assets/js/jquery.scrolly.min.js"></script>
-			<script src="web/assets/js/jquery.scrollzer.min.js"></script>
-			<script src="web/assets/js/skel.min.js"></script>
-			<script src="web/assets/js/util.js"></script>
-			<script src="web/assets/js/main.js"></script>
-			<script src="web/assets/js/slide.js"></script>
+			<script src="main/assets/js/jquery.scrolly.min.js"></script>
+			<script src="main/assets/js/jquery.scrollzer.min.js"></script>
+			<script src="main/assets/js/skel.min.js"></script>
+			<script src="main/assets/js/util.js"></script>
+			<script src="main/assets/js/main.js"></script>
+			<script src="main/assets/js/slide.js"></script>
 
 
 			<script type="text/javascript">
@@ -1215,7 +1216,7 @@
 
 								$.ajax({
 									method: "POST",
-									url: "web/mail/contact_me.php",
+									url: "main/mail/contact_me.php",
 									data: $( "form" ).serialize(),
 								})
 									.done(function(result) {
