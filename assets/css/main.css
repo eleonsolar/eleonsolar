@@ -169,7 +169,7 @@
 		}
 
 		a:hover {
-			color: #ff7496;
+			color: #D56565;
 		}
 
 	strong, b {
@@ -523,7 +523,7 @@
 					width: 3.75em;
 					height: 3.75em;
 					border-radius: 100%;
-					border: solid 1px #c8cccf;
+					border: solid 1px #666;
 					line-height: 3.75em;
 					overflow: hidden;
 					text-align: center;
@@ -541,12 +541,14 @@
 					}
 
 					ul.icons li a:before {
-						color: #ffffff;
+						/*
+						color: #666;
 						text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
+						*/
 					}
 
 					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+						/*text-shadow: 1.25px 0px 0px #D56565, -1.25px 0px 0px #D56565, 0px 1.25px 0px #D56565, 0px -1.25px 0px #D56565;*/
 					}
 
 					ul.icons li a:before {
@@ -562,7 +564,7 @@
 					}
 
 					ul.icons li a:hover {
-						border-color: #ff7496;
+						border-color: #D56565;
 					}
 
 			@media screen and (max-width: 480px) {
@@ -623,8 +625,8 @@
 		padding: 0 1.5em;
 		background-color: transparent;
 		border-radius: 4px;
-		border: solid 1px #c8cccf;
-		color: #414f57 !important;
+		border: solid 1px #666;
+		color: #666 !important;
 		cursor: pointer;
 		text-align: center;
 		text-decoration: none;
@@ -636,8 +638,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #ff7496;
-			color: #ff7496 !important;
+			border-color: #D56565;
+			color: #D56565 !important;
 		}
 
 		input[type="submit"].icon,
@@ -705,7 +707,7 @@
 		max-width: 100%;
 		min-width: 27em;
 		padding: 4.5em 3em 3em 3em ;
-		background: #ffffff;
+		background: #fafafa;
 		border-radius: 4px;
 		cursor: default;
 		opacity: 0.95;

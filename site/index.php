@@ -12,7 +12,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="icon" href="main/images/favicon.png">
+		<link rel="icon" href="main/images/favicon.ico">
 		<link rel="stylesheet" href="main/assets/css/main.css" />
 		<link rel="stylesheet" href="main/assets/css/contact.css" />
 		<link rel="stylesheet" href="main/assets/css/skillbar.css" />
@@ -76,7 +76,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar60"><img src="main/images/avatar.jpeg" alt="" /></span>
+							<span class="image avatar60"><a href="<?php echo WEB_URL; ?>"><img src="main/images/avatar.jpeg" alt="" /></a></span>
 							<!--<h1 id="title">Edward León</h1>-->
 							<!--<p>Ingeniero de sistemas</p>-->
 						</div>
@@ -96,9 +96,9 @@
 								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
 
 							-->
-							<div id="exit-link">
+							<!--<div id="exit-link">
 								<a href="<?php echo WEB_URL; ?>"  class="skel-layers-ignoreHref" title="Exit"><span class="icon fa-sign-out exit"></span></a>
-							</div>
+							</div>-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home"><?php echo $utilities->lang('title.home.header'); ?></span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user"><?php echo $utilities->lang('title.aboutme.header'); ?></span></a></li>
