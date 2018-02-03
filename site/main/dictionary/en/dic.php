@@ -103,6 +103,7 @@ $lang_en['title.site'] = "Edward Esteban León Solar";
 $lang_en['title.slide.1']	=	"Edward E. León Solar";
 $lang_en['title.slide.2']	=	"Edward E. León Solar";
 /* U */
+$lang_en['url.resume']	=	"docs/en/resume.pdf";
 /* V */
 $lang_en['viewdemo'] = 'View demo:';
 /* W */

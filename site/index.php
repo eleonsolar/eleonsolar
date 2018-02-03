@@ -105,7 +105,7 @@
 								<li><a href="#service" id="service-link" class="skel-layers-ignoreHref"><span class="icon fa-wrench"><?php echo $utilities->lang('title.services.header'); ?></span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th"><?php echo $utilities->lang('title.portfolio.header'); ?></span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope"><?php echo $utilities->lang('title.contact.header'); ?></span></a></li>
-								<li><a href="docs/resume.pdf" id="curriculum-link" class="skel-layers-ignoreHref"><span class="icon fa-file-pdf-o"><?php echo $utilities->lang('title.resume.header'); ?></span></a></li>
+								<li><a href="<?php echo $utilities->lang('url.resume'); ?>" id="curriculum-link" class="skel-layers-ignoreHref"><span class="icon fa-file-pdf-o"><?php echo $utilities->lang('title.resume.header'); ?></span></a></li>
 								<!--<li><a href="http://eleonsolar.com/blog" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-rss">BLOG</span></a></li>-->
 							</ul>
 						</nav>
