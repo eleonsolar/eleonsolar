@@ -540,6 +540,10 @@
 						text-transform: none !important;
 					}
 
+					ul.icons{
+						color: #666;
+					}
+
 					ul.icons li a:before {
 						/*
 						color: #666;
