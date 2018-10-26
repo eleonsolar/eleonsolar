@@ -330,22 +330,7 @@
 								<header>
 									<h2><?php echo $utilities->lang('title.portfolio.section'); ?></h2>
 								</header>
-								<div class="row">
-									<div class="4u 12u$(mobile) portfolio-item">
-										<article class="item">
-											<a class="image fit portfolio-link" href="#tienda" data-toggle="modal">
-												<div class="caption">
-														<div class="caption-content">
-																<i class="fa fa-search-plus fa-3x"></i>
-														</div>
-												</div>
-												<img src="main/images/portfolio/pic19.png" class="img-responsive max-size-image" alt="TIENDA" />
-												<header >
-														<h3>TIENDA</h3>
-												</header>
-										  </a>
-										</article>
-									</div>
+								<div class="row">									
 									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#aignep" data-toggle="modal">
@@ -623,43 +608,7 @@
 
 			</div>
 
-		<!-- Portfolio Modals -->
-		<!-- TIENDA -->
-		<div class="portfolio-modal modal fade" id="tienda" tabindex="-1" role="dialog" aria-hidden="true">
-				<div class="modal-content">
-						<div class="close-modal" data-dismiss="modal">
-								<div class="lr">
-										<div class="rl">
-										</div>
-								</div>
-						</div>
-						<div class="container">
-								<div class="row">
-										<div class="col-lg-8 col-lg-offset-2">
-												<div class="modal-body">
-														<h2>TIENDA</h2>
-														<hr class="star-primary">
-														<img src="main/images/portfolio/pic19.png" class="img-responsive img-centered" alt="TIENDA">
-														<p> <?php echo $utilities->lang('project.tienda.description'); ?></p>
-														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.tienda.whatidid'); ?></p>
-														<ul class="list-inline item-details item-details-size">
-															<li><?php echo $utilities->lang('client'); ?>
-																	<a class="link-main" href="https://www.clickresult.es" target="_blank">Click Result</a>
-															</li>
-															<li><?php echo $utilities->lang('date'); ?>
-																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.september').' '; ?> 2018 - <?php echo ' '.$utilities->lang('present').' '; ?></a>
-															</li>
-															<li><?php echo $utilities->lang('services'); ?>
-																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
-															</li>
-														</ul>
-														<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
-												</div>
-										</div>
-								</div>
-						</div>
-				</div>
-		</div>
+		<!-- Portfolio Modals -->		
 		<!-- AIGNEP -->
 		<div class="portfolio-modal modal fade" id="aignep" tabindex="-1" role="dialog" aria-hidden="true">
 				<div class="modal-content">

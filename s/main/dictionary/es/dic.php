@@ -38,8 +38,6 @@ $lang_es['month.december'] = 'Diciembre';
 /* O */
 /* P */
 $lang_es['present'] = 'Actualidad';
-$lang_es['project.tienda.description'] = 'TIENDA aplicación piloto para ventas de productos de vestir. Está hecha en PHP + Mysql.';
-$lang_es['project.tienda.whatidid'] = 'Puesta en funcionamiento de TPV stripe. Mantenimiento correctivo.';
 $lang_es['project.aignep.description'] = 'AIGNEP Portal que promociona la venta de productos de la insdustria de válvulas y aire comprimido. Está hecho en Laravel + Bootstrap + Mysql.';
 $lang_es['project.aignep.whatidid'] = ' Colaboración en la visualazación 3D del simulador de plantas.';
 $lang_es['project.dormirbalnearios.description'] = 'DORMIR BALNEARIOS Portal para la venta de servicios de alojamiento y esparcimiento en balnearios. Está hecho en PHP + Bootstrap + Mysql.';
