@@ -79,7 +79,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar60"><a href="<?php echo WEB_URL; ?>"><img src="main/images/avatar.jpeg" alt="" /></a></span>
+							<span class="image avatar60"><img src="main/images/avatar.jpeg" alt="" /></span>
 							<span class="language"><a href="http://localhost/eleonsolar/?lang=es" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (!isset($_GET['lang']) || $_GET['lang']=='es')?'active':null; ?>">ES</a> | <a href="http://localhost/eleonsolar/?lang=en" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (isset($_GET['lang']) && $_GET['lang']=='en')?'active':null; ?>">EN</a></span>
 						</div>
 
