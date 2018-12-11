@@ -811,7 +811,7 @@
 															<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid'); ?></span> <?php echo $utilities->lang('project.nsource.whatidid'); ?></p>
 															<ul class="list-inline item-details item-details-size">
 																<li><?php echo $utilities->lang('viewdemo'); ?>
-																		<a class="link-main" href="<?php echo WEB_URL; ?>demo/nsource-test/login" target="_blank">NSource Test</a>
+																		<a class="link-main" href="<?php echo WEB_URL; ?>demo/nsource.test/login" target="_blank">NSource Test</a>
 																</li>
 																<li><?php echo $utilities->lang('date'); ?>
 																		<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.june').' '; ?>2017</a>
@@ -949,7 +949,7 @@
 														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.develoop.whatidid'); ?></p>
 														<ul class="list-inline item-details item-details-size">
 														    <li><?php echo $utilities->lang('viewdemo'); ?>
-																	<a class="link-main" href="<?php echo WEB_URL; ?>demo/develoop-test/index.php/home" target="_blank">Develoop Test</a>
+																	<a class="link-main" href="<?php echo WEB_URL; ?>demo/develoop.test/index.php/home" target="_blank">Develoop Test</a>
 															</li>
 															<li><?php echo $utilities->lang('date'); ?>
 																	<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.march').' '; ?> 2016</a>
