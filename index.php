@@ -24,7 +24,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="main/libs/bootstrap/css/bootstrap.css" />
-
+		<link rel="stylesheet" href="main/libs/slick/slick.css">
+		<link rel="stylesheet" href="main/libs/slick/slick-theme.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<style type="text/css">
@@ -68,6 +69,44 @@
 			#exit-link > a{
 				border-bottom-color: rgba(255, 255, 255, 0);
 			}
+			.ico-company{
+				-webkit-filter: grayscale(100%);
+				-moz-filter: grayscale(100%);
+				-ms-filter: grayscale(100%);
+				-o-filter: grayscale(100%);
+				filter: grayscale(100%);
+			}
+			.slider {
+	        width: 50%;
+	        margin: 100px auto;
+	    }
+
+	    .slick-slide {
+	      margin: 0px 20px;
+	    }
+
+	    .slick-slide img {
+	      width: 100%;
+	    }
+
+	    .slick-prev:before,
+	    .slick-next:before {
+	      color: black;
+	    }
+
+
+	    .slick-slide {
+	      transition: all ease-in-out .3s;
+	      opacity: .2;
+	    }
+
+	    .slick-active {
+	      opacity: .5;
+	    }
+
+	    .slick-current {
+	      opacity: 1;
+	    }
 		</style>
 	</head>
 	<body>
@@ -194,41 +233,41 @@
 													<div class="col-sm-12 col-md-6">
 															<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.framework.skillbar'); ?></h4>
 															<div class="skillbar clearfix " data-percent="100%">
-																<div class="skillbar-title" style="background:  #d8e110;"><span>Codeigniter</span></div>
-																<div class="skillbar-bar" style="background:  #ebf082;"></div>
+																<div class="skillbar-title" style="background: #2c3e50;"><span>Codeigniter</span></div>
+																<div class="skillbar-bar" style="background: #405264;"></div>
 																<div class="skill-bar-percent">100%</div>
 															</div> <!-- End Skill Bar -->
 															<div class="skillbar clearfix " data-percent="90%">
-																<div class="skillbar-title" style="background: #40E0D0;"><span>YII</span></div>
-																<div class="skillbar-bar" style="background:  #00FFFF;"></div>
+																<div class="skillbar-title" style="background: #2980b9;"><span>YII</span></div>
+																<div class="skillbar-bar" style="background:#3498db;"></div>
 																<div class="skill-bar-percent">90%</div>
 															</div> <!-- End Skill Bar -->
 															<div class="skillbar clearfix " data-percent="80%">
-																<div class="skillbar-title" style="background: #2980b9;"><span>Bootstrap</span></div>
-																<div class="skillbar-bar" style="background:#3498db;"></div>
+																<div class="skillbar-title" style="background: #2c3e50;"><span>Bootstrap</span></div>
+																<div class="skillbar-bar" style="background: #405264;"></div>
 																<div class="skill-bar-percent">80%</div>
 															</div> <!-- End Skill Bar -->
 															<div class="skillbar clearfix " data-percent="60%">
-																<div class="skillbar-title" style="background: #2c3e50;"><span>Laravel</span></div>
-																<div class="skillbar-bar" style="background: #2c3e50;"></div>
+																<div class="skillbar-title" style="background: #2980b9;"><span>Laravel</span></div>
+																<div class="skillbar-bar" style="background:#3498db;"></div>
 																<div class="skill-bar-percent">60%</div>
 															</div> <!-- End Skill Bar -->
 													</div>
 													<div class="col-sm-12 col-md-6">
 															<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.database.skillbar'); ?></h4>
 															<div class="skillbar clearfix " data-percent="100%">
-																<div class="skillbar-title" style="background: #46465e;"><span>PostgreSQL</span></div>
-																<div class="skillbar-bar" style="background: #5a68a5;"></div>
+																<div class="skillbar-title" style="background: #2c3e50;"><span>PostgreSQL</span></div>
+																<div class="skillbar-bar" style="background: #405264;"></div>
 																<div class="skill-bar-percent">100%</div>
 															</div> <!-- End Skill Bar -->
 															<div class="skillbar clearfix " data-percent="80%">
-																<div class="skillbar-title" style="background: #27ae60;"><span>Mysql</span></div>
-																<div class="skillbar-bar" style="background: #2ecc71;"></div>
+																<div class="skillbar-title" style="background: #2980b9;"><span>Mysql</span></div>
+																<div class="skillbar-bar" style="background:#3498db;"></div>
 																<div class="skill-bar-percent">80%</div>
 															</div> <!-- End Skill Bar -->
 															<div class="skillbar clearfix " data-percent="40%">
-																<div class="skillbar-title" style="background: #9400D3;"><span>Oracle</span></div>
-																<div class="skillbar-bar" style="background: #EE82EE;"></div>
+																<div class="skillbar-title" style="background: #2c3e50;"><span>Oracle</span></div>
+																<div class="skillbar-bar" style="background: #405264;"></div>
 																<div class="skill-bar-percent">40%</div>
 															</div> <!-- End Skill Bar -->
 													</div>
@@ -237,28 +276,28 @@
 									<div class="col-sm-12 col-md-6">
 										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.programinglang.skillbar'); ?></h4>
 										<div class="skillbar clearfix " data-percent="100%">
-											<div class="skillbar-title" style="background: #8B0000;"><span>PHP</span></div>
-											<div class="skillbar-bar" style="background: #A52A2A;"></div>
+											<div class="skillbar-title" style="background: #2c3e50;"><span>PHP</span></div>
+											<div class="skillbar-bar" style="background: #405264;"></div>
 											<div class="skill-bar-percent">100%</div>
 										</div> <!-- End Skill Bar -->
 										<div class="skillbar clearfix " data-percent="100%">
-											<div class="skillbar-title" style="background: #d8e110;"><span>JS</span></div>
-											<div class="skillbar-bar" style="background: #ebf082;"></div>
+											<div class="skillbar-title" style="background: #2980b9;"><span>JS</span></div>
+											<div class="skillbar-bar" style="background:#3498db;"></div>
 											<div class="skill-bar-percent">100%</div>
 										</div> <!-- End Skill Bar -->
 										<div class="skillbar clearfix " data-percent="80%">
-											<div class="skillbar-title" style="background: #2980b9;"><span>Java</span></div>
-											<div class="skillbar-bar" style="background: #3498db;"></div>
+											<div class="skillbar-title" style="background: #2c3e50;"><span>Java</span></div>
+											<div class="skillbar-bar" style="background: #405264;"></div>
 											<div class="skill-bar-percent">80%</div>
 										</div> <!-- End Skill Bar -->
 										<div class="skillbar clearfix " data-percent="60%">
-											<div class="skillbar-title" style="background: #46465e;"><span>Python</span></div>
-											<div class="skillbar-bar" style="background: #5a68a5;"></div>
+											<div class="skillbar-title" style="background: #2980b9;"><span>Python</span></div>
+											<div class="skillbar-bar" style="background:#3498db;"></div>
 											<div class="skill-bar-percent">60%</div>
 										</div> <!-- End Skill Bar -->
 										<div class="skillbar clearfix " data-percent="50%">
-											<div class="skillbar-title" style="background: #27ae60;"><span>PLSQL</span></div>
-											<div class="skillbar-bar" style="background: #2ecc71;"></div>
+											<div class="skillbar-title" style="background: #2c3e50;"><span>PLSQL</span></div>
+											<div class="skillbar-bar" style="background: #405264;"></div>
 											<div class="skill-bar-percent">50%</div>
 										</div> <!-- End Skill Bar -->
 									</div>
@@ -574,6 +613,23 @@
 										</article>
 									</div>
 								</div>
+								<hr />
+							<!--	<div class="row"> -->
+									<section class="center slider">
+										<div>
+												<a href="http://www.cantv.net/" ><img src="main/images/clients/cantv.jpg" class="ico-company img-responsive " style="width: 80pt;height:40pt"/></a>
+										</div>
+										<div>
+												<a href="https://www.develoop.net/" ><img src="main/images/clients/develoop.png" class="ico-company img-responsive " style="width: 80pt;height:40pt"/></a>
+										</div>
+										<div>
+												<a href="https://www.clickresult.es/" ><img src="main/images/clients/click-result.png"  class="ico-company img-responsive " style="width: 50pt;height:40pt"/></a>
+										</div>
+										<div>
+												<a href="https://www.wearecontent.com/" ><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 145pt;height:35pt"/></a>
+										</div>
+								  </section>
+						<!--	</div> -->
 							</div>
 						</section>
 				<!-- Contact -->
@@ -1199,6 +1255,7 @@
 			<script src="main/assets/js/util.js"></script>
 			<script src="main/assets/js/main.js"></script>
 			<script src="main/assets/js/slide.js"></script>
+			<script src="main/libs/slick/slick.js"></script>
 
 
 			<script type="text/javascript">
@@ -1276,6 +1333,13 @@
 					  *	    $('#frameworks').trigger('click');
 					  *  });
            **/
+
+					 $(".center").slick({
+						  slidesToShow: 3,
+							slidesToScroll: 1,
+							autoplay: true,
+							autoplaySpeed: 2000,
+		       });
 				});
 
 			</script>
