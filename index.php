@@ -174,15 +174,17 @@
 				<div id="container">
 					<!-- Intro -->
 					<section id="top" class="home">
+
 								<!-- Superslides -->
 								<div id="home-slide">
+
 										<ul class="slides-container text-center">
 												<li>
 														<div class="slide-text">
-																<h2 style="font-family: 'Raleway', sans-serif;"><?php echo $utilities->lang('title.slide.1'); ?></h2>
-																<span><?php echo $utilities->lang('subtitle.slide.1'); ?></span>
+																<h2 id="slide1" style="font-family: 'Raleway', sans-serif;"><?php echo $utilities->lang('title.slide.1'); ?></h2>
+																<span id="subtitle-slide1"><?php echo $utilities->lang('subtitle.slide.1'); ?></span>
 																<br/><br/>
-																<a href="#about" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#ececec">
+																<a id="arrow1" href="#about" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#ececec">
 																	<i class="fa fa-angle-double-down fa-3x btn-down arrow" aria-hidden="true" style="text-decoration: none;"></i>
 																</a>
 																<!--<a href="#about" class="button button-row style2 down scrolly" style="border-radius: 3.5em;">Más</a>-->
@@ -192,10 +194,10 @@
 												</li>
 												<li>
 														<div class="slide-text">
-																<h2 style="font-family: 'Raleway', sans-serif;"><?php echo $utilities->lang('title.slide.2'); ?></h2>
-																<span><?php echo $utilities->lang('subtitle.slide.2'); ?></span>
+																<h2 id="slide2" style="font-family: 'Raleway', sans-serif;"><?php echo $utilities->lang('title.slide.2'); ?></h2>
+																<span id="subtitle-slide2"><?php echo $utilities->lang('subtitle.slide.2'); ?></span>
 																<br/><br/>
-																<a href="#about" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#ececec">
+																<a id="arrow2" href="#about" class="scrolly" style="border-bottom-color: rgba(255, 255, 255, 0);color:#ececec">
 																	<i class="fa fa-angle-double-down fa-3x btn-down arrow" aria-hidden="true" style="text-decoration: none;"></i>
 																</a>
 																<!--<a href="#about" class="button button-row style2 down scrolly" style="border-radius: 3.5em;">Más</a>-->
@@ -230,7 +232,7 @@
 										 <?php echo $utilities->lang('content.aboutme.section'); ?>
 									</p>
 											<div class="row">
-													<div class="col-sm-12 col-md-6">
+													<div class="6u 12u$(mobile)">
 															<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.framework.skillbar'); ?></h4>
 															<div class="skillbar clearfix " data-percent="100%">
 																<div class="skillbar-title" style="background: #2c3e50;"><span>Codeigniter</span></div>
@@ -253,7 +255,7 @@
 																<div class="skill-bar-percent">60%</div>
 															</div> <!-- End Skill Bar -->
 													</div>
-													<div class="col-sm-12 col-md-6">
+													<div class="6u 12u$(mobile)">
 															<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.database.skillbar'); ?></h4>
 															<div class="skillbar clearfix " data-percent="100%">
 																<div class="skillbar-title" style="background: #2c3e50;"><span>PostgreSQL</span></div>
@@ -273,7 +275,7 @@
 													</div>
 								</div>
 								<div class="row">
-									<div class="col-sm-12 col-md-6">
+									<div class="6u 12u$(mobile)">
 										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.programinglang.skillbar'); ?></h4>
 										<div class="skillbar clearfix " data-percent="100%">
 											<div class="skillbar-title" style="background: #2c3e50;"><span>PHP</span></div>
@@ -301,7 +303,7 @@
 											<div class="skill-bar-percent">50%</div>
 										</div> <!-- End Skill Bar -->
 									</div>
-									<div class="col-sm-12 col-md-6">
+									<div class="6u 12u$(mobile)">
 											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.cms.skillbar'); ?></h4>
 											<div class="skillbar clearfix " data-percent="80%">
 												<div class="skillbar-title" style="background: #2c3e50;"><span>Wordpress</span></div>

@@ -2374,6 +2374,17 @@
 
 	@media screen and (max-width: 960px) {
 
+		#slide1, #slide2{
+			margin-left: 30%;
+			font-size: 30pt;
+		}
+		#subtitle-slide1, #subtitle-slide2{
+			margin-left: 30%;
+			font-size: 20pt;
+		}
+		#arrow1, #arrow2{
+			margin-left: 30%;
+		}
 		/* Basic */
 
 			html, body {
