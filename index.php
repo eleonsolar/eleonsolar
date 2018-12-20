@@ -107,6 +107,24 @@
 	    .slick-current {
 	      opacity: 1;
 	    }
+		.btn-back-to-top{			
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			font-size: 22px;
+			padding: 3px 15px;
+			border-radius: 0;
+			display: none;		
+		}
+		.btn-red {
+			border-color: #D56565;
+			color: #D56565;
+		}
+		.btn-red:hover{
+			color: #fff;
+			background-color: #D56565;	
+			
+		}		
 		</style>
 	</head>
 	<body>
@@ -665,7 +683,9 @@
 					<ul class="copyright">
 						<li>&copy; 2016 - <?php echo date('Y'); ?> Edward Esteban León Solar</li>
 					</ul>
-
+					<a href="#top" id="back-to-top" class="btn btn-sm btn-red btn-back-to-top scrolly hidden-xs hidden-sm skel-layers-ignoreHref" style="display: inline;" title="home" role="button">
+						<i class="fa fa-angle-up"></i>
+					</a>
 			</div>
 
 		<!-- Portfolio Modals -->
@@ -1263,6 +1283,13 @@
 			<script type="text/javascript">
 
 				$(document).ready(function(){
+					
+					$('.btn-back-to-top').hide();
+					
+					$(window).scroll(function() {
+						var scroll = $(window).scrollTop();
+						if (scroll >= 100) { $('.btn-back-to-top').show(); } else { $('.btn-back-to-top').hide(); }
+					});
 
 					document.querySelector('.showcase.sweet button').onclick = function(){
 
@@ -1341,7 +1368,7 @@
 							slidesToScroll: 1,
 							autoplay: true,
 							autoplaySpeed: 2000,
-		       });
+					});
 				});
 
 			</script>
