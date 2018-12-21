@@ -122,7 +122,10 @@
 			color: #fff;
 		}
 		.btn-red:hover{			
-			background-color: #D56565;				
+			background-color: #D56565;			
+		}	
+		.btn-red:visited{			
+			color: #fff;			
 		}		
 		</style>
 	</head>
