@@ -114,16 +114,15 @@
 			font-size: 22px;
 			padding: 3px 15px;
 			border-radius: 0;
-			display: none;		
+			display: none;			
+			background-color: #D56565;				
 		}
 		.btn-red {
 			border-color: #D56565;
-			color: #D56565;
-		}
-		.btn-red:hover{
 			color: #fff;
-			background-color: #D56565;	
-			
+		}
+		.btn-red:hover{			
+			background-color: #D56565;				
 		}		
 		</style>
 	</head>
@@ -1282,14 +1281,7 @@
 
 			<script type="text/javascript">
 
-				$(document).ready(function(){
-					
-					$('.btn-back-to-top').hide();
-					
-					$(window).scroll(function() {
-						var scroll = $(window).scrollTop();
-						if (scroll >= 100) { $('.btn-back-to-top').show(); } else { $('.btn-back-to-top').hide(); }
-					});
+				$(document).ready(function(){					
 
 					document.querySelector('.showcase.sweet button').onclick = function(){
 
@@ -1368,6 +1360,13 @@
 							slidesToScroll: 1,
 							autoplay: true,
 							autoplaySpeed: 2000,
+					});
+					
+					$('.btn-back-to-top').hide();
+					
+					$(window).scroll(function() {
+						var scroll = $(window).scrollTop();
+						if (scroll >= 100) { $('.btn-back-to-top').show(); } else { $('.btn-back-to-top').hide(); }
 					});
 				});
 
