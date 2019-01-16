@@ -114,19 +114,12 @@
 			font-size: 22px;
 			padding: 3px 15px;
 			border-radius: 0;
-			display: none;			
-			background-color: #D56565;				
+			display: none;	
+			color: #D56565;			
 		}
-		.btn-red {
-			border-color: #D56565;
-			color: #fff;
-		}
-		.btn-red:hover{			
-			background-color: #D56565;			
-		}	
-		.btn-red:visited{			
-			color: #fff;			
-		}		
+		.btn-back-to-top {
+			border-color: #D56565;	
+		}					
 		</style>
 	</head>
 	<body>
@@ -139,7 +132,7 @@
 					<!-- Logo -->
 						<div id="logo">
 							<span class="image avatar60"><img src="main/images/avatar.jpeg" alt="" /></span>
-							<span class="language"><a href="http://localhost/eleonsolar/?lang=es" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (!isset($_GET['lang']) || $_GET['lang']=='es')?'active':null; ?>">ES</a> | <a href="http://localhost/eleonsolar/?lang=en" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (isset($_GET['lang']) && $_GET['lang']=='en')?'active':null; ?>">EN</a></span>
+							<span class="language"><a href="http://localhost/edwardleon.com.ve/?lang=es" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (!isset($_GET['lang']) || $_GET['lang']=='es')?'active':null; ?>">ES</a> | <a href="http://localhost/edwardleon.com.ve/?lang=en" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (isset($_GET['lang']) && $_GET['lang']=='en')?'active':null; ?>">EN</a></span>
 						</div>
 
 					<!-- Nav -->
@@ -636,22 +629,30 @@
 									</div>
 								</div>
 								<hr />
-							<!--	<div class="row"> -->
-									<section class="center slider">
-										<div>
-												<a href="http://www.cantv.net/" ><img src="main/images/clients/cantv.jpg" class="ico-company img-responsive " style="width: 80pt;height:40pt"/></a>
-										</div>
-										<div>
-												<a href="https://www.develoop.net/" ><img src="main/images/clients/develoop.png" class="ico-company img-responsive " style="width: 80pt;height:40pt"/></a>
-										</div>
-										<div>
-												<a href="https://www.clickresult.es/" ><img src="main/images/clients/click-result.png"  class="ico-company img-responsive " style="width: 50pt;height:40pt"/></a>
-										</div>
-										<div>
-												<a href="https://www.wearecontent.com/" ><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 145pt;height:35pt"/></a>
-										</div>
-								  </section>
-						<!--	</div> -->
+								<div class="row">
+									<!-- <section class="center slider"> -->
+										<!--<div>-->
+                                        <div class="3u 12u$(mobile)">
+												<a href="http://www.cantv.net/" ><img src="main/images/clients/cantv.jpg" class="ico-company img-responsive " style="width: 80pt;height:40pt;"/></a>
+                                        </div>
+                                        <!--</div>-->
+                                        <div class="3u 12u$(mobile)">
+                                        <!--<div>-->
+												<a href="https://www.develoop.net/" ><img src="main/images/clients/develoop.png" class="ico-company img-responsive " style="width: 80pt;height:40pt;"/></a>
+                                        <!--</div>-->
+                                        </div>
+                                        <div class="3u 12u$(mobile)">
+                                        <!--<div>-->
+												<a href="https://www.clickresult.es/" ><img src="main/images/clients/click-result.png"  class="ico-company img-responsive " style="width: 50pt;height:40pt;"/></a>
+                                        <!--</div>-->
+                                        </div>
+                                        <div class="3u 12u$(mobile)">
+										<!--<div>-->
+												<a href="https://www.wearecontent.com/" ><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 130pt;height:35pt;"/></a>
+                                        <!--</div>-->
+                                        </div>
+								 <!-- </section> -->
+						    	</div>
 							</div>
 						</section>
 				<!-- Contact -->
@@ -685,7 +686,7 @@
 					<ul class="copyright">
 						<li>&copy; 2016 - <?php echo date('Y'); ?> Edward Esteban León Solar</li>
 					</ul>
-					<a href="#top" id="back-to-top" class="btn btn-sm btn-red btn-back-to-top scrolly hidden-xs hidden-sm skel-layers-ignoreHref" style="display: inline;" title="home" role="button">
+					<a href="#top" id="back-to-top" class="btn btn-sm btn-red btn-back-to-top scrolly hidden-xs hidden-sm skel-layers-ignoreHref" style="display: inline;border-bottom-color: #D56565;" title="home" role="button">
 						<i class="fa fa-angle-up"></i>
 					</a>
 			</div>
@@ -1369,7 +1370,13 @@
 					
 					$(window).scroll(function() {
 						var scroll = $(window).scrollTop();
-						if (scroll >= 100) { $('.btn-back-to-top').show(); } else { $('.btn-back-to-top').hide(); }
+						if (scroll >= 100) { 
+							$('.btn-back-to-top').show(); 
+							
+						} else { 
+							$('.btn-back-to-top').hide(); 	
+							$('.btn-back-to-top').css("color","#D56565");
+						}
 					});
 				});
 
