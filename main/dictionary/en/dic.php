@@ -1,6 +1,6 @@
 <?php
 /* A */
-$lang_en['title.aboutme.section']	=	"ABOUT ME";
+$lang_en['present']	= "Present";
 /* B */
 $lang_en['btn.close']	=	"Close";
 /* C */
@@ -37,6 +37,8 @@ $lang_en['month.december'] = 'December';
 /* N */
 /* O */
 /* P */
+$lang_en['project.wacmarcablanca.description'] = 'WACMARCABLANCA Portal that allows the creation, distribution and consumption of content for business brands. It\'s done in YII2 + Bootstrap + PosgresSQL.';
+$lang_en['project.wacmarcablanca.whatidid'] = 'Development of medium registration';
 $lang_en['project.aignep.description'] = 'AIGNEP Portal that promotes the sale of products from the valves and compressed air industry. It\'s made in Laravel + Bootstrap + Mysql.';
 $lang_en['project.aignep.whatidid'] = ' Collaboration in the 3D visualization of the plant simulator.';
 $lang_en['project.dormirbalnearios.description'] = 'DORMIR BALNEARIOS Portal for the sale of accommodation and leisure services in spas. It\'s done in PHP + Bootstrap + Mysql.';
@@ -82,6 +84,7 @@ $lang_en['subtitle.item2.services.section'] = "Development of web applications."
 $lang_en['subtitle.item3.services.section'] = "Development of scripts for bash shell of Unix systems and derivatives.";
 $lang_en['subtitle.item4.services.section'] = "Development of Stored procedure for management systems: Oracle, Postgres and Mysql.";
 /* T */
+$lang_en['title.aboutme.section']	=	"ABOUT ME";
 $lang_en['title.aboutme.header']	=	"About Me";
 $lang_en['title.cms.skillbar'] = "CMS";
 $lang_en['title.contact.header'] = "Contact";
