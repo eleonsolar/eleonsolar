@@ -387,6 +387,21 @@
 									<h2><?php echo $utilities->lang('title.portfolio.section'); ?></h2>
 								</header>
 								<div class="row">
+                                    <div class="4u 12u$(mobile) portfolio-item">
+                                        <article class="item">
+                                            <a class="image fit portfolio-link" href="#wacmarcablanca" data-toggle="modal">
+                                                <div class="caption">
+                                                    <div class="caption-content">
+                                                        <i class="fa fa-search-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="main/images/portfolio/pic19.png" class="img-responsive max-size-image" alt="WACMARCABLANCA" />
+                                                <header >
+                                                    <h3>WACMARCABLANCA</h3>
+                                                </header>
+                                            </a>
+                                        </article>
+                                    </div>
 									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#aignep" data-toggle="modal">
@@ -629,30 +644,25 @@
 									</div>
 								</div>
 								<hr />
-								<div class="row">
-									<!-- <section class="center slider"> -->
-										<!--<div>-->
-                                        <div class="3u 12u$(mobile)">
-												<a href="http://www.cantv.net/" ><img src="main/images/clients/cantv.jpg" class="ico-company img-responsive " style="width: 80pt;height:40pt;"/></a>
-                                        </div>
-                                        <!--</div>-->
-                                        <div class="3u 12u$(mobile)">
-                                        <!--<div>-->
-												<a href="https://www.develoop.net/" ><img src="main/images/clients/develoop.png" class="ico-company img-responsive " style="width: 80pt;height:40pt;"/></a>
+								<!--<div class="row">-->
+									 <section class="center slider">
+										<div>
+                                        <!--<div class="4u 4u$(mobile)"> -->
+												<a href="http://www.cantv.net/" target="_blank"><img src="main/images/clients/cantv.jpg" class="ico-company img-responsive " style="width: 80pt;height:40pt;"/></a>
                                         <!--</div>-->
                                         </div>
-                                        <div class="3u 12u$(mobile)">
-                                        <!--<div>-->
-												<a href="https://www.clickresult.es/" ><img src="main/images/clients/click-result.png"  class="ico-company img-responsive " style="width: 50pt;height:40pt;"/></a>
+                                        <div>
+                                        <!--<div class="4u 4u$(mobile)">-->
+												<a href="https://www.develoop.net/" target="_blank"><img src="main/images/clients/develoop.png" class="ico-company img-responsive " style="width: 80pt;height:40pt;"/></a>
                                         <!--</div>-->
                                         </div>
-                                        <div class="3u 12u$(mobile)">
-										<!--<div>-->
-												<a href="https://www.wearecontent.com/" ><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 130pt;height:35pt;"/></a>
+                                        <div>
+                                        <!--<div class="4u 4u$(mobile)">-->
+												<a href="https://www.wearecontent.com/" target="_blank"><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 130pt;height:35pt;"/></a>
                                         <!--</div>-->
                                         </div>
-								 <!-- </section> -->
-						    	</div>
+								     </section>
+						    	<!--</div>-->
 							</div>
 						</section>
 				<!-- Contact -->
@@ -692,6 +702,42 @@
 			</div>
 
 		<!-- Portfolio Modals -->
+        <!-- WACMARCABLANCA -->
+        <div class="portfolio-modal modal fade" id="wacmarcablanca" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>WACMARCABLANCA</h2>
+                                <hr class="star-primary">
+                                <img src="main/images/portfolio/pic19.png" class="img-responsive img-centered" alt="WACMARCABLANCA">
+                                <p> <?php echo $utilities->lang('project.wacmarcablanca.description'); ?></p>
+                                <p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.wacmarcablanca.whatidid'); ?></p>
+                                <ul class="list-inline item-details item-details-size">
+                                    <li><?php echo $utilities->lang('client'); ?>
+                                        <a class="link-main" href="https://www.wearecontent.com/" target="_blank">WeAreContent</a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('date'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.december').' '; ?> 2018 - <?php echo $utilities->lang('present').' '; ?></a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('services'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 		<!-- AIGNEP -->
 		<div class="portfolio-modal modal fade" id="aignep" tabindex="-1" role="dialog" aria-hidden="true">
 				<div class="modal-content">
