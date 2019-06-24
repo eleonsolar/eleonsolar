@@ -8,6 +8,7 @@ $lang_es['btn.close']	=	"Cerrar";
 $lang_es['client'] = 'Cliente:';
 $lang_es['content.aboutme.section'] = 'Soy egresado de la <a  target="_blank" href="http://www.unefa.edu.ve/portal/" style="border-bottom-color: rgba(255, 255, 255, 0);color:#C65555"><span class="link-main">Universidad Nacional Experimental Politécnica de la Fuerza Armada Nacional (U.N.E.FA)</span></a> en la carrera de Ingeniería de Sistemas.
 Actualmente me dedico al desarrollo Backend de Aplicaciones Web. Mis metas estan orientadas al éxito; soy constante, autodidacta y colaborador.';
+$lang_es['content.aboutme.resume'] = "Obtén mi curriculum";
 $lang_es['content.contact.section'] = '¿Quieres ponerte en contacto conmigo? Llena el formulario aquí debajo y envíame un mensaje, voy a tratar de responder el mismo en las proximas 24hrs.';
 /* D */
 $lang_es['date'] = 'Fecha:';
@@ -85,26 +86,28 @@ $lang_es['subtitle.item2.services.section'] = "Desarrollo a la medida de aplicac
 $lang_es['subtitle.item3.services.section'] = "Desarrollo de scripts para shell bash de sistemas Unix y derivados.";
 $lang_es['subtitle.item4.services.section'] = "Desarrollo de Stored procedure para sistemas de gestión: Oracle, Postgres y Mysql.";
 /* T */
-$lang_es['title.aboutme.header']	=	"Sobre Mí";
+$lang_es['title.aboutme.header']	=	"SOBRE MÍ";
 $lang_es['title.cms.skillbar'] = "CMS";
-$lang_es['title.contact.header'] = "Contacto";
+$lang_es['title.contact.header'] = "CONTACTO";
 $lang_es['title.contact.section'] = "CONTACTO";
 $lang_es['title.database.skillbar'] = "Bases de datos";
 $lang_es['title.framework.skillbar'] = "Frameworks";
-$lang_es['title.home.header']	=	"Inicio";
+$lang_es['title.home.header']	=	"INICIO";
 $lang_es['title.item1.services.section'] = "Gestión de proyecto";
 $lang_es['title.item2.services.section'] = "Desarrollo Web";
 $lang_es['title.item3.services.section'] = "Shellscripts";
 $lang_es['title.item4.services.section'] = "Stored procedure";
-$lang_es['title.portfolio.header']	=	"Portafolio";
+$lang_es['title.portfolio.header']	=	"PORTAFOLIO";
 $lang_es['title.portfolio.section'] = "PORTAFOLIO";
 $lang_es['title.programinglang.skillbar']	=	"Lenguajes de programación";
 $lang_es['title.resume.header']	=	"Curriculum";
-$lang_es['title.services.header']	=	"Servicios";
+$lang_es['title.services.header']	=	"SERVICIOS";
 $lang_es['title.services.section']	=	"SERVICIOS";
 $lang_es['title.site']	=	"Edward Esteban León Solar";
 $lang_es['title.slide.1']	=	"Edward E. León Solar";
 $lang_es['title.slide.2']	=	"Edward E. León Solar";
+$lang_es['title.skills.header'] = "HABILIDADES";
+$lang_es['title.skills.section'] = "HABILIDADES";
 /* U */
 $lang_es['url.resume']	=	"docs/es/resume.pdf";
 /* V */

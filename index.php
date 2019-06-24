@@ -107,19 +107,19 @@
 	    .slick-current {
 	      opacity: 1;
 	    }
-		.btn-back-to-top{			
+		.btn-back-to-top{
 			position: fixed;
 			bottom: 20px;
 			right: 20px;
 			font-size: 22px;
 			padding: 3px 15px;
 			border-radius: 0;
-			display: none;	
-			color: #D56565;			
+			display: none;
+			color: #D56565;
 		}
 		.btn-back-to-top {
-			border-color: #D56565;	
-		}					
+			border-color: #D56565;
+		}
 		</style>
 	</head>
 	<body>
@@ -132,7 +132,7 @@
 					<!-- Logo -->
 						<div id="logo">
 							<span class="image avatar60"><img src="main/images/avatar.jpeg" alt="" /></span>
-							<span class="language"><a href="http://localhost/edwardleon.com.ve/?lang=es" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (!isset($_GET['lang']) || $_GET['lang']=='es')?'active':null; ?>">ES</a> | <a href="http://localhost/edwardleon.com.ve/?lang=en" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (isset($_GET['lang']) && $_GET['lang']=='en')?'active':null; ?>">EN</a></span>
+							<span class="language"><a href="http://edwardleon.com.ve/?lang=es" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (!isset($_GET['lang']) || $_GET['lang']=='es')?'active':null; ?>">ES</a> | <a href="http://edwardleon.com.ve/?lang=en" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (isset($_GET['lang']) && $_GET['lang']=='en')?'active':null; ?>">EN</a></span>
 						</div>
 
 					<!-- Nav -->
@@ -156,11 +156,11 @@
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home"><?php echo $utilities->lang('title.home.header'); ?></span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user"><?php echo $utilities->lang('title.aboutme.header'); ?></span></a></li>
+								<li><a href="#skills" id="skills-link" class="skel-layers-ignoreHref"><span class="icon fa-code"><?php echo $utilities->lang('title.skills.header'); ?></span></a></li>
 								<li><a href="#service" id="service-link" class="skel-layers-ignoreHref"><span class="icon fa-wrench"><?php echo $utilities->lang('title.services.header'); ?></span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th"><?php echo $utilities->lang('title.portfolio.header'); ?></span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope"><?php echo $utilities->lang('title.contact.header'); ?></span></a></li>
-								<!--<li><a href="<?php echo $utilities->lang('url.resume'); ?>" id="curriculum-link" class="skel-layers-ignoreHref"><span class="icon fa-file-pdf-o"><?php echo $utilities->lang('title.resume.header'); ?></span></a></li>-->
-								<!--<li><a href="http://eleonsolar.com/blog" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-rss">BLOG</span></a></li>-->
+
 							</ul>
 						</nav>
 
@@ -239,91 +239,12 @@
 										<h2><?php echo $utilities->lang('title.aboutme.section'); ?></h2>
 									</header>
 
-								  <!-- <a href="javascript:void(0)" class="image featured"><img src="web/images/aboutme.png" alt="" style="height:auto;filter: grayscale(100%);-webkit-filter: grayscale(100%);"/></a> -->
+								  <a href="javascript:void(0)" class="image featured"><img src="web/images/aboutme.png" alt="" style="height:auto;filter: grayscale(100%);-webkit-filter: grayscale(100%);"/></a>
 
 									<p style="text-align:justify">
 										 <?php echo $utilities->lang('content.aboutme.section'); ?>
 									</p>
-											<div class="row">
-													<div class="6u 12u$(mobile)">
-															<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.framework.skillbar'); ?></h4>
-															<div class="skillbar clearfix " data-percent="100%">
-																<div class="skillbar-title" style="background: #2c3e50;"><span>Codeigniter</span></div>
-																<div class="skillbar-bar" style="background: #405264;"></div>
-																<div class="skill-bar-percent">100%</div>
-															</div> <!-- End Skill Bar -->
-															<div class="skillbar clearfix " data-percent="90%">
-																<div class="skillbar-title" style="background: #2980b9;"><span>YII</span></div>
-																<div class="skillbar-bar" style="background:#3498db;"></div>
-																<div class="skill-bar-percent">90%</div>
-															</div> <!-- End Skill Bar -->
-															<div class="skillbar clearfix " data-percent="80%">
-																<div class="skillbar-title" style="background: #2c3e50;"><span>Bootstrap</span></div>
-																<div class="skillbar-bar" style="background: #405264;"></div>
-																<div class="skill-bar-percent">80%</div>
-															</div> <!-- End Skill Bar -->
-															<div class="skillbar clearfix " data-percent="60%">
-																<div class="skillbar-title" style="background: #2980b9;"><span>Laravel</span></div>
-																<div class="skillbar-bar" style="background:#3498db;"></div>
-																<div class="skill-bar-percent">60%</div>
-															</div> <!-- End Skill Bar -->
-													</div>
-													<div class="6u 12u$(mobile)">
-															<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.database.skillbar'); ?></h4>
-															<div class="skillbar clearfix " data-percent="100%">
-																<div class="skillbar-title" style="background: #2c3e50;"><span>PostgreSQL</span></div>
-																<div class="skillbar-bar" style="background: #405264;"></div>
-																<div class="skill-bar-percent">100%</div>
-															</div> <!-- End Skill Bar -->
-															<div class="skillbar clearfix " data-percent="80%">
-																<div class="skillbar-title" style="background: #2980b9;"><span>Mysql</span></div>
-																<div class="skillbar-bar" style="background:#3498db;"></div>
-																<div class="skill-bar-percent">80%</div>
-															</div> <!-- End Skill Bar -->
-															<div class="skillbar clearfix " data-percent="40%">
-																<div class="skillbar-title" style="background: #2c3e50;"><span>Oracle</span></div>
-																<div class="skillbar-bar" style="background: #405264;"></div>
-																<div class="skill-bar-percent">40%</div>
-															</div> <!-- End Skill Bar -->
-													</div>
-								</div>
-								<div class="row">
-									<div class="6u 12u$(mobile)">
-										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.programinglang.skillbar'); ?></h4>
-										<div class="skillbar clearfix " data-percent="100%">
-											<div class="skillbar-title" style="background: #2c3e50;"><span>PHP</span></div>
-											<div class="skillbar-bar" style="background: #405264;"></div>
-											<div class="skill-bar-percent">100%</div>
-										</div> <!-- End Skill Bar -->
-										<div class="skillbar clearfix " data-percent="100%">
-											<div class="skillbar-title" style="background: #2980b9;"><span>JS</span></div>
-											<div class="skillbar-bar" style="background:#3498db;"></div>
-											<div class="skill-bar-percent">100%</div>
-										</div> <!-- End Skill Bar -->
-										<div class="skillbar clearfix " data-percent="80%">
-											<div class="skillbar-title" style="background: #2c3e50;"><span>Java</span></div>
-											<div class="skillbar-bar" style="background: #405264;"></div>
-											<div class="skill-bar-percent">80%</div>
-										</div> <!-- End Skill Bar -->
-										<div class="skillbar clearfix " data-percent="60%">
-											<div class="skillbar-title" style="background: #2980b9;"><span>Python</span></div>
-											<div class="skillbar-bar" style="background:#3498db;"></div>
-											<div class="skill-bar-percent">60%</div>
-										</div> <!-- End Skill Bar -->
-										<div class="skillbar clearfix " data-percent="50%">
-											<div class="skillbar-title" style="background: #2c3e50;"><span>PLSQL</span></div>
-											<div class="skillbar-bar" style="background: #405264;"></div>
-											<div class="skill-bar-percent">50%</div>
-										</div> <!-- End Skill Bar -->
-									</div>
-									<div class="6u 12u$(mobile)">
-											<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.cms.skillbar'); ?></h4>
-											<div class="skillbar clearfix " data-percent="80%">
-												<div class="skillbar-title" style="background: #2c3e50;"><span>Wordpress</span></div>
-												<div class="skillbar-bar" style="background: #405264;"></div>
-												<div class="skill-bar-percent">80%</div> <!-- End Skill Bar -->
-											</div>
-									</div>
+									<a target="_blank" href="<?= $utilities->lang('url.resume'); ?>"><button><?= $utilities->lang('content.aboutme.resume'); ?></button></a>
 								</div>
 								<br />
 								<!-- Techs -->
@@ -337,10 +258,100 @@
 									<img src="web/images/techs/angular.png" alt="" />
 									<img src="web/images/techs/wordpress.png" alt="" />
 								</article>-->
+					</section>
+					<!-- Skills -->
+					<section id="skills" class="three">
+							<div class="container">
+									<header>
+										<h2><?php echo $utilities->lang('title.skills.section'); ?></h2>
+									</header>
+
+										<div class="row">
+												<div class="6u 12u$(mobile)">
+														<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.framework.skillbar'); ?></h4>
+														<div class="skillbar clearfix " data-percent="100%">
+															<div class="skillbar-title" style="background: #2c3e50;"><span>Codeigniter</span></div>
+															<div class="skillbar-bar" style="background: #405264;"></div>
+															<div class="skill-bar-percent">100%</div>
+														</div> <!-- End Skill Bar -->
+														<div class="skillbar clearfix " data-percent="90%">
+															<div class="skillbar-title" style="background: #2980b9;"><span>YII</span></div>
+															<div class="skillbar-bar" style="background:#3498db;"></div>
+															<div class="skill-bar-percent">90%</div>
+														</div> <!-- End Skill Bar -->
+														<div class="skillbar clearfix " data-percent="80%">
+															<div class="skillbar-title" style="background: #2c3e50;"><span>Bootstrap</span></div>
+															<div class="skillbar-bar" style="background: #405264;"></div>
+															<div class="skill-bar-percent">80%</div>
+														</div> <!-- End Skill Bar -->
+														<div class="skillbar clearfix " data-percent="60%">
+															<div class="skillbar-title" style="background: #2980b9;"><span>Laravel</span></div>
+															<div class="skillbar-bar" style="background:#3498db;"></div>
+															<div class="skill-bar-percent">60%</div>
+														</div> <!-- End Skill Bar -->
+												</div>
+												<div class="6u 12u$(mobile)">
+														<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.database.skillbar'); ?></h4>
+														<div class="skillbar clearfix " data-percent="100%">
+															<div class="skillbar-title" style="background: #2c3e50;"><span>PostgreSQL</span></div>
+															<div class="skillbar-bar" style="background: #405264;"></div>
+															<div class="skill-bar-percent">100%</div>
+														</div> <!-- End Skill Bar -->
+														<div class="skillbar clearfix " data-percent="80%">
+															<div class="skillbar-title" style="background: #2980b9;"><span>Mysql</span></div>
+															<div class="skillbar-bar" style="background:#3498db;"></div>
+															<div class="skill-bar-percent">80%</div>
+														</div> <!-- End Skill Bar -->
+														<div class="skillbar clearfix " data-percent="40%">
+															<div class="skillbar-title" style="background: #2c3e50;"><span>Oracle</span></div>
+															<div class="skillbar-bar" style="background: #405264;"></div>
+															<div class="skill-bar-percent">40%</div>
+														</div> <!-- End Skill Bar -->
+												</div>
+							</div>
+							<div class="row">
+								<div class="6u 12u$(mobile)">
+									<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.programinglang.skillbar'); ?></h4>
+									<div class="skillbar clearfix " data-percent="100%">
+										<div class="skillbar-title" style="background: #2c3e50;"><span>PHP</span></div>
+										<div class="skillbar-bar" style="background: #405264;"></div>
+										<div class="skill-bar-percent">100%</div>
+									</div> <!-- End Skill Bar -->
+									<div class="skillbar clearfix " data-percent="100%">
+										<div class="skillbar-title" style="background: #2980b9;"><span>JS</span></div>
+										<div class="skillbar-bar" style="background:#3498db;"></div>
+										<div class="skill-bar-percent">100%</div>
+									</div> <!-- End Skill Bar -->
+									<div class="skillbar clearfix " data-percent="80%">
+										<div class="skillbar-title" style="background: #2c3e50;"><span>Java</span></div>
+										<div class="skillbar-bar" style="background: #405264;"></div>
+										<div class="skill-bar-percent">80%</div>
+									</div> <!-- End Skill Bar -->
+									<div class="skillbar clearfix " data-percent="60%">
+										<div class="skillbar-title" style="background: #2980b9;"><span>Python</span></div>
+										<div class="skillbar-bar" style="background:#3498db;"></div>
+										<div class="skill-bar-percent">60%</div>
+									</div> <!-- End Skill Bar -->
+									<div class="skillbar clearfix " data-percent="50%">
+										<div class="skillbar-title" style="background: #2c3e50;"><span>PLSQL</span></div>
+										<div class="skillbar-bar" style="background: #405264;"></div>
+										<div class="skill-bar-percent">50%</div>
+									</div> <!-- End Skill Bar -->
+								</div>
+								<div class="6u 12u$(mobile)">
+										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><?php echo $utilities->lang('title.cms.skillbar'); ?></h4>
+										<div class="skillbar clearfix " data-percent="80%">
+											<div class="skillbar-title" style="background: #2c3e50;"><span>Wordpress</span></div>
+											<div class="skillbar-bar" style="background: #405264;"></div>
+											<div class="skill-bar-percent">80%</div> <!-- End Skill Bar -->
+										</div>
+								</div>
+							</div>
+
 							</div>
 					</section>
 					<!-- Services -->
-					<section id="service" class="three">
+					<section id="service" class="four">
 							<div class="container">
 									<header>
 										<h2><?php echo $utilities->lang('title.services.section'); ?></h2>
@@ -381,7 +392,7 @@
 							</div>
 					</section>
 					<!-- Portfolio -->
-						<section id="portfolio" class="four">
+						<section id="portfolio" class="five">
 							<div class="container">
 								<header>
 									<h2><?php echo $utilities->lang('title.portfolio.section'); ?></h2>
@@ -666,7 +677,7 @@
 							</div>
 						</section>
 				<!-- Contact -->
-					<section id="contact" class="five">
+					<section id="contact" class="six">
 						<div class="container">
 
 							<header>
@@ -1331,7 +1342,7 @@
 
 			<script type="text/javascript">
 
-				$(document).ready(function(){					
+				$(document).ready(function(){
 
 					document.querySelector('.showcase.sweet button').onclick = function(){
 
@@ -1411,16 +1422,16 @@
 							autoplay: true,
 							autoplaySpeed: 2000,
 					});
-					
+
 					$('.btn-back-to-top').hide();
-					
+
 					$(window).scroll(function() {
 						var scroll = $(window).scrollTop();
-						if (scroll >= 100) { 
-							$('.btn-back-to-top').show(); 
-							
-						} else { 
-							$('.btn-back-to-top').hide(); 	
+						if (scroll >= 100) {
+							$('.btn-back-to-top').show();
+
+						} else {
+							$('.btn-back-to-top').hide();
 							$('.btn-back-to-top').css("color","#D56565");
 						}
 					});

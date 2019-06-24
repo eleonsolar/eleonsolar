@@ -7,6 +7,7 @@ $lang_en['btn.close']	=	"Close";
 $lang_en['client'] = 'Client:';
 $lang_en['content.aboutme.section'] = 'I am a graduate of the  <a  target="_blank" href="http://www.unefa.edu.ve/portal/" style="border-bottom-color: rgba(255, 255, 255, 0);color:#C65555"><span class="link-main">National Polytechnic Experimental University of the National Armed Force (U.N.E.FA)</span></a> in the Systems Engineering degree.
 Currently I am dedicated to the Backend development of Web Applications. My goals are aimed at success; I am constant, self-taught and collaborative.';
+$lang_en['content.aboutme.resume'] = "Get my resume";
 $lang_en['content.contact.section'] = 'Do you want to contact me? Fill out the form below and send me a message, I will try to answer it in the next 24 hours.';
 /* D */
 $lang_en['date'] = 'Date:';
@@ -85,26 +86,28 @@ $lang_en['subtitle.item3.services.section'] = "Development of scripts for bash s
 $lang_en['subtitle.item4.services.section'] = "Development of Stored procedure for management systems: Oracle, Postgres and Mysql.";
 /* T */
 $lang_en['title.aboutme.section']	=	"ABOUT ME";
-$lang_en['title.aboutme.header']	=	"About Me";
+$lang_en['title.aboutme.header']	=	"ABOUT ME";
 $lang_en['title.cms.skillbar'] = "CMS";
-$lang_en['title.contact.header'] = "Contact";
+$lang_en['title.contact.header'] = "CONTACT";
 $lang_en['title.contact.section'] = "CONTACT";
 $lang_en['title.database.skillbar'] = "Databases";
 $lang_en['title.framework.skillbar'] = "Frameworks";
-$lang_en['title.home.header']	=	"Home";
+$lang_en['title.home.header']	=	"HOME";
 $lang_en['title.item1.services.section'] = "Project management";
 $lang_en['title.item2.services.section'] = "Web development";
 $lang_en['title.item3.services.section'] = "Shellscripts";
 $lang_en['title.item4.services.section'] = "Stored procedure";
-$lang_en['title.portfolio.header'] = "Portfolio";
+$lang_en['title.portfolio.header'] = "PORTFOLIO";
 $lang_en['title.portfolio.section'] = "PORTFOLIO";
 $lang_en['title.programinglang.skillbar']	=	"Programming languages";
 $lang_en['title.resume.header']	=	"Resume";
-$lang_en['title.services.header']	=	"Services";
+$lang_en['title.services.header']	=	"SERVICES";
 $lang_en['title.services.section']	=	"SERVICES";
 $lang_en['title.site'] = "Edward Esteban León Solar";
 $lang_en['title.slide.1']	=	"Edward E. León Solar";
 $lang_en['title.slide.2']	=	"Edward E. León Solar";
+$lang_en['title.skills.header'] = "SKILLS";
+$lang_en['title.skills.section'] = "SKILLS";
 /* U */
 $lang_en['url.resume']	=	"docs/en/resume.pdf";
 /* V */
