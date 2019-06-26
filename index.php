@@ -346,7 +346,7 @@
 											<div class="skill-bar-percent">80%</div> <!-- End Skill Bar -->
 										</div>
 								</div>
-							</div>	
+							</div>
 
 							</div>
 					</section>
@@ -727,7 +727,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>WACMARCABLANCA</h2>
-                                <hr class="star-primary">
+                                <br>
                                 <img src="main/images/portfolio/pic19.png" class="img-responsive img-centered" alt="WACMARCABLANCA">
                                 <p> <?php echo $utilities->lang('project.wacmarcablanca.description'); ?></p>
                                 <p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.wacmarcablanca.whatidid'); ?></p>
@@ -763,7 +763,7 @@
 										<div class="col-lg-8 col-lg-offset-2">
 												<div class="modal-body">
 														<h2>AIGNEP</h2>
-														<hr class="star-primary">
+														<br>
 														<img src="main/images/portfolio/pic16.png" class="img-responsive img-centered" alt="AIGNEP">
 														<p> <?php echo $utilities->lang('project.aignep.description'); ?></p>
 														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.aignep.whatidid'); ?></p>
@@ -799,7 +799,7 @@
 										<div class="col-lg-8 col-lg-offset-2">
 												<div class="modal-body">
 														<h2>DORMIR BALNEARIOS</h2>
-														<hr class="star-primary">
+														<br>
 														<img src="main/images/portfolio/pic15.png" class="img-responsive img-centered" alt="DORMIR BALNEARIOS">
 														<p> <?php echo $utilities->lang('project.dormirbalnearios.description'); ?></p>
 														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.dormirbalnearios.whatidid'); ?></p>
@@ -835,7 +835,7 @@
 										<div class="col-lg-8 col-lg-offset-2">
 												<div class="modal-body">
 														<h2>HOSPITALK</h2>
-														<hr class="star-primary">
+														<br>
 														<img src="main/images/portfolio/pic14.png" class="img-responsive img-centered" alt="HOSPITALK">
 														<p> <?php echo $utilities->lang('project.hospitalk.description'); ?></p>
 														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid'); ?></span> <?php echo $utilities->lang('project.hospitalk.whatidid'); ?></p>
@@ -871,7 +871,7 @@
 										<div class="col-lg-8 col-lg-offset-2">
 												<div class="modal-body">
 														<h2>MIQUEL SUAY</h2>
-														<hr class="star-primary">
+														<br>
 														<img src="main/images/portfolio/pic13.png" class="img-responsive img-centered" alt="MIQUEL SUAY">
 														<p><?php echo $utilities->lang('project.miquelsuay.description'); ?></p>
 														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.miquelsuay.whatidid'); ?></p>
@@ -907,7 +907,7 @@
 											<div class="col-lg-8 col-lg-offset-2">
 													<div class="modal-body">
 															<h2>VISEGURITY</h2>
-															<hr class="star-primary">
+															<br>
 															<img src="main/images/portfolio/pic12.png" class="img-responsive img-centered" alt="VISEGURITY">
 															<p> <?php echo $utilities->lang('project.visegurity.description'); ?></p>
 															<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.visegurity.whatidid'); ?></p>
@@ -943,7 +943,7 @@
 											<div class="col-lg-8 col-lg-offset-2">
 													<div class="modal-body">
 															<h2>NSOURCE</h2>
-															<hr class="star-primary">
+															<br>
 															<img src="main/images/portfolio/pic10.png" class="img-responsive img-centered" alt="NSOURCE">
 															<p> <?php echo $utilities->lang('project.nsource.description'); ?></p>
 															<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid'); ?></span> <?php echo $utilities->lang('project.nsource.whatidid'); ?></p>
@@ -979,7 +979,7 @@
 											<div class="col-lg-8 col-lg-offset-2">
 													<div class="modal-body">
 															<h2>FOOQUO</h2>
-															<hr class="star-primary">
+															<br>
 															<img src="main/images/portfolio/pic01.png" class="img-responsive img-centered" alt="FOOQUO">
 															<p> <?php echo $utilities->lang('project.fooquo.description'); ?></p>
 															<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.fooquo.whatidid'); ?></p>
@@ -1015,7 +1015,7 @@
 										<div class="col-lg-8 col-lg-offset-2">
 												<div class="modal-body">
 														<h2>CRUD DEMO</h2>
-														<hr class="star-primary">
+														<br>
 														<img src="main/images/portfolio/pic08.png" class="img-responsive img-centered" alt="CRUD DEMO">
 														<p> <?php echo $utilities->lang('project.cruddemo.description'); ?></p>
 														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.cruddemo.whatidid'); ?></p>
@@ -1051,7 +1051,7 @@
 										<div class="col-lg-8 col-lg-offset-2">
 												<div class="modal-body">
 														<h2>WEB PERSONAL</h2>
-														<hr class="star-primary">
+														<br>
 														<img src="main/images/portfolio/pic09.png" class="img-responsive img-centered" alt="WEB PERSONAL">
 														<p><?php echo $utilities->lang('project.webpersonal.description'); ?></p>
 														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid'); ?></span> <?php echo $utilities->lang('project.webpersonal.whatidid'); ?></p>
@@ -1081,7 +1081,7 @@
 										<div class="col-lg-8 col-lg-offset-2">
 												<div class="modal-body">
 														<h2>DEVELOOP</h2>
-														<hr class="star-primary">
+														<br>
 														<img src="main/images/portfolio/pic18.png" class="img-responsive img-centered" alt="DEVELOOP">
 														<p> <?php echo $utilities->lang('project.develoop.description'); ?></p>
 														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.develoop.whatidid'); ?></p>
@@ -1117,7 +1117,7 @@
 										<div class="col-lg-8 col-lg-offset-2">
 												<div class="modal-body">
 														<h2>SIGECIP</h2>
-														<hr class="star-primary">
+														<br>
 														<img src="main/images/portfolio/pic02.png" class="img-responsive img-centered" alt="SIGECIP">
 														<p> <?php echo $utilities->lang('project.sigecip.description'); ?></p>
 														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.sigecip.whatidid'); ?></p>
@@ -1153,7 +1153,7 @@
 										<div class="col-lg-8 col-lg-offset-2">
 												<div class="modal-body">
 														<h2>CONTRATOS</h2>
-														<hr class="star-primary">
+														<br>
 														<img src="main/images/portfolio/pic17.png" class="img-responsive img-centered" alt="AIGNEP">
 														<p> <?php echo $utilities->lang('project.contratos.description'); ?></p>
 														<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.contratos.whatidid'); ?></p>
@@ -1189,7 +1189,7 @@
 											<div class="col-lg-8 col-lg-offset-2">
 													<div class="modal-body">
 															<h2>MIEQUIPO</h2>
-															<hr class="star-primary">
+															<br>
 															<img src="main/images/portfolio/pic06.png" class="img-responsive img-centered" alt="MIEQUIPO">
 															<p> <?php echo $utilities->lang('project.miequipo.description'); ?></p>
 															<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.miequipo.whatidid'); ?></p>
@@ -1225,7 +1225,7 @@
 												<div class="col-lg-8 col-lg-offset-2">
 														<div class="modal-body">
 																<h2>SIREDOC</h2>
-																<hr class="star-primary">
+																<br>
 																<img src="main/images/portfolio/pic05.png" class="img-responsive img-centered" alt="SIREDOC">
 																<p> <?php echo $utilities->lang('project.siredoc.description'); ?></p>
 																<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.siredoc.whatidid'); ?></p>
@@ -1261,7 +1261,7 @@
 													<div class="col-lg-8 col-lg-offset-2">
 															<div class="modal-body">
 																	<h2>DIRDIGI</h2>
-																	<hr class="star-primary">
+																	<br>
 																	<img src="main/images/portfolio/pic04.png" class="img-responsive img-centered" alt="DIRDIGI">
 																	<p> <?php echo $utilities->lang('project.dirdigi.description'); ?></p>
 																	<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.dirdigi.whatidid'); ?></p>
@@ -1297,7 +1297,7 @@
 														<div class="col-lg-8 col-lg-offset-2">
 																<div class="modal-body">
 																		<h2>MVO</h2>
-																		<hr class="star-primary">
+																		<br>
 																		<img src="main/images/portfolio/pic03.png" class="img-responsive img-centered" alt="MVO">
 																		<p> <?php echo $utilities->lang('project.mvo.description'); ?></p>
 																		<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span> <?php echo $utilities->lang('project.mvo.whatidid'); ?></p>
