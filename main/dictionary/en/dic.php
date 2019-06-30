@@ -87,11 +87,13 @@ $lang_en['subtitle.item4.services.section'] = "Development of Stored procedure f
 /* T */
 $lang_en['title.aboutme.section']	=	"ABOUT ME";
 $lang_en['title.aboutme.header']	=	"ABOUT ME";
+$lang_en['title.backend.skillbar'] = "Backend";
 $lang_en['title.cms.skillbar'] = "CMS";
 $lang_en['title.contact.header'] = "CONTACT";
 $lang_en['title.contact.section'] = "CONTACT";
 $lang_en['title.database.skillbar'] = "Databases";
 $lang_en['title.framework.skillbar'] = "Frameworks";
+$lang_en['title.frontend.skillbar'] = "Frontend";
 $lang_en['title.home.header']	=	"HOME";
 $lang_en['title.item1.services.section'] = "Project management";
 $lang_en['title.item2.services.section'] = "Web development";

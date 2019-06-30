@@ -87,11 +87,13 @@ $lang_es['subtitle.item3.services.section'] = "Desarrollo de scripts para shell 
 $lang_es['subtitle.item4.services.section'] = "Desarrollo de Stored procedure para sistemas de gestión: Oracle, Postgres y Mysql.";
 /* T */
 $lang_es['title.aboutme.header']	=	"SOBRE MÍ";
+$lang_es['title.backend.skillbar'] = "Backend";
 $lang_es['title.cms.skillbar'] = "CMS";
 $lang_es['title.contact.header'] = "CONTACTO";
 $lang_es['title.contact.section'] = "CONTACTO";
 $lang_es['title.database.skillbar'] = "Bases de datos";
 $lang_es['title.framework.skillbar'] = "Frameworks";
+$lang_es['title.frontend.skillbar'] = "Frontend";
 $lang_es['title.home.header']	=	"INICIO";
 $lang_es['title.item1.services.section'] = "Gestión de proyecto";
 $lang_es['title.item2.services.section'] = "Desarrollo Web";

@@ -2,10 +2,10 @@
 .skillbar {
 	position:relative;
 	display:block;
-	margin-bottom:15px;
+	margin-bottom:5px;
 	width:100%;
 	background:#DBDCDC;
-	height:35px;
+	height:30px;
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -42,8 +42,8 @@ width:110px;
 	display:block;
 	background:rgba(0, 0, 0, 0.1);
 	padding:0 20px;
-	height:35px;
-	line-height:35px;
+	height:30px;
+	line-height:30px;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:3px;
 	-moz-border-radius-topleft:3px;
@@ -53,7 +53,7 @@ width:110px;
 }
 
 .skillbar-bar {
-	height:35px;
+	height:30px;
 	width:0px;
 	background:#6adcfa;
 	border-radius:3px;
@@ -67,8 +67,8 @@ width:110px;
 	top:0;
 	font-size:11px;
   font-weight:bold;
-	height:35px;
-	line-height:35px;
+	height:30px;
+	line-height:30px;
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.6);
 }
