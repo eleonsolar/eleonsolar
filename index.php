@@ -120,7 +120,15 @@
 		.btn-back-to-top {
 			border-color: #D56565;
 		}
-		</style>
+		.btn-back-to-top:hover {
+			background-color: #3d3c3c;
+			border-color: #3d3c3c;
+			color: #D56565;
+		}
+		.btn-back-to-top:visited {
+		 color: #D56565;
+		}
+	</style>
 	</head>
 	<body>
 
@@ -1423,7 +1431,6 @@
 
 						} else {
 							$('.btn-back-to-top').hide();
-							$('.btn-back-to-top').css("color","#D56565");
 						}
 					});
 				});
