@@ -263,47 +263,47 @@
 														<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><i class="fa fa-server"></i> <?php echo $utilities->lang('title.backend.skillbar'); ?></h4>
 														<div class="skillbar clearfix " data-percent="100%">
 															<div class="skillbar-title" style="background: #41484c;"><span>Codeigniter</span></div>
-															<div class="skillbar-bar" style="background: #41484c;"></div>
+															<div class="skillbar-bar" style="background: #566064;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="100%">
 															<div class="skillbar-title" style="background: #C65555;"><span>Mysql</span></div>
-															<div class="skillbar-bar" style="background:#C65555;"></div>
+															<div class="skillbar-bar" style="background:#d27676;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="100%">
 															<div class="skillbar-title" style="background: #41484c;"><span>PHP</span></div>
-															<div class="skillbar-bar" style="background: #41484c;"></div>
+															<div class="skillbar-bar" style="background: #566064;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="100%">
 															<div class="skillbar-title" style="background: #C65555;"><span>PostgreSQL</span></div>
-															<div class="skillbar-bar" style="background: #C65555;"></div>
+															<div class="skillbar-bar" style="background: #d27676;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="90%">
 															<div class="skillbar-title" style="background: #41484c;"><span>YII2</span></div>
-															<div class="skillbar-bar" style="background:#41484c;"></div>
+															<div class="skillbar-bar" style="background:#566064;"></div>
 															<div class="skill-bar-percent">90%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="70%">
 															<div class="skillbar-title" style="background: #C65555;"><span>Laravel</span></div>
-															<div class="skillbar-bar" style="background:#C65555;"></div>
+															<div class="skillbar-bar" style="background:#d27676;"></div>
 															<div class="skill-bar-percent">70%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="60%">
 															<div class="skillbar-title" style="background: #41484c;"><span>Java</span></div>
-															<div class="skillbar-bar" style="background: #41484c;"></div>
+															<div class="skillbar-bar" style="background:#566064;"></div>
 															<div class="skill-bar-percent">60%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="60%">
 															<div class="skillbar-title" style="background: #C65555;"><span>Python</span></div>
-															<div class="skillbar-bar" style="background:#C65555;"></div>
+															<div class="skillbar-bar" style="background:#d27676;"></div>
 															<div class="skill-bar-percent">60%</div>
 														</div>
 														<div class="skillbar clearfix " data-percent="50%">
 															<div class="skillbar-title" style="background: #41484c;"><span>PLSQL</span></div>
-															<div class="skillbar-bar" style="background: #41484c;"></div>
+															<div class="skillbar-bar" style="background: #566064;"></div>
 															<div class="skill-bar-percent">50%</div>
 														</div> <!-- End Skill Bar -->
 												</div>
@@ -311,27 +311,27 @@
 														<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><i class="fa fa-desktop"></i> <?php echo $utilities->lang('title.frontend.skillbar'); ?></h4>
 														<div class="skillbar clearfix " data-percent="100%">
 															<div class="skillbar-title" style="background: #41484c;"><span>Bootstrap</span></div>
-															<div class="skillbar-bar" style="background: #41484c;"></div>
+															<div class="skillbar-bar" style="background: #566064;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="100%">
 															<div class="skillbar-title" style="background: #C65555;"><span>CSS</span></div>
-															<div class="skillbar-bar" style="background:#C65555;"></div>
+															<div class="skillbar-bar" style="background:#d27676;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="100%">
 															<div class="skillbar-title" style="background: #41484c;"><span>HTML</span></div>
-															<div class="skillbar-bar" style="background:#41484c;"></div>
+															<div class="skillbar-bar" style="background:#566064;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="100%">
 															<div class="skillbar-title" style="background: #C65555;"><span>JQuery</span></div>
-															<div class="skillbar-bar" style="background:#C65555;"></div>
+															<div class="skillbar-bar" style="background:#d27676;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="80%">
 															<div class="skillbar-title" style="background: #41484c;"><span>Javascript</span></div>
-															<div class="skillbar-bar" style="background:#41484c;"></div>
+															<div class="skillbar-bar" style="background:#566064;"></div>
 															<div class="skill-bar-percent">80%</div>
 														</div> <!-- End Skill Bar -->
 
@@ -342,7 +342,7 @@
 										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><i class="fa fa-book"></i> <?php echo $utilities->lang('title.cms.skillbar'); ?></h4>
 										<div class="skillbar clearfix " data-percent="80%">
 											<div class="skillbar-title" style="background: #41484c;"><span>Wordpress</span></div>
-											<div class="skillbar-bar" style="background: #41484c;"></div>
+											<div class="skillbar-bar" style="background: #566064;"></div>
 											<div class="skill-bar-percent">80%</div> <!-- End Skill Bar -->
 										</div>
 								</div>
