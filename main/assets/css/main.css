@@ -2624,3 +2624,28 @@
 				}
 
 	}
+
+
+	/* Mobile */
+
+  @media screen and (max-width: 425px){
+
+
+		#subtitle-slide1, #subtitle-slide2{
+			font-size: 13pt;
+			margin-left: 40%;
+
+		}
+
+		#slide1, #slide2{
+			font-size: 20pt;
+		}
+
+		#arrow1, #arrow2, #slide1, #slide2 {
+			margin-left: 50%;
+		}
+
+		#hr, #company-slider{
+			display: none;
+		}
+	}
