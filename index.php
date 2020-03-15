@@ -653,27 +653,18 @@
 										</article>
 									</div>
 								</div>
-								<hr />
-								<!--<div class="row">-->
-									 <section class="center slider">
+								<hr id="hr"/>
+								<section class="center slider" id="company-slider">
 										<div>
-                                        <!--<div class="4u 4u$(mobile)"> -->
-												<a href="http://www.cantv.net/" target="_blank"><img src="main/images/clients/cantv.jpg" class="ico-company img-responsive " style="width: 80pt;height:40pt;"/></a>
-                                        <!--</div>-->
-                                        </div>
-                                        <div>
-                                        <!--<div class="4u 4u$(mobile)">-->
-												<a href="https://www.develoop.net/" target="_blank"><img src="main/images/clients/develoop.png" class="ico-company img-responsive " style="width: 80pt;height:40pt;"/></a>
-                                        <!--</div>-->
-                                        </div>
-                                        <div>
-                                        <!--<div class="4u 4u$(mobile)">-->
-												<a href="https://www.wearecontent.com/" target="_blank"><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 130pt;height:35pt;"/></a>
-                                        <!--</div>-->
-                                        </div>
-								     </section>
-						    	<!--</div>-->
-							</div>
+												<a href="http://www.cantv.net/" ><img src="main/images/clients/cantv.jpg" class="ico-company img-responsive " style="width: 80pt;height:40pt"/></a>
+										</div>
+										<div>
+												<a href="https://www.develoop.net/" ><img src="main/images/clients/develoop.png" class="ico-company img-responsive " style="width: 80pt;height:40pt"/></a>
+										</div>
+										<div>
+												<a href="https://www.wearecontent.com/" ><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 145pt;height:35pt"/></a>
+										</div>
+								 </section>
 						</section>
 				<!-- Contact -->
 					<section id="contact" class="six">
@@ -735,7 +726,7 @@
                                         <a class="link-main" href="https://www.wearecontent.com/" target="_blank">WeAreContent</a>
                                     </li>
                                     <li><?php echo $utilities->lang('date'); ?>
-                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.december').' '; ?> 2018 - <?php echo $utilities->lang('present').' '; ?></a>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.december').' '; ?> 2018 - <?php echo $utilities->lang('month.march').' '; ?> 2020</a>
                                     </li>
                                     <li><?php echo $utilities->lang('services'); ?>
                                         <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
@@ -1416,7 +1407,7 @@
            **/
 
 					 $(".center").slick({
-						  slidesToShow: 3,
+						  slidesToShow: 2,
 							slidesToScroll: 1,
 							autoplay: true,
 							autoplaySpeed: 2000,
