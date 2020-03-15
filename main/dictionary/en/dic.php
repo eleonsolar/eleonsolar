@@ -39,7 +39,7 @@ $lang_en['month.december'] = 'December';
 /* O */
 /* P */
 $lang_en['project.wacmarcablanca.description'] = 'WACMARCABLANCA Portal that allows the creation, distribution and consumption of content for business brands. It\'s done in YII2 + Bootstrap + PosgresSQL.';
-$lang_en['project.wacmarcablanca.whatidid'] = 'Development of medium registration';
+$lang_en['project.wacmarcablanca.whatidid'] = 'Development of media registration. Development of order creation. Integration with Cyclos 4. Integration with GPDynamics. Development of email and push notification modules. CRUD for countries, type of orders, type of notifications, among others.';
 $lang_en['project.aignep.description'] = 'AIGNEP Portal that promotes the sale of products from the valves and compressed air industry. It\'s made in Laravel + Bootstrap + Mysql.';
 $lang_en['project.aignep.whatidid'] = ' Collaboration in the 3D visualization of the plant simulator.';
 $lang_en['project.dormirbalnearios.description'] = 'DORMIR BALNEARIOS Portal for the sale of accommodation and leisure services in spas. It\'s done in PHP + Bootstrap + Mysql.';
