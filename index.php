@@ -126,8 +126,8 @@
 			color: #D56565;
 		}
 		.btn-back-to-top:visited {
-		 color: #D56565;
-		}
+		 	color: #D56565;
+		}		
 	</style>
 	</head>
 	<body>
@@ -396,6 +396,18 @@
 								<header>
 									<h2><?php echo $utilities->lang('title.portfolio.section'); ?></h2>
 								</header>
+
+								<section class="center slider" id="company-slider">
+										<div>
+												<a href="http://www.cantv.net/" ><img src="main/images/clients/cantv.jpg" class="ico-company img-responsive " style="width: 80pt;height:40pt"/></a>
+										</div>
+										<div>
+												<a href="https://www.develoop.net/" ><img src="main/images/clients/develoop.png" class="ico-company img-responsive " style="width: 80pt;height:40pt"/></a>
+										</div>
+										<div>
+												<a href="https://www.wearecontent.com/" ><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 130pt;height:35pt"/></a>
+										</div>
+								</section>
 								<div class="row">
                                     <div class="4u 12u$(mobile) portfolio-item">
                                         <article class="item">
@@ -653,18 +665,6 @@
 										</article>
 									</div>
 								</div>
-								<hr id="hr"/>
-								<section class="center slider" id="company-slider">
-										<div>
-												<a href="http://www.cantv.net/" ><img src="main/images/clients/cantv.jpg" class="ico-company img-responsive " style="width: 80pt;height:40pt"/></a>
-										</div>
-										<div>
-												<a href="https://www.develoop.net/" ><img src="main/images/clients/develoop.png" class="ico-company img-responsive " style="width: 80pt;height:40pt"/></a>
-										</div>
-										<div>
-												<a href="https://www.wearecontent.com/" ><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 145pt;height:35pt"/></a>
-										</div>
-								 </section>
 						</section>
 				<!-- Contact -->
 					<section id="contact" class="six">
