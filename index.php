@@ -127,7 +127,7 @@
 		}
 		.btn-back-to-top:visited {
 		 	color: #D56565;
-		}		
+		}
 	</style>
 	</head>
 	<body>
@@ -229,9 +229,7 @@
 							<div class="container">
 									<header>
 										<h2><?php echo $utilities->lang('title.aboutme.section'); ?></h2>
-									</header>
-
-								  <a href="javascript:void(0)" class="image featured"><img src="web/images/aboutme.png" alt="" style="height:auto;filter: grayscale(100%);-webkit-filter: grayscale(100%);"/></a>
+									</header>							  
 
 									<p style="text-align:justify">
 										 <?php echo $utilities->lang('content.aboutme.section'); ?>
