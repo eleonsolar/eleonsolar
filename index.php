@@ -14,13 +14,13 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="icon" href="main/images/favicon.ico">
 		<link rel="stylesheet" href="main/assets/css/main.css" />
-		<link rel="stylesheet" href="main/assets/css/contact.css" />
 		<link rel="stylesheet" href="main/assets/css/skillbar.css" />
 		<link rel="stylesheet" href="main/assets/css/accordion.css" />
 		<link rel="stylesheet" href="main/assets/css/portafolio.css" />
 		<link rel="stylesheet" href="main/assets/css/service.css" />
 		<link rel="stylesheet" href="main/assets/css/slide.css" />
 		<link rel="stylesheet" href="main/libs/sweetalert/dist/sweetalert.css">
+		<link rel="stylesheet" href="main/assets/css/skillcircle.css">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="main/libs/bootstrap/css/bootstrap.css" />
@@ -128,6 +128,9 @@
 		.btn-back-to-top:visited {
 		 	color: #D56565;
 		}
+		.row-label{
+			margin-bottom: 10px;
+		}
 	</style>
 	</head>
 	<body>
@@ -229,7 +232,7 @@
 							<div class="container">
 									<header>
 										<h2><?php echo $utilities->lang('title.aboutme.section'); ?></h2>
-									</header>							  
+									</header>
 
 									<p style="text-align:justify">
 										 <?php echo $utilities->lang('content.aboutme.section'); ?>
@@ -255,96 +258,262 @@
 									<header>
 										<h2><?php echo $utilities->lang('title.skills.section'); ?></h2>
 									</header>
-
-									<div class="row">
-												<div class="6u 12u$(mobile)">
-														<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><i class="fa fa-server"></i> <?php echo $utilities->lang('title.backend.skillbar'); ?></h4>
-														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #41484c;"><span>Codeigniter</span></div>
-															<div class="skillbar-bar" style="background: #566064;"></div>
-															<div class="skill-bar-percent">100%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #C65555;"><span>Mysql</span></div>
-															<div class="skillbar-bar" style="background:#d27676;"></div>
-															<div class="skill-bar-percent">100%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #41484c;"><span>PHP</span></div>
-															<div class="skillbar-bar" style="background: #566064;"></div>
-															<div class="skill-bar-percent">100%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #C65555;"><span>PostgreSQL</span></div>
-															<div class="skillbar-bar" style="background: #d27676;"></div>
-															<div class="skill-bar-percent">100%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="90%">
-															<div class="skillbar-title" style="background: #41484c;"><span>YII2</span></div>
-															<div class="skillbar-bar" style="background:#566064;"></div>
-															<div class="skill-bar-percent">90%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="70%">
-															<div class="skillbar-title" style="background: #C65555;"><span>Laravel</span></div>
-															<div class="skillbar-bar" style="background:#d27676;"></div>
-															<div class="skill-bar-percent">70%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="60%">
-															<div class="skillbar-title" style="background: #41484c;"><span>Java</span></div>
-															<div class="skillbar-bar" style="background:#566064;"></div>
-															<div class="skill-bar-percent">60%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="60%">
-															<div class="skillbar-title" style="background: #C65555;"><span>Python</span></div>
-															<div class="skillbar-bar" style="background:#d27676;"></div>
-															<div class="skill-bar-percent">60%</div>
+									<div class="row row-label">
+												<div class="3u 12u$(mobile)"><h3>Frameworks</h3></div>
+									</div>
+									<div class="container-skillscircle ">
+											<div class="row">
+														<div class="3u 12u$(mobile) portfolio-item">
+											            <div class="card" id="card1">
+											                <div class="box">
+											                    <div class="percent">
+											                        <svg>
+											                            <circle cx="70" cy="70" r="70"></circle>
+											                            <circle cx="70" cy="70" r="70"></circle>
+											                        </svg>
+											                        <div class="number">
+											                            <h2>100<span>%</span></h2>
+											                        </div>
+											                    </div>
+											                    <h2 class="text">Codeigniter</h2>
+											                </div>
+											            </div>
 														</div>
-														<div class="skillbar clearfix " data-percent="50%">
-															<div class="skillbar-title" style="background: #41484c;"><span>PLSQL</span></div>
-															<div class="skillbar-bar" style="background: #566064;"></div>
-															<div class="skill-bar-percent">50%</div>
-														</div> <!-- End Skill Bar -->
-												</div>
-												<div class="6u 12u$(mobile)">
-														<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><i class="fa fa-desktop"></i> <?php echo $utilities->lang('title.frontend.skillbar'); ?></h4>
-														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #41484c;"><span>Bootstrap</span></div>
-															<div class="skillbar-bar" style="background: #566064;"></div>
-															<div class="skill-bar-percent">100%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #C65555;"><span>CSS</span></div>
-															<div class="skillbar-bar" style="background:#d27676;"></div>
-															<div class="skill-bar-percent">100%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #41484c;"><span>HTML</span></div>
-															<div class="skillbar-bar" style="background:#566064;"></div>
-															<div class="skill-bar-percent">100%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #C65555;"><span>JQuery</span></div>
-															<div class="skillbar-bar" style="background:#d27676;"></div>
-															<div class="skill-bar-percent">100%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="80%">
-															<div class="skillbar-title" style="background: #41484c;"><span>Javascript</span></div>
-															<div class="skillbar-bar" style="background:#566064;"></div>
-															<div class="skill-bar-percent">80%</div>
-														</div> <!-- End Skill Bar -->
-
-											 </div>
-							</div>
-							<div class="row">
-								<div class="6u 12u$(mobile)">
-										<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><i class="fa fa-book"></i> <?php echo $utilities->lang('title.cms.skillbar'); ?></h4>
-										<div class="skillbar clearfix " data-percent="80%">
-											<div class="skillbar-title" style="background: #41484c;"><span>Wordpress</span></div>
-											<div class="skillbar-bar" style="background: #566064;"></div>
-											<div class="skill-bar-percent">80%</div> <!-- End Skill Bar -->
-										</div>
-								</div>
-							</div>
+														<div class="3u 12u$(mobile) portfolio-item">
+																<div class="card" id="card4">
+																		<div class="box">
+																				<div class="percent">
+																						<svg>
+																								<circle cx="70" cy="70" r="70"></circle>
+																								<circle cx="70" cy="70" r="70"></circle>
+																						</svg>
+																						<div class="number">
+																								<h2>100<span>%</span></h2>
+																						</div>
+																				</div>
+																				<h2 class="text">Bootstrap</h2>
+																		</div>
+																</div>
+														</div>
+														<div class="3u 12u$(mobile) portfolio-item">
+											            <div class="card" id="card2" >
+											                <div class="box">
+											                    <div class="percent">
+											                        <svg>
+											                            <circle cx="70" cy="70" r="70"></circle>
+											                            <circle cx="70" cy="70" r="70"></circle>
+											                        </svg>
+											                        <div class="number">
+											                            <h2>80<span>%</span></h2>
+											                        </div>
+											                    </div>
+											                    <h2 class="text">Yii2</h2>
+											                </div>
+											            </div>
+														</div>
+														<div class="3u 12u$(mobile) portfolio-item">
+											            <div class="card" id="card3">
+											                <div class="box">
+											                    <div class="percent">
+											                        <svg>
+											                            <circle cx="70" cy="70" r="70"></circle>
+											                            <circle cx="70" cy="70" r="70"></circle>
+											                        </svg>
+											                        <div class="number">
+											                            <h2>60<span>%</span></h2>
+											                        </div>
+											                    </div>
+											                    <h2 class="text">Laravel</h2>
+											                </div>
+											            </div>
+															</div>
+											</div>
+									</div>
+									<div class="row row-label">
+												<div class="3u 12u$(mobile)"><h3>Lenguajes</h3></div>
+									</div>
+									<div class="container-skillscircle ">
+											<div class="row">
+														<div class="3u 12u$(mobile) portfolio-item">
+																	<div class="card" id="card10">
+																			<div class="box">
+																					<div class="percent">
+																							<svg>
+																									<circle cx="70" cy="70" r="70"></circle>
+																									<circle cx="70" cy="70" r="70"></circle>
+																							</svg>
+																							<div class="number">
+																									<h2>100<span>%</span></h2>
+																							</div>
+																					</div>
+																					<h2 class="text">HTML</h2>
+																			</div>
+																	</div>
+														</div>
+														<div class="3u 12u$(mobile) portfolio-item">
+																	<div class="card" id="card11">
+																			<div class="box">
+																					<div class="percent">
+																							<svg>
+																									<circle cx="70" cy="70" r="70"></circle>
+																									<circle cx="70" cy="70" r="70"></circle>
+																							</svg>
+																							<div class="number">
+																									<h2>100<span>%</span></h2>
+																							</div>
+																					</div>
+																					<h2 class="text">CSS</h2>
+																			</div>
+																	</div>
+														</div>
+														<div class="3u 12u$(mobile) portfolio-item">
+																	<div class="card" id="card5">
+																			<div class="box">
+																					<div class="percent">
+																							<svg>
+																									<circle cx="70" cy="70" r="70"></circle>
+																									<circle cx="70" cy="70" r="70"></circle>
+																							</svg>
+																							<div class="number">
+																									<h2>100<span>%</span></h2>
+																							</div>
+																					</div>
+																					<h2 class="text">PHP</h2>
+																			</div>
+																	</div>
+														</div>
+														<div class="3u 12u$(mobile) portfolio-item">
+																	<div class="card" id="card9">
+																			<div class="box">
+																					<div class="percent">
+																							<svg>
+																									<circle cx="70" cy="70" r="70"></circle>
+																									<circle cx="70" cy="70" r="70"></circle>
+																							</svg>
+																							<div class="number">
+																									<h2>80<span>%</span></h2>
+																							</div>
+																					</div>
+																					<h2 class="text">Javascript</h2>
+																			</div>
+																	</div>
+														</div>
+											</div>
+									</div>
+									<div class="container-skillscircle ">
+											<div class="row">
+													<div class="3u 12u$(mobile) portfolio-item">
+																<div class="card" id="card6">
+																		<div class="box">
+																				<div class="percent">
+																						<svg>
+																								<circle cx="70" cy="70" r="70"></circle>
+																								<circle cx="70" cy="70" r="70"></circle>
+																						</svg>
+																						<div class="number">
+																								<h2>60<span>%</span></h2>
+																						</div>
+																				</div>
+																				<h2 class="text">Python</h2>
+																		</div>
+																</div>
+													</div>
+													<div class="3u 12u$(mobile) portfolio-item">
+																<div class="card" id="card7">
+																		<div class="box">
+																				<div class="percent">
+																						<svg>
+																								<circle cx="70" cy="70" r="70"></circle>
+																								<circle cx="70" cy="70" r="70"></circle>
+																						</svg>
+																						<div class="number">
+																								<h2>50<span>%</span></h2>
+																						</div>
+																				</div>
+																				<h2 class="text">Java</h2>
+																		</div>
+																</div>
+													</div>
+													<div class="3u 12u$(mobile) portfolio-item">
+																<div class="card" id="card8">
+																		<div class="box">
+																				<div class="percent">
+																						<svg>
+																								<circle cx="70" cy="70" r="70"></circle>
+																								<circle cx="70" cy="70" r="70"></circle>
+																						</svg>
+																						<div class="number">
+																								<h2>40<span>%</span></h2>
+																						</div>
+																				</div>
+																				<h2 class="text">Plpgsql</h2>
+																		</div>
+																</div>
+													</div>
+													<div class="3u 12u$(mobile) portfolio-item">
+																<div class="card-empty" ></div>
+													</div>
+											</div>
+									</div>
+									<div class="row row-label">
+												<div class="3u 12u$(mobile)"><h3>Bases de datos</h3></div>
+									</div>
+									<div class="container-skillscircle ">
+											<div class="row">
+													<div class="3u 12u$(mobile) portfolio-item">
+																<div class="card" id="card12">
+																		<div class="box">
+																				<div class="percent">
+																						<svg>
+																								<circle cx="70" cy="70" r="70"></circle>
+																								<circle cx="70" cy="70" r="70"></circle>
+																						</svg>
+																						<div class="number">
+																								<h2>100<span>%</span></h2>
+																						</div>
+																				</div>
+																				<h2 class="text">PostgreSql</h2>
+																		</div>
+																</div>
+													</div>
+													<div class="3u 12u$(mobile) portfolio-item">
+																<div class="card" id="card13">
+																		<div class="box">
+																				<div class="percent">
+																						<svg>
+																								<circle cx="70" cy="70" r="70"></circle>
+																								<circle cx="70" cy="70" r="70"></circle>
+																						</svg>
+																						<div class="number">
+																								<h2>100<span>%</span></h2>
+																						</div>
+																				</div>
+																				<h2 class="text">Mysql</h2>
+																		</div>
+																</div>
+													</div>
+													<div class="3u 12u$(mobile) portfolio-item">
+																<div class="card" id="card14">
+																		<div class="box">
+																				<div class="percent">
+																						<svg>
+																								<circle cx="70" cy="70" r="70"></circle>
+																								<circle cx="70" cy="70" r="70"></circle>
+																						</svg>
+																						<div class="number">
+																								<h2>60<span>%</span></h2>
+																						</div>
+																				</div>
+																				<h2 class="text">Mariadb</h2>
+																		</div>
+																</div>
+													</div>
+													<div class="3u 12u$(mobile) portfolio-item">
+																<div class="card-empty" ></div>
+													</div>
+											</div>
+									</div>
+									<h3 style="text-align:left"><span style="font-weight:bold">Otros:</span> Wordpress, Jquery, Git, SVN, Pentaho DI, Codeception, API Rest.</h3>
 							</div>
 					</section>
 					<!-- Services -->
@@ -402,8 +571,11 @@
 										<div>
 												<a href="https://www.develoop.net/" ><img src="main/images/clients/develoop.png" class="ico-company img-responsive " style="width: 80pt;height:40pt"/></a>
 										</div>
+									  <div>
+												<a href="https://www.wearecontent.com/" ><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 120pt;height:35pt"/></a>
+										</div>
 										<div>
-												<a href="https://www.wearecontent.com/" ><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 130pt;height:35pt"/></a>
+												<a href="https://www.pegasus.com.mx/" ><img src="main/images/clients/pegasus.png" class="ico-company img-responsive " style="width: 110pt;height:40pt"/></a>
 										</div>
 								</section>
 								<div class="row">
@@ -1405,7 +1577,7 @@
            **/
 
 					 $(".center").slick({
-						  slidesToShow: 2,
+						  slidesToShow: 3,
 							slidesToScroll: 1,
 							autoplay: true,
 							autoplaySpeed: 2000,
