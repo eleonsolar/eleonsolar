@@ -38,6 +38,8 @@ $lang_en['month.december'] = 'December';
 /* N */
 /* O */
 /* P */
+$lang_en['project.ordil.description'] = 'ORDIL web application that manages access control to establishments. It\'s made in Flask + Bootstrap + MariaDB.';
+$lang_en['project.ordil.whatidid'] = 'Development of extra fields for appointments. Listing development for blacklisted users.';
 $lang_en['project.wacmarcablanca.description'] = 'WACMARCABLANCA Portal that allows the creation, distribution and consumption of content for business brands. It\'s done in YII2 + Bootstrap + PosgresSQL.';
 $lang_en['project.wacmarcablanca.whatidid'] = 'Development of media registration. Development of order creation. Integration with Cyclos 4. Integration with GPDynamics. Development of email and push notification modules. CRUD for countries, type of orders, type of notifications, among others.';
 $lang_en['project.aignep.description'] = 'AIGNEP Portal that promotes the sale of products from the valves and compressed air industry. It\'s made in Laravel + Bootstrap + Mysql.';

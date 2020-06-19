@@ -335,38 +335,6 @@
 									<div class="container-skillscircle ">
 											<div class="row">
 														<div class="3u 12u$(mobile) portfolio-item">
-																	<div class="card" id="card10">
-																			<div class="box">
-																					<div class="percent">
-																							<svg>
-																									<circle cx="70" cy="70" r="70"></circle>
-																									<circle cx="70" cy="70" r="70"></circle>
-																							</svg>
-																							<div class="number">
-																									<h2>100<span>%</span></h2>
-																							</div>
-																					</div>
-																					<h2 class="text">HTML</h2>
-																			</div>
-																	</div>
-														</div>
-														<div class="3u 12u$(mobile) portfolio-item">
-																	<div class="card" id="card11">
-																			<div class="box">
-																					<div class="percent">
-																							<svg>
-																									<circle cx="70" cy="70" r="70"></circle>
-																									<circle cx="70" cy="70" r="70"></circle>
-																							</svg>
-																							<div class="number">
-																									<h2>100<span>%</span></h2>
-																							</div>
-																					</div>
-																					<h2 class="text">CSS</h2>
-																			</div>
-																	</div>
-														</div>
-														<div class="3u 12u$(mobile) portfolio-item">
 																	<div class="card" id="card5">
 																			<div class="box">
 																					<div class="percent">
@@ -398,11 +366,7 @@
 																			</div>
 																	</div>
 														</div>
-											</div>
-									</div>
-									<div class="container-skillscircle ">
-											<div class="row">
-													<div class="3u 12u$(mobile) portfolio-item">
+														<div class="3u 12u$(mobile) portfolio-item">
 																<div class="card" id="card6">
 																		<div class="box">
 																				<div class="percent">
@@ -417,8 +381,8 @@
 																				<h2 class="text">Python</h2>
 																		</div>
 																</div>
-													</div>
-													<div class="3u 12u$(mobile) portfolio-item">
+													    </div>
+													    <div class="3u 12u$(mobile) portfolio-item">
 																<div class="card" id="card7">
 																		<div class="box">
 																				<div class="percent">
@@ -433,26 +397,7 @@
 																				<h2 class="text">Java</h2>
 																		</div>
 																</div>
-													</div>
-													<div class="3u 12u$(mobile) portfolio-item">
-																<div class="card" id="card8">
-																		<div class="box">
-																				<div class="percent">
-																						<svg>
-																								<circle cx="70" cy="70" r="70"></circle>
-																								<circle cx="70" cy="70" r="70"></circle>
-																						</svg>
-																						<div class="number">
-																								<h2>40<span>%</span></h2>
-																						</div>
-																				</div>
-																				<h2 class="text">Plpgsql</h2>
-																		</div>
-																</div>
-													</div>
-													<div class="3u 12u$(mobile) portfolio-item">
-																<div class="card-empty" ></div>
-													</div>
+													    </div>
 											</div>
 									</div>
 									<div class="row row-label">
@@ -513,7 +458,7 @@
 													</div>
 											</div>
 									</div>
-									<h3 style="text-align:left"><span style="font-weight:bold">Otros:</span> Wordpress, Jquery, Git, SVN, Pentaho DI, Codeception, API Rest.</h3>
+									<h3 style="text-align:left"><span style="font-weight:bold">Otros:</span> HTML, CSS, Plpgsql, Wordpress, Jquery, Git, SVN, Pentaho DI, Codeception, API Rest.</h3>
 							</div>
 					</section>
 					<!-- Services -->
@@ -579,6 +524,21 @@
 										</div>
 								</section>
 								<div class="row">
+									<div class="4u 12u$(mobile) portfolio-item">
+											<article class="item">
+													<a class="image fit portfolio-link" href="#ordil" data-toggle="modal">
+															<div class="caption">
+																	<div class="caption-content">
+																			<i class="fa fa-search-plus fa-3x"></i>
+																	</div>
+															</div>
+															<img src="main/images/portfolio/pic20.png" class="img-responsive max-size-image" alt="ORDIL" />
+															<header >
+																	<h3>ORDIL</h3>
+															</header>
+													</a>
+											</article>
+									</div>
                                     <div class="4u 12u$(mobile) portfolio-item">
                                         <article class="item">
                                             <a class="image fit portfolio-link" href="#wacmarcablanca" data-toggle="modal">
@@ -609,7 +569,7 @@
 										  </a>
 										</article>
 									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									<!--<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#dormir" data-toggle="modal">
 												<div class="caption">
@@ -623,7 +583,7 @@
 												</header>
 										  </a>
 										</article>
-									</div>
+									</div>-->
 									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#hospitalk" data-toggle="modal">
@@ -669,7 +629,7 @@
 										  </a>
 										</article>
 									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									<!--<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#nsource" data-toggle="modal">
 												<div class="caption">
@@ -683,7 +643,7 @@
 												</header>
 										  </a>
 										</article>
-									</div>
+									</div>-->
 								  <div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#fooquo" data-toggle="modal">
@@ -699,7 +659,7 @@
 										  </a>
 										</article>
 									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									<!--<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#web_personal" data-toggle="modal">
 												<div class="caption">
@@ -728,7 +688,7 @@
 												</header>
 										  </a>
 										</article>
-									</div>
+									</div>-->
 									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#sigecip" data-toggle="modal">
@@ -744,7 +704,7 @@
 										  </a>
 										</article>
 									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									<!--<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#contratos" data-toggle="modal">
 												<div class="caption">
@@ -758,7 +718,7 @@
 												</header>
 										  </a>
 										</article>
-									</div>
+									</div>-->
 									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#miequipo" data-toggle="modal">
@@ -774,7 +734,7 @@
 										  </a>
 										</article>
 									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									<!--<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#siredoc" data-toggle="modal">
 												<div class="caption">
@@ -803,7 +763,7 @@
 												</header>
 										  </a>
 										</article>
-									</div>
+									</div>-->
 									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#dirdigi" data-toggle="modal">
@@ -873,6 +833,42 @@
 			</div>
 
 		<!-- Portfolio Modals -->
+				<!-- WACMARCABLANCA -->
+				<div class="portfolio-modal modal fade" id="ordil" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-content">
+								<div class="close-modal" data-dismiss="modal">
+										<div class="lr">
+												<div class="rl">
+												</div>
+										</div>
+								</div>
+								<div class="container">
+										<div class="row">
+												<div class="col-lg-8 col-lg-offset-2">
+														<div class="modal-body">
+																<h2>ORDIL</h2>
+																<br>
+																<img src="main/images/portfolio/pic20.png" class="img-responsive img-centered" alt="ORDIL">
+																<p> <?php echo $utilities->lang('project.ordil.description'); ?></p>
+																<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.ordil.whatidid'); ?></p>
+																<ul class="list-inline item-details item-details-size">
+																		<li><?php echo $utilities->lang('client'); ?>
+																				<a class="link-main" href="https://www.pegasus.com.mx/" target="_blank">Pegasus Control</a>
+																		</li>
+																		<li><?php echo $utilities->lang('date'); ?>
+																				<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.may').' '; ?> 2020 - <?php echo $utilities->lang('present').' '; ?></a>
+																		</li>
+																		<li><?php echo $utilities->lang('services'); ?>
+																				<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
+																		</li>
+																</ul>
+																<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
+														</div>
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
         <!-- WACMARCABLANCA -->
         <div class="portfolio-modal modal fade" id="wacmarcablanca" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">

@@ -39,6 +39,8 @@ $lang_es['month.december'] = 'Diciembre';
 /* N */
 /* O */
 /* P */
+$lang_es['project.ordil.description'] = 'ORDIL aplicación web que  gestiona el control de acceso a establecimientos. Está hecho en Flask + Bootstrap + MariaDB.';
+$lang_es['project.ordil.whatidid'] = 'Desarrollo de campos extras para citas. Desarrollo de listing para usuarios en lista negra.';
 $lang_es['project.wacmarcablanca.description'] = 'WACMARCABLANCA Portal que permite la creación, distribución y consumo de contenido para marcas empresariales. Está hecho en YII2 + Bootstrap + PosgresSQL.';
 $lang_es['project.wacmarcablanca.whatidid'] = 'Desarrollo de inscripción de medio. Desarrollo de creación de pedido.Integración con Cyclos 4. Integración con GPDynamics. Desarrollo del módulos de notificaciones para correo y push. CRUD para paises, tipo de pedidos, tipo de notificaciones, entre otros.';
 $lang_es['project.aignep.description'] = 'AIGNEP Portal que promociona la venta de productos de la insdustria de válvulas y aire comprimido. Está hecho en Laravel + Bootstrap + Mysql.';
