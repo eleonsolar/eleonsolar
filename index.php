@@ -519,26 +519,8 @@
 									  <div>
 												<a href="https://www.wearecontent.com/" ><img src="main/images/clients/wac.png"  class="ico-company img-responsive " style="width: 120pt;height:35pt"/></a>
 										</div>
-										<div>
-												<a href="https://www.pegasus.com.mx/" ><img src="main/images/clients/pegasus.png" class="ico-company img-responsive " style="width: 110pt;height:40pt"/></a>
-										</div>
 								</section>
 								<div class="row">
-									<div class="4u 12u$(mobile) portfolio-item">
-											<article class="item">
-													<a class="image fit portfolio-link" href="#ordil" data-toggle="modal">
-															<div class="caption">
-																	<div class="caption-content">
-																			<i class="fa fa-search-plus fa-3x"></i>
-																	</div>
-															</div>
-															<img src="main/images/portfolio/pic20.png" class="img-responsive max-size-image" alt="ORDIL" />
-															<header >
-																	<h3>ORDIL</h3>
-															</header>
-													</a>
-											</article>
-									</div>
                                     <div class="4u 12u$(mobile) portfolio-item">
                                         <article class="item">
                                             <a class="image fit portfolio-link" href="#wacmarcablanca" data-toggle="modal">
@@ -569,7 +551,7 @@
 										  </a>
 										</article>
 									</div>
-									<!--<div class="4u 12u$(mobile) portfolio-item">
+									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#dormir" data-toggle="modal">
 												<div class="caption">
@@ -583,7 +565,7 @@
 												</header>
 										  </a>
 										</article>
-									</div>-->
+									</div>
 									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#hospitalk" data-toggle="modal">
@@ -704,7 +686,7 @@
 										  </a>
 										</article>
 									</div>
-									<!--<div class="4u 12u$(mobile) portfolio-item">
+									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#contratos" data-toggle="modal">
 												<div class="caption">
@@ -718,7 +700,7 @@
 												</header>
 										  </a>
 										</article>
-									</div>-->
+									</div>
 									<div class="4u 12u$(mobile) portfolio-item">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#miequipo" data-toggle="modal">
@@ -833,42 +815,6 @@
 			</div>
 
 		<!-- Portfolio Modals -->
-				<!-- WACMARCABLANCA -->
-				<div class="portfolio-modal modal fade" id="ordil" tabindex="-1" role="dialog" aria-hidden="true">
-						<div class="modal-content">
-								<div class="close-modal" data-dismiss="modal">
-										<div class="lr">
-												<div class="rl">
-												</div>
-										</div>
-								</div>
-								<div class="container">
-										<div class="row">
-												<div class="col-lg-8 col-lg-offset-2">
-														<div class="modal-body">
-																<h2>ORDIL</h2>
-																<br>
-																<img src="main/images/portfolio/pic20.png" class="img-responsive img-centered" alt="ORDIL">
-																<p> <?php echo $utilities->lang('project.ordil.description'); ?></p>
-																<p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.ordil.whatidid'); ?></p>
-																<ul class="list-inline item-details item-details-size">
-																		<li><?php echo $utilities->lang('client'); ?>
-																				<a class="link-main" href="https://www.pegasus.com.mx/" target="_blank">Pegasus Control</a>
-																		</li>
-																		<li><?php echo $utilities->lang('date'); ?>
-																				<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.may').' '; ?> 2020 - <?php echo $utilities->lang('present').' '; ?></a>
-																		</li>
-																		<li><?php echo $utilities->lang('services'); ?>
-																				<a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
-																		</li>
-																</ul>
-																<button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
-														</div>
-												</div>
-										</div>
-								</div>
-						</div>
-				</div>
         <!-- WACMARCABLANCA -->
         <div class="portfolio-modal modal fade" id="wacmarcablanca" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -1573,7 +1519,7 @@
            **/
 
 					 $(".center").slick({
-						  slidesToShow: 3,
+						  slidesToShow: 2,
 							slidesToScroll: 1,
 							autoplay: true,
 							autoplaySpeed: 2000,
