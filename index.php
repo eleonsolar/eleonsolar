@@ -131,6 +131,40 @@
 		.row-label{
 			margin-bottom: 10px;
 		}
+		
+		
+		
+.portfolio #portfolio-filter {
+    padding: 0;
+    margin: -15px 0 25px 0;
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+
+.portfolio #portfolio-filter li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #3d3c3c;
+    border: 2px solid transparent;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 50px #3d3c3c;
+    transition: ease-out 0.3s;
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition: ease-out 0.3s;
+}
+		.portfolio #portfolio-filter li:hover,
+.portfolio #portfolio-filter li.filter-active {
+    color: #D56565;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #D56565;
+    border-color: #D56565;
+}
 	</style>
 	</head>
 	<body>
@@ -393,14 +427,29 @@
 							</div>
 					</section>
 					<!-- Portfolio -->
-						<section id="portfolio" class="five">
+						<section id="portfolio" class="five portfolio">
 							<div class="container">
 								<header>
 									<h2><?php echo $utilities->lang('title.portfolio.section'); ?></h2>
 								</header>
 								
-								<div class="row">
-                                    <div class="4u 12u$(mobile) portfolio-item">
+								 <div class="row">
+								    <div class="12u" >
+									<ul id="portfolio-filter">
+									    <li data-filter="*" class="filter-active">Todos</li>
+									    <li data-filter=".filter-1">Django</li>
+									    <li data-filter=".filter-2">YII</li>
+									    <li data-filter=".filter-3">Laravel</li>
+									    <li data-filter=".filter-4">Codeigniter</li>
+									    <li data-filter=".filter-5">Bash</li>
+									    <li data-filter=".filter-6">Prestashop</li>
+									</ul>
+								    </div>
+								</div>
+								
+								<div class="row portfolio-container">
+                                    <div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.0s">
+                                    <div class="portfolio-wrap">
                                         <article class="item">
                                             <a class="image fit portfolio-link" href="#wacmarcablanca" data-toggle="modal">
                                                 <div class="caption">
@@ -414,8 +463,10 @@
                                                 </header>
                                             </a>
                                         </article>
+                                        </div>
                                     </div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									<div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#aignep" data-toggle="modal">
 												<div class="caption">
@@ -429,23 +480,9 @@
 												</header>
 										  </a>
 										</article>
-									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
-										<article class="item">
-											<a class="image fit portfolio-link" href="#dormir" data-toggle="modal">
-												<div class="caption">
-														<div class="caption-content">
-																<i class="fa fa-search-plus fa-3x"></i>
-														</div>
-												</div>
-												<img src="main/images/portfolio/pic15.png" class="img-responsive max-size-image" alt="DORMIR BALNEARIOS" />
-												<header >
-														<h3>DORMIR BALNEARIOS</h3>
-												</header>
-										  </a>
-										</article>
-									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									</div></div>								
+									<div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="0.6s">
+                                    <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#hospitalk" data-toggle="modal">
 												<div class="caption">
@@ -459,8 +496,9 @@
 												</header>
 										  </a>
 										</article>
-									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									</div></div>
+									<div class="4u 12u$(mobile) portfolio-item filter-6 wow fadeInUp" data-wow-delay="0.8s">
+                                    <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#miquelsuay" data-toggle="modal">
 												<div class="caption">
@@ -474,8 +512,9 @@
 												</header>
 										  </a>
 										</article>
-									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									</div></div>
+									<div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="1s">
+                                    <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#visegurity" data-toggle="modal">
 												<div class="caption">
@@ -489,23 +528,9 @@
 												</header>
 										  </a>
 										</article>
-									</div>
-									<!--<div class="4u 12u$(mobile) portfolio-item">
-										<article class="item">
-											<a class="image fit portfolio-link" href="#nsource" data-toggle="modal">
-												<div class="caption">
-														<div class="caption-content">
-																<i class="fa fa-search-plus fa-3x"></i>
-														</div>
-												</div>
-												<img src="main/images/portfolio/pic10.png" class="img-responsive max-size-image" alt="NSOURCE" />
-												<header >
-														<h3>NSOURCE</h3>
-												</header>
-										  </a>
-										</article>
-									</div>-->
-								  <div class="4u 12u$(mobile) portfolio-item">
+									</div></div>								
+								  <div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="1.2s">
+                                    <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#fooquo" data-toggle="modal">
 												<div class="caption">
@@ -519,38 +544,10 @@
 												</header>
 										  </a>
 										</article>
-									</div>
-									<!--<div class="4u 12u$(mobile) portfolio-item">
-										<article class="item">
-											<a class="image fit portfolio-link" href="#web_personal" data-toggle="modal">
-												<div class="caption">
-														<div class="caption-content">
-																<i class="fa fa-search-plus fa-3x"></i>
-														</div>
-												</div>
-												<img src="main/images/portfolio/pic09.png" class="img-responsive max-size-image" alt="WEB PERSONAL" />
-												<header>
-														<h3>WEB PERSONAL</h3>
-												</header>
-										  </a>
-										</article>
-									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
-										<article class="item">
-											<a class="image fit portfolio-link" href="#develoop" data-toggle="modal">
-												<div class="caption">
-														<div class="caption-content">
-																<i class="fa fa-search-plus fa-3x"></i>
-														</div>
-												</div>
-												<img src="main/images/portfolio/pic18.png" class="img-responsive max-size-image" alt="DEVELOOP" />
-												<header>
-														<h3>DEVELOOP</h3>
-												</header>
-										  </a>
-										</article>
-									</div>-->
-									<div class="4u 12u$(mobile) portfolio-item">
+									</div></div>
+								
+									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="1.4s">
+                                    <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#sigecip" data-toggle="modal">
 												<div class="caption">
@@ -564,8 +561,9 @@
 												</header>
 										  </a>
 										</article>
-									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									</div></div>
+									<div class="4u 12u$(mobile) portfolio-item filter-5 wow fadeInUp" data-wow-delay="1.6s">
+                                    <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#contratos" data-toggle="modal">
 												<div class="caption">
@@ -579,8 +577,9 @@
 												</header>
 										  </a>
 										</article>
-									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									</div></div>
+									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="1.8s">
+                                    <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#miequipo" data-toggle="modal">
 												<div class="caption">
@@ -594,38 +593,9 @@
 												</header>
 										  </a>
 										</article>
-									</div>
-									<!--<div class="4u 12u$(mobile) portfolio-item">
-										<article class="item">
-											<a class="image fit portfolio-link" href="#siredoc" data-toggle="modal">
-												<div class="caption">
-														<div class="caption-content">
-																<i class="fa fa-search-plus fa-3x"></i>
-														</div>
-												</div>
-												<img src="main/images/portfolio/pic05.png" class="img-responsive max-size-image" alt="SIREDOC" />
-												<header>
-														<h3>SIREDOC</h3>
-												</header>
-									   	</a>
-										</article>
-									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
-										<article class="item">
-											<a class="image fit portfolio-link" href="#crud_demo" data-toggle="modal">
-												<div class="caption">
-														<div class="caption-content">
-																<i class="fa fa-search-plus fa-3x"></i>
-														</div>
-												</div>
-												<img src="main/images/portfolio/pic08.png" class="img-responsive max-size-image" alt="CRUD DEMO" />
-												<header>
-														<h3>CRUD DEMO</h3>
-												</header>
-										  </a>
-										</article>
-									</div>-->
-									<div class="4u 12u$(mobile) portfolio-item">
+									</div></div>									
+									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="2s">
+                                    <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#dirdigi" data-toggle="modal">
 												<div class="caption">
@@ -639,8 +609,9 @@
 												</header>
 										  </a>
 										</article>
-									</div>
-									<div class="4u 12u$(mobile) portfolio-item">
+									</div></div>
+									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="2.2s">
+                                    <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#mvo" data-toggle="modal">
 												<div class="caption">
@@ -654,7 +625,7 @@
 												</header>
 										  </a>
 										</article>
-									</div>
+									</div></div>
 								</div>
 						</section>
 				<!-- Contact -->
@@ -1319,12 +1290,24 @@
 			<script src="main/assets/js/main.js"></script>
 			<script src="main/assets/js/slide.js"></script>
 			<script src="main/libs/slick/slick.js"></script>
+			<script src="main/libs/isotope/isotope.pkgd.min.js"></script>
 
 
 			<script type="text/javascript">
 
 				$(document).ready(function(){
+				
+					var portfolioIsotope = $('.portfolio-container').isotope({
+						itemSelector: '.portfolio-item',
+						layoutMode: 'fitRows'
+					});
 
+					$('#portfolio-filter li').on('click', function () {
+						$("#portfolio-filter li").removeClass('filter-active');
+						$(this).addClass('filter-active');
+						portfolioIsotope.isotope({filter: $(this).data('filter')});
+					});
+    
 					document.querySelector('.showcase.sweet button').onclick = function(){
 
 						swal({
@@ -1357,45 +1340,13 @@
 						  }, 2000);
 						});
 					};
-					/*
-					$(function() {
-						var Accordion = function(el, multiple) {
-							this.el = el || {};
-							this.multiple = multiple || false;
-
-							// Variables privadas
-							var links = this.el.find('.link');
-							// Evento
-							links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
-						}
-
-						Accordion.prototype.dropdown = function(e) {
-							var $el = e.data.el;
-								$this = $(this),
-								$next = $this.next();
-
-							$next.slideToggle();
-							$this.parent().toggleClass('open');
-
-							if (!e.data.multiple) {
-								$el.find('.submenu').not($next).slideUp().parent().removeClass('open');
-							};
-						}
-
-						var accordion = new Accordion($('#accordion'), false);
-					});*/
+			
 
 					jQuery('.skillbar').each(function(){
 							jQuery(this).find('.skillbar-bar').animate({
 								width:jQuery(this).attr('data-percent')
 							},3000);
 					});
-
-					 /**
-					  *  $(document).ready(function(){
-					  *	    $('#frameworks').trigger('click');
-					  *  });
-           **/
 
 					 $(".center").slick({
 						  slidesToShow: 2,
