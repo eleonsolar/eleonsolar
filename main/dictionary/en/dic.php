@@ -38,6 +38,12 @@ $lang_en['month.december'] = 'December';
 /* N */
 /* O */
 /* P */
+$lang_en['project.humanitas.whatidid'] = 'Development of the list of clinics. Implementation of database services.';
+$lang_en['project.humanitas.description'] = 'HUMANITAS APP It is the application of the insured of humanitas. It is made in Laravel + Bootstrap + Oracle.';
+$lang_en['project.restapihumanitas.whatidid'] = 'Development of the authentication and claim creation endpoint.';
+$lang_en['project.restapihumanitas.description'] = 'REST API HUMANITAS It is the API of humanitas willing to provide services to medical centers. It is made in Laravel + Swagger + Oracle.';
+$lang_en['project.mankaind.whatidid'] = 'DDevelopment of the document management module. Report development. Component development for "Sujeto" REST API consumption';
+$lang_en['project.mankaind.description'] = 'MANKAIND It is an individual insurance system. It is made in Django + Bootstrap + Oracle.';
 $lang_en['project.ordil.description'] = 'ORDIL web application that manages access control to establishments. It\'s made in Flask + Bootstrap + MariaDB.';
 $lang_en['project.ordil.whatidid'] = 'Development of extra fields for appointments. Listing development for blacklisted users.';
 $lang_en['project.wacmarcablanca.description'] = 'WACMARCABLANCA Portal that allows the creation, distribution and consumption of content for business brands. It\'s done in YII2 + Bootstrap + PosgresSQL.';
@@ -80,6 +86,7 @@ $lang_en['project.mvo.whatidid'] = 'Development of the registration module for a
 $lang_en['services'] = 'Services:';
 $lang_en['services.shellscripts'] = 'Shellscripts';
 $lang_en['services.webdevelopment'] = 'Web development';
+$lang_en['services.api'] = 'Api';
 $lang_en['subtitle.slide.1']	=	"Software developer + Web + Backend";
 $lang_en['subtitle.slide.2']	=	"Collaborator in Open Source projects";
 $lang_en['subtitle.item1.services.section'] = "Leadership of development teams.";

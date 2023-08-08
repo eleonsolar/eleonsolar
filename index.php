@@ -306,33 +306,25 @@
 															<div class="skillbar-bar" style="background:#d27676;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
+
 														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #41484c;"><span>PHP</span></div>
+															<div class="skillbar-title" style="background: #41484c;"><span>PostgreSQL</span></div>
 															<div class="skillbar-bar" style="background: #566064;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #C65555;"><span>PostgreSQL</span></div>
-															<div class="skillbar-bar" style="background: #d27676;"></div>
-															<div class="skill-bar-percent">100%</div>
-														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="90%">
-															<div class="skillbar-title" style="background: #41484c;"><span>YII2</span></div>
-															<div class="skillbar-bar" style="background:#566064;"></div>
+															<div class="skillbar-title" style="background: #C65555;"><span>YII2</span></div>
+															<div class="skillbar-bar" style="background:#d27676;"></div>
 															<div class="skill-bar-percent">90%</div>
 														</div> <!-- End Skill Bar -->
 														<div class="skillbar clearfix " data-percent="70%">
-															<div class="skillbar-title" style="background: #C65555;"><span>Laravel</span></div>
-															<div class="skillbar-bar" style="background:#d27676;"></div>
+															<div class="skillbar-title" style="background: #41484c;"><span>Laravel</span></div>
+															<div class="skillbar-bar" style="background:#566064;"></div>
 															<div class="skill-bar-percent">70%</div>
 														</div> <!-- End Skill Bar -->
+
 														<div class="skillbar clearfix " data-percent="60%">
-															<div class="skillbar-title" style="background: #41484c;"><span>Java</span></div>
-															<div class="skillbar-bar" style="background:#566064;"></div>
-															<div class="skill-bar-percent">60%</div>
-														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="60%">
-															<div class="skillbar-title" style="background: #C65555;"><span>Python</span></div>
+															<div class="skillbar-title" style="background: #C65555;"><span>Django</span></div>
 															<div class="skillbar-bar" style="background:#d27676;"></div>
 															<div class="skill-bar-percent">60%</div>
 														</div>
@@ -359,14 +351,10 @@
 															<div class="skillbar-bar" style="background:#566064;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #C65555;"><span>JQuery</span></div>
-															<div class="skillbar-bar" style="background:#d27676;"></div>
-															<div class="skill-bar-percent">100%</div>
-														</div> <!-- End Skill Bar -->
+
 														<div class="skillbar clearfix " data-percent="80%">
-															<div class="skillbar-title" style="background: #41484c;"><span>Javascript</span></div>
-															<div class="skillbar-bar" style="background:#566064;"></div>
+															<div class="skillbar-title" style="background: #C65555;"><span>Javascript</span></div>
+															<div class="skillbar-bar" style="background:#d27676;"></div>
 															<div class="skill-bar-percent">80%</div>
 														</div> <!-- End Skill Bar -->
 
@@ -448,7 +436,58 @@
 								</div>
 								
 								<div class="row portfolio-container">
-                                    <div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.0s">
+				<div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.0s">
+                                    <div class="portfolio-wrap">
+                                        <article class="item">
+                                            <a class="image fit portfolio-link" href="#humanitas" data-toggle="modal">
+                                                <div class="caption">
+                                                    <div class="caption-content">
+                                                        <i class="fa fa-search-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="main/images/portfolio/pic22.jpeg" class="img-responsive max-size-image" alt="HUMANITAS" />
+                                                <header >
+                                                    <h3>HUMANITAS</h3>
+                                                </header>
+                                            </a>
+                                        </article>
+                                        </div>
+                                    </div>
+								<div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="portfolio-wrap">
+                                        <article class="item">
+                                            <a class="image fit portfolio-link" href="#restapihumanitas" data-toggle="modal">
+                                                <div class="caption">
+                                                    <div class="caption-content">
+                                                        <i class="fa fa-search-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="main/images/portfolio/pic21.png" class="img-responsive max-size-image" alt="REST API HUMANITAS" />
+                                                <header >
+                                                    <h3>REST API HUMANITAS</h3>
+                                                </header>
+                                            </a>
+                                        </article>
+                                        </div>
+                                    </div>
+								<div class="4u 12u$(mobile) portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="portfolio-wrap">
+                                        <article class="item">
+                                            <a class="image fit portfolio-link" href="#mankaind" data-toggle="modal">
+                                                <div class="caption">
+                                                    <div class="caption-content">
+                                                        <i class="fa fa-search-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="main/images/portfolio/pic20.png" class="img-responsive max-size-image" alt="MANKAIND" />
+                                                <header >
+                                                    <h3>MANKAIND</h3>
+                                                </header>
+                                            </a>
+                                        </article>
+                                        </div>
+                                    </div>
+                                    <div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="portfolio-wrap">
                                         <article class="item">
                                             <a class="image fit portfolio-link" href="#wacmarcablanca" data-toggle="modal">
@@ -465,7 +504,7 @@
                                         </article>
                                         </div>
                                     </div>
-									<div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.2s">
+									<div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#aignep" data-toggle="modal">
@@ -481,7 +520,7 @@
 										  </a>
 										</article>
 									</div></div>								
-									<div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="0.6s">
+									<div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="0.5s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#hospitalk" data-toggle="modal">
@@ -497,7 +536,7 @@
 										  </a>
 										</article>
 									</div></div>
-									<div class="4u 12u$(mobile) portfolio-item filter-6 wow fadeInUp" data-wow-delay="0.8s">
+									<div class="4u 12u$(mobile) portfolio-item filter-6 wow fadeInUp" data-wow-delay="0.6s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#miquelsuay" data-toggle="modal">
@@ -513,7 +552,7 @@
 										  </a>
 										</article>
 									</div></div>
-									<div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="1s">
+									<div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="0.7s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#visegurity" data-toggle="modal">
@@ -529,7 +568,7 @@
 										  </a>
 										</article>
 									</div></div>								
-								  <div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="1.2s">
+								  <div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="0.8s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#fooquo" data-toggle="modal">
@@ -546,7 +585,7 @@
 										</article>
 									</div></div>
 								
-									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="1.4s">
+									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.9s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#sigecip" data-toggle="modal">
@@ -562,7 +601,7 @@
 										  </a>
 										</article>
 									</div></div>
-									<div class="4u 12u$(mobile) portfolio-item filter-5 wow fadeInUp" data-wow-delay="1.6s">
+									<div class="4u 12u$(mobile) portfolio-item filter-5 wow fadeInUp" data-wow-delay="1.0s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#contratos" data-toggle="modal">
@@ -578,7 +617,7 @@
 										  </a>
 										</article>
 									</div></div>
-									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="1.8s">
+									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="1.1s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#miequipo" data-toggle="modal">
@@ -594,7 +633,7 @@
 										  </a>
 										</article>
 									</div></div>									
-									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="2s">
+									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="1.2s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#dirdigi" data-toggle="modal">
@@ -610,7 +649,7 @@
 										  </a>
 										</article>
 									</div></div>
-									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="2.2s">
+									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="1.3s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#mvo" data-toggle="modal">
@@ -665,6 +704,116 @@
 			</div>
 
 		<!-- Portfolio Modals -->
+		 <!-- HUMANITAS -->
+        <div class="portfolio-modal modal fade" id="humanitas" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>HUMANITAS</h2>
+                                <br>
+                                <img src="main/images/portfolio/pic22.jpeg" class="img-responsive img-centered" alt="HUMANITAS">
+                                <p> <?php echo $utilities->lang('project.humanitas.description'); ?></p>
+                                <p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.humanitas.whatidid'); ?></p>
+                                <ul class="list-inline item-details item-details-size">
+                                    <li><?php echo $utilities->lang('client'); ?>
+                                        <a class="link-main" href="javascript:void(0)" >Humanitas</a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('date'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.january').' '; ?> 2023 - <?php echo $utilities->lang('present'); ?> </a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('services'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	 <!-- RESTA API HUMANITAS -->
+        <div class="portfolio-modal modal fade" id="restapihumanitas" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>REST API HUMANITAS</h2>
+                                <br>
+                                <img src="main/images/portfolio/pic21.png" class="img-responsive img-centered" alt="REST API HUMANITAS">
+                                <p> <?php echo $utilities->lang('project.restapihumanitas.description'); ?></p>
+                                <p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.restapihumanitas.whatidid'); ?></p>
+                                <ul class="list-inline item-details item-details-size">
+                                    <li><?php echo $utilities->lang('client'); ?>
+                                        <a class="link-main" href="javascript:void(0)" >Humanitas</a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('date'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.october').' '; ?> 2022 - <?php echo $utilities->lang('month.november').' '; ?> 2022</a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('services'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.api'); ?></a>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>	
+	      <!-- MANKAIND -->
+        <div class="portfolio-modal modal fade" id="mankaind" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>MANKAIND</h2>
+                                <br>
+                                <img src="main/images/portfolio/pic20.png" class="img-responsive img-centered" alt="MANKAIND">
+                                <p> <?php echo $utilities->lang('project.mankaind.description'); ?></p>
+                                <p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.mankaind.whatidid'); ?></p>
+                                <ul class="list-inline item-details item-details-size">
+                                    <li><?php echo $utilities->lang('client'); ?>
+                                        <a class="link-main" href="https://www.humanitas.com.ve" target="_blank">Humanitas</a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('date'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.june').' '; ?> 2021 - <?php echo $utilities->lang('month.november').' '; ?> 2022</a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('services'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>	
+		
+		
         <!-- WACMARCABLANCA -->
         <div class="portfolio-modal modal fade" id="wacmarcablanca" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
