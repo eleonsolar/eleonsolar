@@ -328,11 +328,17 @@
 															<div class="skillbar-bar" style="background:#d27676;"></div>
 															<div class="skill-bar-percent">60%</div>
 														</div>
-														<div class="skillbar clearfix " data-percent="50%">
-															<div class="skillbar-title" style="background: #41484c;"><span>PLSQL</span></div>
+														<div class="skillbar clearfix " data-percent="60%">
+															<div class="skillbar-title" style="background: #41484c;"><span>Oracle</span></div>
 															<div class="skillbar-bar" style="background: #566064;"></div>
-															<div class="skill-bar-percent">50%</div>
+															<div class="skill-bar-percent">60%</div>
 														</div> <!-- End Skill Bar -->
+														
+																												<div class="skillbar clearfix " data-percent="50%">
+															<div class="skillbar-title" style="background: #C65555;"><span>PLSQL</span></div>
+															<div class="skillbar-bar" style="background:#d27676;"></div>
+															<div class="skill-bar-percent">50%</div>
+														</div>
 												</div>
 												<div class="6u 12u$(mobile)">
 														<h4 style="text-align:left;font-weight:bold;margin-bottom:10px;" ><i class="fa fa-desktop"></i> <?php echo $utilities->lang('title.frontend.skillbar'); ?></h4>
