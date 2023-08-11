@@ -6,8 +6,12 @@ $lang_es['title.aboutme.section']	=	"SOBRE MÍ";
 $lang_es['btn.close']	=	"Cerrar";
 /* C */
 $lang_es['client'] = 'Cliente:';
-$lang_es['content.aboutme.section'] = 'Soy egresado de la <a  target="_blank" href="http://www.unefa.edu.ve/portal/" style="border-bottom-color: rgba(255, 255, 255, 0);color:#C65555"><span class="link-main">Universidad Nacional Experimental Politécnica de la Fuerza Armada Nacional (U.N.E.FA)</span></a> en la carrera de Ingeniería de Sistemas.
-Actualmente me dedico al desarrollo Backend de Aplicaciones Web. Mis metas estan orientadas al éxito; soy constante, autodidacta y colaborador.';
+$lang_es['content.aboutme.section'] = 'Egresado en Marzo de 2014 con el grado de Ingeniero de Sistemas, empecé a
+trabajar en la CANTV (Compañía Anónima Nacional Teléfonos Venezuela) como
+desarrollador de aplicaciones Web. Para el año 2015 completé el Diplomado en
+Inteligencia de Negocios en la Universidad Central de Venezuela. Poseo más de 9
+años de experiencia en desarrollo Web.<br>Disfruto trabajar en proyectos Open Source en mis tiempos libres. Mis metas
+están orientadas al éxito; soy constante, autodidacta y colaborador.';
 $lang_es['content.aboutme.resume'] = "Obtén mi curriculum";
 $lang_es['content.contact.section'] = '¿Quieres ponerte en contacto conmigo? Llena el formulario aquí debajo y envíame un mensaje, voy a tratar de responder el mismo en las proximas 24hrs.';
 /* D */
@@ -17,6 +21,7 @@ $lang_es['form.email.contact'] = 'Email';
 $lang_es['form.name.contact'] = 'Nombre';
 $lang_es['form.message.contact'] = 'Mensaje';
 $lang_es['form.submit.contact'] = 'Enviar mensaje';
+$lang_es['form.confirm.contact'] = '¿Estás seguro?';
 /* G */
 /* H */
 /* I */
@@ -111,6 +116,7 @@ $lang_es['title.item3.services.section'] = "Shellscripts";
 $lang_es['title.item4.services.section'] = "Stored procedure";
 $lang_es['title.portfolio.header']	=	"PORTAFOLIO";
 $lang_es['title.portfolio.section'] = "PORTAFOLIO";
+$lang_es['title.portfolio.filter.all'] = 'Todos';
 $lang_es['title.programinglang.skillbar']	=	"Lenguajes de programación";
 $lang_es['title.resume.header']	=	"Curriculum";
 $lang_es['title.services.header']	=	"SERVICIOS";

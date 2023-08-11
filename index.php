@@ -177,7 +177,7 @@
 					<!-- Logo -->
 						<div id="logo">
 							<span class="image avatar60"><img src="main/images/avatar.jpeg" alt="" /></span>
-							<span class="language"><a href="http://edwardleon.com.ve/?lang=es" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (!isset($_GET['lang']) || $_GET['lang']=='es')?'active':null; ?>">ES</a> | <a href="http://edwardleon.com.ve/?lang=en" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (isset($_GET['lang']) && $_GET['lang']=='en')?'active':null; ?>">EN</a></span>
+							<span class="language"><a href="http://localhost:8080/eleonsolar/?lang=es" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (!isset($_GET['lang']) || $_GET['lang']=='es')?'active':null; ?>">ES</a> | <a href="http://localhost:8080/eleonsolar/?lang=en" style="border-bottom-color: rgba(255, 255, 255, 0);" class="lang <?php echo (isset($_GET['lang']) && $_GET['lang']=='en')?'active':null; ?>">EN</a></span>
 						</div>
 
 					<!-- Nav -->
@@ -430,7 +430,7 @@
 								 <div class="row">
 								    <div class="12u" >
 									<ul id="portfolio-filter">
-									    <li data-filter="*" class="filter-active">Todos</li>
+									    <li data-filter="*" class="filter-active"><?php echo $utilities->lang('title.portfolio.filter.all'); ?></li>
 									    <li data-filter=".filter-1">Django</li>
 									    <li data-filter=".filter-2">YII</li>
 									    <li data-filter=".filter-3">Laravel</li>
@@ -1466,7 +1466,7 @@
 					document.querySelector('.showcase.sweet button').onclick = function(){
 
 						swal({
-						  title: "Are you sure?",
+						  title: "<?= $utilities->lang('form.confirm.contact'); ?>",
 						  text: "",
 						  type: "warning",
 							confirmButtonColor: "#DD6B55",

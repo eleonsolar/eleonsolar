@@ -5,8 +5,8 @@ $lang_en['present']	= "Present";
 $lang_en['btn.close']	=	"Close";
 /* C */
 $lang_en['client'] = 'Client:';
-$lang_en['content.aboutme.section'] = 'I am a graduate of the  <a  target="_blank" href="http://www.unefa.edu.ve/portal/" style="border-bottom-color: rgba(255, 255, 255, 0);color:#C65555"><span class="link-main">National Polytechnic Experimental University of the National Armed Force (U.N.E.FA)</span></a> in the Systems Engineering degree.
-Currently I am dedicated to the Backend development of Web Applications. My goals are aimed at success; I am constant, self-taught and collaborative.';
+$lang_en['content.aboutme.section'] = 'Graduated in March 2014 with a degree in Systems Engineering, he began working at CANTV (Compañía Anónima Nacional Telefonos Venezuela) as a developer of Web applications. For the year 2015 he completed the Diploma in Business Intelligence at the Central University of Venezuela. He has more than 9 years of experience in Web development.<br>
+I enjoy working on Open Source projects in my spare time. My goals are success oriented; I am constant, self-taught and collaborator.';
 $lang_en['content.aboutme.resume'] = "Get my resume";
 $lang_en['content.contact.section'] = 'Do you want to contact me? Fill out the form below and send me a message, I will try to answer it in the next 24 hours.';
 /* D */
@@ -16,6 +16,7 @@ $lang_en['form.email.contact'] = 'Email';
 $lang_en['form.name.contact'] = 'Name';
 $lang_en['form.message.contact'] = 'Message';
 $lang_en['form.submit.contact'] = 'Send message';
+$lang_en['form.confirm.contact'] = 'Are you sure?';
 /* G */
 /* H */
 /* I */
@@ -110,6 +111,7 @@ $lang_en['title.item3.services.section'] = "Shellscripts";
 $lang_en['title.item4.services.section'] = "Stored procedure";
 $lang_en['title.portfolio.header'] = "PORTFOLIO";
 $lang_en['title.portfolio.section'] = "PORTFOLIO";
+$lang_en['title.portfolio.filter.all'] = 'All';
 $lang_en['title.programinglang.skillbar']	=	"Programming languages";
 $lang_en['title.resume.header']	=	"Resume";
 $lang_en['title.services.header']	=	"SERVICES";

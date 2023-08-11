@@ -18,17 +18,14 @@
 
     public function send_mail($data)
     {
-       //Destination address
        $to = 'eleonsolar@gmail.com';
-       //Mail content
+     
        $content = $data->message;
-       //Subject
+  
        $subject =  $data->name.' te quiere contactar';
-       //Headers
-       $headers = "MIME-Version: 1.0\r\n";
-       $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
-       $headers .= "From:Web site official  <webmaster@eleonsolar.com> \r\n";
-       //Send mail
+
+       $headers = "From:Web site official  <webmaster@eleonsolar.com> \r\n";
+
        return (mail($to, $subject, $content, $headers))? 1:0;
     }
 
