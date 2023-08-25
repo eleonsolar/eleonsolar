@@ -22,6 +22,7 @@ $lang_es['form.name.contact'] = 'Nombre';
 $lang_es['form.message.contact'] = 'Mensaje';
 $lang_es['form.submit.contact'] = 'Enviar mensaje';
 $lang_es['form.confirm.contact'] = '¿Estás seguro?';
+$lang_es['form.success.contact'] = 'Mensaje enviado';
 /* G */
 /* H */
 /* I */

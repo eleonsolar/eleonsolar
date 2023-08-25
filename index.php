@@ -199,11 +199,10 @@
 								<!-- Social Icons -->
 									<ul class="icons">
 										<li><a href="https://twitter.com/eleonsolar" class="icon fa-twitter fa-1x" target="_blank"><span class="label">Twitter</span></a></li>
-										<li><a href="https://www.facebook.com/eleonsolar" class="icon fa-facebook fa-1x" target="_blank"><span class="label">Facebook</span></a></li>
-										<!--<li><a href="https://plus.google.com/108436949081636923793" class="icon fa-google-plus fa-1x" target="_blank"><span class="label">Google+</span></a></li>-->
-										<li><a href="https://www.instagram.com/eleonsolar" class="icon fa-instagram fa-1x" target="_blank"><span class="label">Instagram</span></a></li>
+										<!--<li><a href="https://www.facebook.com/eleonsolar" class="icon fa-facebook fa-1x" target="_blank"><span class="label">Facebook</span></a></li>-->
+										<!--<li><a href="https://www.instagram.com/eleonsolar" class="icon fa-instagram fa-1x" target="_blank"><span class="label">Instagram</span></a></li>-->
 										<li><a href="https://github.com/eleonsolar" class="icon fa-github fa-1x" target="_blank"><span class="label">Github</span></a></li>
-										<li><a href="https://ve.linkedin.com/in/edward-esteban-le%C3%B3n-solar-a51381127?trk=prof-samename-name" class="icon fa-linkedin fa-1x" target="_blank"><span class="label">Linkedin</span></a></li>
+										<li><a href="http://www.linkedin.com/in/eleonsolar" class="icon fa-linkedin fa-1x" target="_blank"><span class="label">Linkedin</span></a></li>
 										<!--<li><a href="https://www.youtube.com/channel/UCL1c50CaO6pkRDy450Bp5BA" class="icon fa-youtube fa-1x" target="_blank"><span class="label">Youtube</span></a></li>	-->
 									</ul>
 
@@ -1486,7 +1485,7 @@
 
 										if(result==1){
 
-											swal("Message sent");
+											swal("<?= $utilities->lang('form.success.contact'); ?>");
 											$('form').each (function(){ this.reset(); });
 										}else{
 											swal(result);
