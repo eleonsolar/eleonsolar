@@ -40,6 +40,10 @@ $lang_en['month.december'] = 'December';
 /* N */
 /* O */
 /* P */
+$lang_en['project.humanitastelemedi.whatidid'] = 'Development of scripts for sending registrations and cancellations. Schedule script execution task in cron';
+$lang_en['project.humanitastelemedi.description'] = 'TELEMEDI-HUMANITAS It is a shellscript that allows mass sending of registrations and cancellations to telemedi. It is made in Bash + Python + Oracle.';
+$lang_en['project.melquiades.whatidid'] = 'Planning and monitoring of developments. Development of subject catalogs (economic sectors, economic activities).';
+$lang_en['project.melquiades.description'] = 'MELQUIADES It is an ERP that integrates all the risk management processes of humanitas affiliates. It is made in Angular + Django Rest Framework + Oracle.';
 $lang_en['project.humanitas.whatidid'] = 'Development of the list of clinics. Implementation of database services.';
 $lang_en['project.humanitas.description'] = 'HUMANITAS APP It is the application of the insured of humanitas. It is made in Laravel + Bootstrap + Oracle.';
 $lang_en['project.restapihumanitas.whatidid'] = 'Development of the authentication and claim creation endpoint.';

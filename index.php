@@ -346,22 +346,22 @@
 															<div class="skillbar-bar" style="background: #566064;"></div>
 															<div class="skill-bar-percent">100%</div>
 														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="100%">
-															<div class="skillbar-title" style="background: #C65555;"><span>CSS</span></div>
+														<div class="skillbar clearfix " data-percent="40%">
+															<div class="skillbar-title" style="background: #C65555;"><span>Angular</span></div>
 															<div class="skillbar-bar" style="background:#d27676;"></div>
-															<div class="skill-bar-percent">100%</div>
+															<div class="skill-bar-percent">40%</div>
 														</div> <!-- End Skill Bar -->
-														<div class="skillbar clearfix " data-percent="100%">
+														<!--<div class="skillbar clearfix " data-percent="100%">
 															<div class="skillbar-title" style="background: #41484c;"><span>HTML</span></div>
 															<div class="skillbar-bar" style="background:#566064;"></div>
 															<div class="skill-bar-percent">100%</div>
-														</div> <!-- End Skill Bar -->
+														</div>  --><!-- End Skill Bar -->
 
-														<div class="skillbar clearfix " data-percent="80%">
+														<!--<div class="skillbar clearfix " data-percent="80%">
 															<div class="skillbar-title" style="background: #C65555;"><span>Javascript</span></div>
 															<div class="skillbar-bar" style="background:#d27676;"></div>
 															<div class="skill-bar-percent">80%</div>
-														</div> <!-- End Skill Bar -->
+														</div>--> <!-- End Skill Bar -->
 
 											 </div>
 							</div>
@@ -430,18 +430,53 @@
 								    <div class="12u" >
 									<ul id="portfolio-filter">
 									    <li data-filter="*" class="filter-active"><?php echo $utilities->lang('title.portfolio.filter.all'); ?></li>
-									    <li data-filter=".filter-1">Django</li>
-									    <li data-filter=".filter-2">YII</li>
-									    <li data-filter=".filter-3">Laravel</li>
-									    <li data-filter=".filter-4">Codeigniter</li>
-									    <li data-filter=".filter-5">Bash</li>
-									    <li data-filter=".filter-6">Prestashop</li>
+									    <li data-filter=".filter-1">Angular</li>
+									    <li data-filter=".filter-2">Django</li>
+									    <li data-filter=".filter-3">YII</li>
+									    <li data-filter=".filter-4">Laravel</li>
+									    <li data-filter=".filter-5">Codeigniter</li>
+									    <li data-filter=".filter-6">Shell Scripts</li>
+									    <li data-filter=".filter-7">Prestashop</li>
 									</ul>
 								    </div>
 								</div>
 								
 								<div class="row portfolio-container">
-				<div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.0s">
+				<div class="4u 12u$(mobile) portfolio-item filter-6 wow fadeInUp" data-wow-delay="0.0s">
+                                    <div class="portfolio-wrap">
+                                        <article class="item">
+                                            <a class="image fit portfolio-link" href="#humanitastelemedi" data-toggle="modal">
+                                                <div class="caption">
+                                                    <div class="caption-content">
+                                                        <i class="fa fa-search-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="main/images/portfolio/pic24.png" class="img-responsive max-size-image" alt="HUMANITAS-TELEMEDI" />
+                                                <header >
+                                                    <h3>HUMANITAS-TELEMEDI</h3>
+                                                </header>
+                                            </a>
+                                        </article>
+                                        </div>
+                                    </div>
+				<div class="4u 12u$(mobile) portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                                    <div class="portfolio-wrap">
+                                        <article class="item">
+                                            <a class="image fit portfolio-link" href="#melquiades" data-toggle="modal">
+                                                <div class="caption">
+                                                    <div class="caption-content">
+                                                        <i class="fa fa-search-plus fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                                <img src="main/images/portfolio/pic23.png" class="img-responsive max-size-image" alt="MELQUIADES" />
+                                                <header >
+                                                    <h3>MELQUIADES</h3>
+                                                </header>
+                                            </a>
+                                        </article>
+                                        </div>
+                                    </div>
+				<div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="0.0s">
                                     <div class="portfolio-wrap">
                                         <article class="item">
                                             <a class="image fit portfolio-link" href="#humanitas" data-toggle="modal">
@@ -458,7 +493,7 @@
                                         </article>
                                         </div>
                                     </div>
-								<div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.1s">
+								<div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="0.1s">
                                     <div class="portfolio-wrap">
                                         <article class="item">
                                             <a class="image fit portfolio-link" href="#restapihumanitas" data-toggle="modal">
@@ -475,7 +510,7 @@
                                         </article>
                                         </div>
                                     </div>
-								<div class="4u 12u$(mobile) portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.2s">
+								<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
                                     <div class="portfolio-wrap">
                                         <article class="item">
                                             <a class="image fit portfolio-link" href="#mankaind" data-toggle="modal">
@@ -492,7 +527,7 @@
                                         </article>
                                         </div>
                                     </div>
-                                    <div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="portfolio-wrap">
                                         <article class="item">
                                             <a class="image fit portfolio-link" href="#wacmarcablanca" data-toggle="modal">
@@ -509,7 +544,7 @@
                                         </article>
                                         </div>
                                     </div>
-									<div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+									<div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="0.4s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#aignep" data-toggle="modal">
@@ -525,7 +560,7 @@
 										  </a>
 										</article>
 									</div></div>								
-									<div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="0.5s">
+									<div class="4u 12u$(mobile) portfolio-item filter-5 wow fadeInUp" data-wow-delay="0.5s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#hospitalk" data-toggle="modal">
@@ -541,7 +576,7 @@
 										  </a>
 										</article>
 									</div></div>
-									<div class="4u 12u$(mobile) portfolio-item filter-6 wow fadeInUp" data-wow-delay="0.6s">
+									<div class="4u 12u$(mobile) portfolio-item filter-7 wow fadeInUp" data-wow-delay="0.6s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#miquelsuay" data-toggle="modal">
@@ -557,7 +592,7 @@
 										  </a>
 										</article>
 									</div></div>
-									<div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="0.7s">
+									<div class="4u 12u$(mobile) portfolio-item filter-5 wow fadeInUp" data-wow-delay="0.7s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#visegurity" data-toggle="modal">
@@ -573,7 +608,7 @@
 										  </a>
 										</article>
 									</div></div>								
-								  <div class="4u 12u$(mobile) portfolio-item filter-4 wow fadeInUp" data-wow-delay="0.8s">
+								  <div class="4u 12u$(mobile) portfolio-item filter-5 wow fadeInUp" data-wow-delay="0.8s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#fooquo" data-toggle="modal">
@@ -590,7 +625,7 @@
 										</article>
 									</div></div>
 								
-									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.9s">
+									<div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.9s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#sigecip" data-toggle="modal">
@@ -606,7 +641,7 @@
 										  </a>
 										</article>
 									</div></div>
-									<div class="4u 12u$(mobile) portfolio-item filter-5 wow fadeInUp" data-wow-delay="1.0s">
+									<div class="4u 12u$(mobile) portfolio-item filter-6 wow fadeInUp" data-wow-delay="1.0s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#contratos" data-toggle="modal">
@@ -622,7 +657,7 @@
 										  </a>
 										</article>
 									</div></div>
-									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="1.1s">
+									<!-- <div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="1.1s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#miequipo" data-toggle="modal">
@@ -637,8 +672,8 @@
 												</header>
 										  </a>
 										</article>
-									</div></div>									
-									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="1.2s">
+									</div></div>-->									
+									<div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="1.2s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#dirdigi" data-toggle="modal">
@@ -654,7 +689,7 @@
 										  </a>
 										</article>
 									</div></div>
-									<div class="4u 12u$(mobile) portfolio-item filter-2 wow fadeInUp" data-wow-delay="1.3s">
+									<div class="4u 12u$(mobile) portfolio-item filter-3 wow fadeInUp" data-wow-delay="1.3s">
                                     <div class="portfolio-wrap">
 										<article class="item">
 											<a class="image fit portfolio-link" href="#mvo" data-toggle="modal">
@@ -709,6 +744,78 @@
 			</div>
 
 		<!-- Portfolio Modals -->
+		<!-- HUMANITAS-TELEMEDI -->
+        <div class="portfolio-modal modal fade" id="humanitastelemedi" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>HUMANITAS-TELEMEDI</h2>
+                                <br>
+                                <img src="main/images/portfolio/pic24.png" class="img-responsive img-centered" alt="HUMANITAS-TELEMEDI">
+                                <p> <?php echo $utilities->lang('project.humanitastelemedi.description'); ?></p>
+                                <p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.humanitastelemedi.whatidid'); ?></p>
+                                <ul class="list-inline item-details item-details-size">
+                                    <li><?php echo $utilities->lang('client'); ?>
+                                        <a class="link-main" href="javascript:void(0)" >Humanitas</a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('date'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.march').' '; ?> 2024</a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('services'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.shellscripts'); ?></a>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MELQUIADES -->
+        <div class="portfolio-modal modal fade" id="melquiades" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>MELQUIADES</h2>
+                                <br>
+                                <img src="main/images/portfolio/pic23.png" class="img-responsive img-centered" alt="MELQUIADES">
+                                <p> <?php echo $utilities->lang('project.melquiades.description'); ?></p>
+                                <p> <span style="font-weight:bold"><?php echo $utilities->lang('whatidid').' '; ?></span><?php echo $utilities->lang('project.melquiades.whatidid'); ?></p>
+                                <ul class="list-inline item-details item-details-size">
+                                    <li><?php echo $utilities->lang('client'); ?>
+                                        <a class="link-main" href="javascript:void(0)" >Humanitas</a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('date'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.september').' '; ?> 2023 - <?php echo $utilities->lang('present'); ?> </a>
+                                    </li>
+                                    <li><?php echo $utilities->lang('services'); ?>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default btn-close" data-dismiss="modal"><i class="fa fa-times"></i> <?php echo $utilities->lang('btn.close'); ?></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 		 <!-- HUMANITAS -->
         <div class="portfolio-modal modal fade" id="humanitas" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -732,7 +839,7 @@
                                         <a class="link-main" href="javascript:void(0)" >Humanitas</a>
                                     </li>
                                     <li><?php echo $utilities->lang('date'); ?>
-                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.january').' '; ?> 2023 - <?php echo $utilities->lang('present'); ?> </a>
+                                        <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('month.january').' '; ?> 2023 - <?php echo $utilities->lang('month.august'); ?> 2023</a>
                                     </li>
                                     <li><?php echo $utilities->lang('services'); ?>
                                         <a href="#" onClick="javascript:void(0)"><?php echo $utilities->lang('services.webdevelopment'); ?></a>

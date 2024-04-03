@@ -45,6 +45,10 @@ $lang_es['month.december'] = 'Diciembre';
 /* N */
 /* O */
 /* P */
+$lang_es['project.humanitastelemedi.whatidid'] = 'Desarrollo de los scripts de envío de altas y bajas. Programar tarea de ejecución de scripts en cron';
+$lang_es['project.humanitastelemedi.description'] = 'TELEMEDI-HUMANITAS Es un shellscripts que permite el envío másivo de altas y bajas a telemedi. Está hecho en Bash + Python + Oracle.';
+$lang_es['project.melquiades.whatidid'] = 'Planificación y seguimiento de los desarrollos. Desarrollo de catálogos de sujetos (Sectores económicos, actividades económicas).';
+$lang_es['project.melquiades.description'] = 'MELQUIADES Es un ERP que integra todos los procesos de la administración de riesgos de los afiliados de humanitas. Está hecho en Angular + Django Rest Framework + Oracle.';
 $lang_es['project.humanitas.whatidid'] = 'Desorrollo del listado de clínicas. Implementación de servicios a base de datos.';
 $lang_es['project.humanitas.description'] = 'HUMANITAS APP Es la aplicación de los asegurados de humanitas .Está hecho en Laravel + Bootstrap + Oracle.';
 $lang_es['project.restapihumanitas.whatidid'] = 'Desorrollo del endpoint de autenticación y de creación de reclamo.';
